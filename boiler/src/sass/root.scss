@@ -1,0 +1,33 @@
+
+:root {
+    --inner-height: 400px;
+    --inner-width:  800px;
+
+    --color-border:  #c0c0c0;
+    --color-bginput: #f2f2f2;
+
+    --color-active:   #a0a0f0;
+    --color-bgactive: #c2c2f2;
+
+    --color-hover:   #9fd0f3;
+    --color-bghover: #c2eff2;
+
+    --color-focus:   #9fd0f3;
+    --color-bgfocus: #c2eff2;
+
+    --border-radius: 8px;
+    --button-height: 40px;
+
+    --tilesize: 256px;
+
+    --tilesX: 0;
+    --tilesY: 0;
+
+    --color-green: #1db601;
+
+    --panel-height: 200px;
+}
+
+::-webkit-scrollbar:vertical {
+    width: 12px;
+}
