@@ -1,0 +1,100 @@
+.map-panel,
+.now-panel,
+.event-menu,
+.menu-panel {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px 15px;
+    place-content: center;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    label {
+        white-space: nowrap;
+        font-size: 13px;
+    }
+}
+
+.event-menu {
+    bottom: initial;
+    border-radius: 0 0 30px 30px;
+
+}
+
+.map-panel {
+    align-items: flex-start;
+    bottom: 50px;
+    background-color: transparent;
+    align-items: center;
+
+    .input .button{
+        padding: 0px 16px;
+        i:before {
+            font-size: 16px;
+        }
+    }
+}
+
+.green-pill,
+.menu-button,
+.menu-pill {
+    display: flex;
+    align-items: center;
+    margin: 0 4px;
+    padding: 4px 8px 4px 8px;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+
+    &:hover {
+        box-shadow: 0 0 0px 2px red;
+        cursor: pointer;
+    }
+
+    input {
+        border-radius: 30px;
+        padding: 0 8px;
+        margin-left: -3px;
+    }
+
+    i[class*=icon-] ~ span {
+        padding-right: 6px;
+    }
+    i[class*=icon-] ~ label {
+        padding-right: 6px;
+    }
+
+}
+
+// .menu-panel .menu-pill {
+//     padding: 4px 16px 4px 8px;
+// }
+
+@media only screen and (max-width: 600px) {
+    .menu-pill:not(.router-link-active) label {
+        display: none;
+    }
+}
+
+.menu-pill.selected,
+.menu-pill.router-link-active {
+    background-color: red;
+    border-radius: 30px;
+    color: white;
+}
+.green-pill {
+    background-color: var(--color-green);
+    border-radius: 30px;
+    color: white;
+}
+
+.now-panel {
+    padding: 10px 20px 60px;
+    white-space: nowrap;
+}

@@ -1,0 +1,243 @@
+.agenda-day {
+    width: calc(100% / 7);
+    height: calc(343px / 4);
+    background-color: rgba(255, 255, 255);
+    border: 1px solid black;
+    overflow: hidden;
+    position: relative;
+
+    cursor: pointer;
+
+    &:hover {
+        background-color: #eaffea;
+    }
+
+    .header {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+
+        font-size: 10px;
+        text-align: right;
+
+        // padding: 0 4px;
+        span {
+            text-wrap: nowrap;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .date {
+            min-width: fit-content;
+            margin-right: 3px;
+        }
+    }
+
+     .body {
+        font-size: 8px;
+        // overflow: hidden;
+        div {
+            text-wrap: nowrap;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+     }
+
+    .footer {
+        position: absolute;
+        display: flex;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 20px;
+
+        &.hide {
+            display: none;
+        }
+
+        &.leave .in {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        &.land .out {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        &.same .out {
+            display: none;
+        }
+
+        &.same .in {
+            width: 100%;
+            border-radius: 0;
+            border-left-width: 0;
+            border-right-width: 0;
+        }
+
+        &.same .in,
+        &.out .out,
+        &.in .in,
+        &.both .in,
+        &.both .out {
+            background-color: #1CB600;
+        }
+
+        &.flying {
+            display: none;
+        }
+
+        .out,
+        .in {
+            display: flex;
+            width: 50%;
+            height: 20px;
+            border: 1px solid #037B00;
+            background-color: #BBB;
+            font-size: 10px;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            overflow: hidden;
+            cursor: pointer;
+            border-bottom-width: 0;
+            text-wrap: nowrap;
+        }
+
+        .out {
+            border-top-right-radius: 12px;
+            border-left-width: 0;
+        }
+
+        .in {
+            border-top-left-radius: 12px;
+            border-right-width: 0;
+        }
+
+        &.pencil-, &.pencil-pencil, &.pencil-ink {
+            .out {
+                font-family: 'script';
+            }
+        }
+
+        &.-pencil, &.pencil-pencil, &.ink-pencil {
+            .in {
+                font-family: 'script';
+            }
+        }
+
+
+    }
+
+    .month {
+        margin-right: 4px;
+    }
+
+    .today {
+        background-color: red;
+        color: white;
+        border-radius: 50%;
+        padding: 4px;
+        margin-top: -6px;
+        margin-right: -6px;
+    }
+
+}
+
+
+
+.agenda-day.hidden~.agenda-day[class*='weekday-'] {
+    box-shadow: -1px 0 0 0 black;
+}
+
+.agenda-day[class*='weekday-'] {
+    box-shadow: 1px 0 0 black;
+}
+
+.agenda-row-1 {
+    box-shadow: 0 1px 0 0 black;
+}
+
+.agenda-row-2,
+.agenda-row-3 {
+    box-shadow: 0 1px 0 0 black, 0 -1px 0 0 black;
+}
+
+.agenda-row-4 {
+    box-shadow: 0 -1px 0 0 black;
+}
+
+
+.agenda-day.hidden {
+    opacity: 0.01;
+}
+
+.weekday-6,
+.weekday-7 {
+    background-color: rgba(200, 200, 200);
+}
+
+.agenda-row-1 .weekday-1 {
+    border-top-left-radius: 16px;
+}
+
+.agenda-row-1 .weekday-7 {
+    border-top-right-radius: 16px;
+}
+
+.agenda-row-4 .weekday-1 {
+    border-bottom-left-radius: 16px;
+}
+
+.agenda-row-4 .weekday-7 {
+    border-bottom-right-radius: 16px;
+}
+
+@media (max-height: 400px) {
+    .agenda-panel {
+        bottom: 60px;
+        height: 300px;
+    }
+    .agenda-day {
+        height: calc(300px / 4);
+    }
+    .agenda-panel.row-1, .agenda-panel.row-2, .agenda-panel.row-3, .agenda-panel.row-4 {
+        height: 66px;
+    }
+    .agenda-panel.row-4 .agenda-row-4 {
+        transform: translateY(-235px);
+    }
+    .agenda-panel.row-3 .agenda-row-3 {
+        transform: translateY(-160px);
+    }
+    .agenda-panel.row-2 .agenda-row-2 {
+        transform: translateY(-85px);
+    }
+    .town-panel.show {
+        bottom: 140px;
+    }
+    .town-panel.show ~ .day-panel.show {
+        bottom: -120px;
+    }
+
+    .day-panel.show {
+        bottom: 100px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 470px) {
+    .edit-panel.panel-height .action-row { 
+        font-size: .9rem;
+    }
+
+    .day-panel .header {
+        font-size: .9em;
+    }
+
+    .day-panel.edit .header {
+        font-size: .8em;
+    }
+}
+

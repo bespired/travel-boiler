@@ -1,0 +1,86 @@
+.input {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    select,
+    input,
+    label {
+        display: flex;
+    }
+
+}
+
+.action-row,
+.input-row {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    // flex-flow: wrap;
+    gap: 4px;
+
+    &.pencil select,
+    &.pencil input {
+        font-family: script;
+        font-size: 20px;
+        font-weight: 900;
+        padding: 2px 5.5px 1.5px;
+    }
+}
+
+.action-row {
+    flex-direction: row;
+    // align-items: flex-end;
+    align-items: center;
+}
+
+.input-row {
+
+    width: 100%;
+
+    .row-2 {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+
+        label {
+            margin-right: 8px;
+            width: 20%;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        input {
+            width: 80%
+        }
+    }
+
+    .planfix {
+        max-height: 31px;
+    }
+
+    .image-upload {
+
+        // input { height: 32px;}
+
+        .imagepreview {
+            width: 80%;
+            min-width: 100px;
+
+        }
+
+    }
+}
+
+.day-panel .pencil,
+.agenda-day .pencil {
+    font-family: script;
+    font-weight: 900;
+}
+
+.action-row .planfix {
+    margin-right: auto;
+}
+
+

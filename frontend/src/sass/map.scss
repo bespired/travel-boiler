@@ -1,0 +1,43 @@
+#map {
+    height: calc(100vh + 200px);
+    margin-top: -200px
+}
+
+.leaflet-bottom.leaflet-right {
+    display: none;
+}
+
+.leaflet-control-geocoder-form {
+    border-radius: 30px;
+
+    input {
+        padding-left: 12px;
+        padding-right: 12px;
+        border-radius: 30px;
+    }
+}
+
+.leaflet-top {
+    top: 200px;
+}
+
+.gpsdot {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    width: 9px;
+    height: 9px;
+    border-radius: 6px;
+}
+
+.gps .gpsdot {
+    background-color: rgba(0, 0, 255, 0.8);
+}
+
+.gps.same .gpsdot {
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+.gps.sent .gpsdot {
+    background-color: rgba(0, 255, 0, 0.8);
+}

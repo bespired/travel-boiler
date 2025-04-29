@@ -1,0 +1,53 @@
+@font-face {
+  font-family: $font-family;
+  src: url('/fonts/lato/Lato-Regular.woff2') format('woff2'),
+       url('/fonts/lato/Lato-Regular.woff')  format('woff'),
+       url('/fonts/lato/Lato-Regular.ttf')   format('truetype');
+  font-weight: normal;
+  font-style:  normal;
+}
+
+@font-face {
+  font-family: $code-family;
+  src: url('/fonts/ibmplex/IBMPlexMono-Regular.woff2') format('woff2'),
+       url('/fonts/ibmplex/IBMPlexMono-Regular.woff')  format('woff'),
+       url('/fonts/ibmplex/IBMPlexMono-Regular.ttf')   format('truetype');
+  font-weight: normal;
+  font-style:  normal;
+}
+
+@font-face {
+  font-family: script;
+  src: url('/fonts/bradley/BradleyHand.woff2') format('woff2'),
+       url('/fonts/bradley/BradleyHand.woff')  format('woff'),
+       url('/fonts/bradley/BradleyHand.ttf')   format('truetype');
+  font-weight: normal;
+  font-style:  normal;
+}
+
+@font-face {
+  font-family: 'japan';
+  src: url('/fonts/icon/japan.woff2') format('woff2'),
+       url('/fonts/icon/japan.woff')  format('woff'),
+       url('/fonts/icon/japan.ttf')   format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.mirror[class*=icon-]:before {
+    transform: scaleX(-1);  
+}
+
+.icon-yen:before { content: '¥'; }
+.icon-yen{ font-family: $font-family; }
+.icon-yen{ transform: scaleX(1.1);}
+
+.icon-upload:before { content: '\e83a'; }  
+.icon-upload:before { transform: rotate(180deg); }  
+
+.icon-rocket:before { transform: translateY(2px); }
+
+.icon-credit:before { content: "\e82a"; }  
+.icon-credit:before { transform: scaleX(-1); }
+

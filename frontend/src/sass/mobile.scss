@@ -1,0 +1,106 @@
+
+.agenda-day {
+    height: 12vh;
+}
+
+.agenda-panel {
+    height: 48vh; // 4 x 12vh
+}
+
+// day selected
+.agenda-panel.row-1, 
+.agenda-panel.row-2, 
+.agenda-panel.row-3, 
+.agenda-panel.row-4 {
+    height: 12vh;
+}
+
+
+.agenda-panel.row-1 .agenda-row-1 {
+    transform: translateY(-0vh);
+}
+
+.agenda-panel.row-2 .agenda-row-2 {
+    transform: translateY(-12vh);
+}
+
+.agenda-panel.row-3 .agenda-row-3 {
+    transform: translateY(-24vh);
+}
+
+.agenda-panel.row-4 .agenda-row-4 {
+    transform: translateY(-36vh);
+}
+
+
+.day-panel {
+    height: 35vh;
+    bottom: calc(12vh + 68px);
+}
+
+.picker-panel {
+    padding: 12px 2vw;
+}
+.picker-panel.show {
+    bottom: calc(12vh + 35vh + 75px);
+
+}
+
+.picker-panel.visit.show ~ .day-panel {
+    height: 110px;
+}
+
+.picker-panel.visit.show {
+    max-height: calc(100vh - 12vh - 110px);
+    bottom: calc(12vh + 110px + 75px);
+}
+
+.input-panel.documents.show {
+    max-height: calc(100vh - 12vh - 110px);
+    bottom: calc(12vh + 110px + 75px);
+}
+
+.input-panel.events.show ~ .bottom-panel.sleep .overflow, 
+.input-panel.planned.show ~ .bottom-panel.sleep .overflow {
+    height: 100%;
+    max-height: initial;
+}
+
+.input-panel.document.show {
+    bottom: 55px;
+}
+
+@media (max-width: 450px) {
+    .action-row {
+        .button {
+            font-size: 11px;
+            padding: 6px 3px;
+        }
+        .planfix {
+            .button { padding: 2px };
+        }
+        label {
+            font-size: 8px;
+        }
+    }
+    .passports {
+        font-size: 12px;
+    }
+}
+
+@media (max-height: 667px) {
+    select, input, button {
+        font-size: 12px;
+    }
+    .bottom-panel {
+        font-size: 14px;
+    }
+    .input-panel.events.show ~ .bottom-panel.sleep, 
+    .input-panel.planned.show ~ .bottom-panel.sleep {
+        max-height: 75px;
+        height: 75px;
+    }
+}
+
+
+

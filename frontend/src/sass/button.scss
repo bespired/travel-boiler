@@ -1,0 +1,195 @@
+
+label,
+button {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+textarea,
+select,
+input,
+button {
+    // font-size: 18px;
+    padding: 4px 8px;
+    border: 1px solid var(--color-border);
+    background-color: var(--color-bginput);
+    border-radius: 3px;
+
+}
+
+textarea:active,
+select:active,
+input:active,
+button:active {
+    border: 1px solid var(--color-active);
+    background-color: var(--color-bgactive);
+}
+
+textarea:focus,
+select:focus,
+input:focus,
+button:focus {
+    border: 1px solid var(--color-focus);
+    background-color: var(--color-bgfocus);
+}
+
+textarea {
+    min-width: 96%;
+    max-width: 96%;
+    min-height: 8em;
+}
+
+input[type="password"] {
+    letter-spacing: 3px;
+}
+
+.input {
+    display: flex;
+    // flex-direction: row;
+}
+
+.button-overlay {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    font-size: 22px;
+}
+
+.button-overlay:hover {
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cancel {
+    font-size: 12px;
+    font-weight: 700;
+}
+.button {
+    cursor: pointer;
+    background-color: #e4f0e4;
+    font-weight: 500;
+    display: flex;
+    width: fit-content;
+    // min-height:32px;
+    // min-width:32px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    border: 1px solid #e2f0e2;
+    user-select: none;
+    text-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.button.icon {
+    padding: 6px 1px;
+}
+
+.button.icon.selected {
+    background-color: #1CB600;
+    color: white;
+}
+
+
+.planfix .button.icon {
+    padding: 6px 6px;
+}
+
+.button[icon] {
+    padding: 6px 6px 7px
+}
+
+.button[align=left] {
+    margin-right: auto
+}
+
+.button[color=delete] {
+    background-color: white;
+    color: red;
+    border: 1px solid #ffd8d8;
+}
+
+.button[color=delete]:hover {
+    background-color: red;
+    color: white;
+}
+
+.button[color=cancel] {
+    background-color: white;
+    color: grey
+}
+
+.button[color=cancel]:hover {
+    background-color: #e7e7e7;
+    color: #505050;
+}
+
+.button[color=accept] {
+    background-color: #32a532;
+    color: white
+}
+
+.button[color=accept]:hover {
+    background-color: #49c849;
+    color: white
+}
+
+.button[align=topright] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-right-radius: 20px;
+    z-index: 2;
+}
+
+.button[disabled="true"] {
+    filter: saturate(0%);
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+
+.button i:before {
+    font-size: 22px;
+}
+
+.button:hover {
+    color: white;
+    background-color: red;
+}
+
+.button:hover i:before {
+    font-weight: 900;
+}
+
+
+.imagepreview {
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    background-position-y: 33%;
+}
+
+.action-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 4px;
+    justify-content: flex-end;
+    pointer-events: none;
+
+    .note {
+        color: grey;
+        align-self: center;
+        margin-right: 4px;
+        font-size: 10px;
+    }
+
+    div {
+        pointer-events: all;
+    }
+}

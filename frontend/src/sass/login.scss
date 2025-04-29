@@ -1,0 +1,105 @@
+   .blackground {
+        pointer-events: none;
+        top: 0; left: 0;
+        bottom: 100vh; right: 100vw;
+        
+        position: fixed;
+        background-color: rgb(0, 0, 0);
+        opacity: 0.0;
+        transition: opacity 300ms
+    }
+
+    .status.hidden ~ .blackground {       
+        transition: bottom 30ms 1000ms, right 30ms 1000ms, opacity 300ms
+    }
+
+    .status.show ~ .blackground {        
+        bottom: 0; right: 0;
+        opacity: 0.5;
+    }
+
+    .message-panel,
+    .login-panel {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 20px 25px;
+        place-content: center;
+        background-color: rgba(255, 255, 255, 0.75);
+        border-radius: 20px;
+        position: fixed;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 200px;
+
+        transition: top 300ms;
+
+        .menu-pill {
+            padding: 4px 8px 4px 16px;
+        }
+
+        a {
+            text-decoration: underline;
+        }
+        .close {
+            display: flex;
+            position: absolute;
+            top: 13px; right: -15px;
+            width: 30px; height: 30px;
+            background-color: red;
+            border-radius: 15px;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+
+            &:hover {
+                background-color: black;
+                cursor: pointer;
+            }
+        }
+
+    }
+
+     .login-panel .menu-pill{
+         padding: 4px;
+        justify-content: center;
+     }
+
+     .login-panel button{
+        border-radius: 16px;
+     }
+
+    .message-panel {
+        top: 8px;
+    }
+
+    .message-panel.hidden,
+    .login-panel.hidden {
+        top: -300px;
+    }
+
+    .login-panel.center {
+        align-items: center;
+    }
+
+    .login-panel .error,
+    .login-panel a,
+    .login-panel label {
+        margin-top: 8px;
+    }
+    .login-panel button{
+        margin-top: 16px;
+    }
+    .login-panel 
+    .login-panel .error {
+        color: red;
+    }
+
+    .login-panel a:hover,
+    .login-panel input:hover,
+    .login-panel button:hover {
+        cursor: pointer;
+    }

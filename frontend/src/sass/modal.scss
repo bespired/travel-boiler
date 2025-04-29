@@ -1,0 +1,189 @@
+.blinder {
+    position: fixed;
+    background-color: #000;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0%;
+    pointer-events: none;
+    transition: opacity .3s;
+    z-index: 2;
+}
+
+.blinder.video.come-video,
+.blinder.link.come-link,
+.blinder.place.come-phone,
+.blinder.info.come-info,
+.blinder.place.come-place,
+.blinder.city.come-city,
+.blinder.visit.come-visit {
+    pointer-events: all;
+    opacity: .5;
+    z-index: 2;
+}
+
+.blinder.video.come-video{ opacity: .8;}
+
+.show-image {
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+}
+
+.headerdate {
+    padding-top: 12px;
+    padding-left: 20px;
+    font-family: 'STIX Two Text', monospace;
+}
+
+.places .show-image {
+    height: 120px;
+}
+
+.modal-panel {
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    transition: top .3s, bottom .4s;
+
+    z-index: 5;
+
+    .are-you-sure {
+        display: flex;
+        flex-direction: column;
+        padding: 32px;
+        width: 100%;
+        gap: 16px;
+        position: fixed;
+        bottom: 0px;
+
+        max-height: 180px;
+
+        h3, div {
+            width: 100%;
+            display: flex;
+            place-content: center;
+        }
+
+        h3 {
+            text-align: center;
+        }
+    }
+
+    &.phone,
+    &.visit,
+    &.city {
+        min-width: 320px;
+        min-height: 20vh;
+    }
+
+    &.visit.insta {
+        width: calc(100% - 20px);
+    }
+
+    &.visit {
+        left: 10px;
+        width: 30vw;
+        transform: initial;
+
+        .button {
+            font-size: 14px;
+            padding: 4px 8px;
+        }
+    }
+
+    &.video {
+        left: 50%;
+        width: 54vh;
+        height: 95vh;
+        transform: translateX(-50%);
+
+        .button[align=topright] {
+            border-radius: 4px;
+        }
+
+    }
+
+    &.events {
+        background-color: #fffedfde;
+        left: 10px;
+        width: calc(100vw - 20px);
+        transform: initial;
+        flex-direction: column;
+    }
+
+    &.place {
+        min-width: 520px;
+        min-height: 40vh;
+    }
+
+}
+
+.info .info-text {
+    padding: 40px;
+    white-space: nowrap;
+}
+
+.modal-panel[class^=go],
+.modal-panel[class*=go],
+.modal-panel[class*=come-] {
+    top: -300%;
+}
+
+.modal-panel.video.come-video,
+.modal-panel.link.come-link,
+.modal-panel.phone.come-phone,
+.modal-panel.info.come-info,
+.modal-panel.place.come-place,
+.modal-panel.city.come-city,
+.modal-panel.visit.come-visit {
+    top: 10px;
+}
+
+.modal-panel.events.come-events {
+    top: initial;
+    bottom: 15px;
+}
+
+.modal-panel.events.go-events {
+    top: initial;
+    bottom: 300%;
+    opacity: .9;
+}
+
+@media only screen and (max-width: 430px) {
+    .modal-panel.visit {
+        width: calc(100vw - 20px);
+    }
+
+    .modal-panel.place {
+        min-width: calc(100vw - 20px);
+        max-width: calc(100vw - 20px);
+        & .form-input {
+            width: 100%;
+            padding: 40px 20px 40px;
+
+        }
+    }
+
+    .modal-panel.visit .show-image {
+        height: 160px;
+    }
+
+    .modal-panel.visit h3 {
+        position: absolute;
+        color: #fff;
+        text-shadow: 2px 2px 3px black;
+        padding: 2px;
+    }
+
+    .modal-panel.events.come-events {
+        top: initial;
+        bottom: 60px;
+    }
+}

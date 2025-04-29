@@ -1,0 +1,109 @@
+
+    .event-picker,
+    .edit-panel {
+        position: fixed;
+
+        max-width: 800px;
+        width: 90%;
+        bottom: 405px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        border: 1px solid rgba(0,0,0, 0.5);
+        background-color: rgb(255 255 255 / 88%);
+        border-radius: 16px;
+
+        transition: bottom 300ms;
+
+        &.icons .input-row{
+            flex-direction: row;
+        }
+
+        .overflower {
+            height: 100%;
+            padding: 12px 2vw;
+            overflow: auto;
+        }
+
+    }
+
+    .event-picker.hide {
+        bottom: 110vh;
+        height: 50vh;
+    }
+    .event-picker.show {
+        height: calc(100vh - 425px);        
+    }
+
+    .events .edit-panel {
+        display: flex;
+        flex-direction: row;
+
+        .event-img {
+            position: absolute;
+            margin: -12px 8px -12px 0;
+            left: 0;
+            width: 120px;
+            height: 100%;
+            // height: 130px;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+            opacity: 0.75;
+            background-color: red;
+            background-size: cover;
+            background-position: 75%;
+            background-image: var(--event-image);
+        }
+
+        .column {
+            flex-direction: column;
+            margin-left: 120px;
+            width: 100%;
+        }
+       
+    }
+
+    .panel-height {
+        bottom: calc(60px + var(--panel-height));
+    }
+
+    .edit-panel.hide {
+         bottom: 110vh;
+    }
+
+    .event-picker .close,
+    .edit-panel .close {
+        display: flex;
+        position: absolute;
+        top: -15px; right: -15px;
+        width: 30px; height: 30px;
+        background-color: red;
+        border-radius: 15px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+
+    }
+
+    .edit-panel .header {
+        display: flex;
+        color: #878787;
+        justify-content: space-between;     
+    }
+
+    .edit-panel .footer {
+        display: flex;
+        justify-content: space-around;      
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 0; right: 0;
+        height: 30px;
+        color: white;
+    }
+
+    .event-picker .close:hover,
+    .edit-panel .close:hover {
+        background-color: black;
+        cursor: pointer;
+    }

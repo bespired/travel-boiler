@@ -1,0 +1,101 @@
+    
+    .agenda-panel {
+        position: fixed;
+        max-width: 800px;
+        width: 90%;
+        bottom: 60px;
+        height: 345px;
+
+        margin-left: 50%;
+        transform: translateX(-50%);
+
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        background-color: rgba(255, 255, 255, 0.3);
+
+        border-radius: 16px;
+        overflow: hidden;
+
+        transition: height 300ms, opacity 300ms;
+
+
+    }
+
+    .agenda-panel.row-1,
+    .agenda-panel.row-2,
+    .agenda-panel.row-3,
+    .agenda-panel.row-4 {
+        height: 86px;
+    }
+
+    .agenda-panel[class*=row-] div[class*=agenda-row-] {
+        opacity: 0;
+    }
+
+    .agenda-panel.col-1 .weekday-1,
+    .agenda-panel.col-2 .weekday-2,
+    .agenda-panel.col-3 .weekday-3,
+    .agenda-panel.col-4 .weekday-4,
+    .agenda-panel.col-5 .weekday-5,
+    .agenda-panel.col-6 .weekday-6,
+    .agenda-panel.col-7 .weekday-7 {
+        opacity: 1 !important;
+    }
+
+    .agenda-panel.row-1 .agenda-row-1 {
+        opacity: 1 !important;
+    }
+
+    .agenda-panel.row-2 .agenda-row-2 {
+        transform: translateY(-86px);
+        opacity: 1 !important;
+    }
+
+    .agenda-panel.row-3 .agenda-row-3 {
+        transform: translateY(-172px);
+        opacity: 1 !important;
+    }
+
+    .agenda-panel.row-4 .agenda-row-4 {
+        transform: translateY(-258px);
+        opacity: 1 !important;
+    }
+
+    .agenda-panel.row-1 .agenda-row-1 .agenda-day[class*=weekday-],
+    .agenda-panel.row-2 .agenda-row-2 .agenda-day[class*=weekday-],
+    .agenda-panel.row-3 .agenda-row-3 .agenda-day[class*=weekday-],
+    .agenda-panel.row-4 .agenda-row-4 .agenda-day[class*=weekday-] {
+        opacity: 0.2;
+    }
+
+    .agenda-panel.row-4 .agenda-row-4 .weekday-1 {
+        border-top-left-radius: 16px;
+    }
+
+    .agenda-panel.row-4 .agenda-row-4 .weekday-7 {
+        border-top-right-radius: 16px;
+    }
+
+
+    .agenda-panel.row-2 .agenda-row-2 .weekday-1,
+    .agenda-panel.row-3 .agenda-row-3 .weekday-1 {
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+    }
+
+    .agenda-panel.row-2 .agenda-row-2 .weekday-7,
+    .agenda-panel.row-3 .agenda-row-3 .weekday-7 {
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+
+    .agenda-row-1,
+    .agenda-row-2,
+    .agenda-row-3,
+    .agenda-row-4 {
+        display: flex;
+
+        transform: translateY(0px);
+        opacity: 1;
+        transition: transform 300ms;
+
+    }
