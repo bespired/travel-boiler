@@ -1,6 +1,10 @@
+
 <template>
 
+	<link-button label="Home" iconname="home" routename="home" class="header"/>
+
 	<div class="iconlist">
+
 		<span><span class="icon-account-circle" /> account-circle </span>
 		<span><span class="icon-account-tree" /> account-tree </span>
 		<span><span class="icon-add" /> add </span>
@@ -26,6 +30,7 @@
 		<span><span class="icon-arrow-upward" /> arrow-upward </span>
 		<span><span class="icon-article" /> article </span>
 		<span><span class="icon-assignment" /> assignment </span>
+		<span><span class="icon-battery" /> battery </span>
 		<span><span class="icon-ballot" /> ballot </span>
 		<span><span class="icon-boat" /> boat </span>
 		<span><span class="icon-bold" /> bold </span>
@@ -206,6 +211,7 @@
 		<span><span class="icon-sherif" /> sherif </span>
 		<span><span class="icon-shinkansen" /> shinkansen </span>
 		<span><span class="icon-shopping-cart" /> shopping-cart </span>
+		<span><span class="icon-signal" /> signal </span>
 		<span><span class="icon-skip-next" /> skip-next </span>
 		<span><span class="icon-skip-previous" /> skip-previous </span>
 		<span><span class="icon-space-bar" /> space-bar </span>
@@ -252,6 +258,7 @@
 		<span><span class="icon-width-full" /> width-full </span>
 		<span><span class="icon-width-normal" /> width-normal </span>
 		<span><span class="icon-width-wide" /> width-wide </span>
+		<span><span class="icon-wifi" /> wifi </span>
 
 </div>
 
@@ -259,12 +266,15 @@
 
 
 <style>
+	.link-button.header {
+		padding: 3% 0 0 3%;
+	}
 	.iconlist {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 1%;
 		padding: 3%;
-		height: 100vh;
+		height: calc( 100vh - 72px);
     	overflow: auto;
     	font-family: 'IBM Plex Mono', sans-serif;
 	}

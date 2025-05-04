@@ -29,6 +29,11 @@ global._d= function(data) {
 	return ('00' + data).substr(-2)
 }
 
+global._doy= function(date) {
+	let d = new Date(date)
+    return Math.floor((d - new Date(d.getFullYear(), 0, 0)) / 864e5)
+}
+
 String.prototype.hashCode = function() {
   	var hash = 0, i, chr;
   	if (this.length === 0) return hash;

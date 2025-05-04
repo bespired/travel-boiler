@@ -285,3 +285,7 @@
 .icon-landscape:before { content: '\e8f8'; } /* '' */
 .icon-hotel:before { content: '\e8f9'; } /* '' */
 .icon-building:before { content: '\f0f7'; } /* '' */
+.icon-wifi:before { content: '\f1eb'; } /* '' */
+.icon-battery:before { content: '\f240'; } /* '' */
+.icon-signal:before { content: '\e01a'; } /* '' */
+

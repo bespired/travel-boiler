@@ -1,8 +1,7 @@
 <template>
-	<button-renderer
-		:bind="bindings"
-		@click="clicking()"
-	/>
+	<RouterLink :to="{ name: routename }" :class="classes">
+		<button-renderer :bind="bindings" />
+	</RouterLink>
 </template>
 <script>
 
@@ -17,12 +16,18 @@ export default {
 		rounder:   { type: Boolean,  default: false },
 		disabled:  { type: Boolean,  default: false },
 		iconname:  { type: String,   default: null  },
+		routename: { type: String,   default: null  },
 		align:     { type: String,   default: null  },
-		callback:  { type: Function, default: null  },
 		tabindex:  { type: Number,   default: -1    },
 	},
 
 	computed: {
+
+		classes() {
+			let classes = ['link-button']
+			return classes
+		},
+
 		bindings() {
 			let bind = {
 				class: "click-button"
@@ -33,14 +38,9 @@ export default {
 			if (_isValid(this.rounder))  bind.rounder  = this.rounder
 			if (_isValid(this.skin))     bind.skin     = 'skin-' + this.skin
 
+
 			return bind
 		},
-	},
-	methods: {
-		clicking() {
-			if (_notValid(this.callback)) return
-			this.callback()
-		}
 	}
 }
 </script>

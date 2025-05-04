@@ -16,6 +16,10 @@ const router = createRouter({
 			path: '/boiler/buttons',
 			name: 'buttons',
 			component: () => import('../views/ButtonsView.vue')
+		}, {
+			path: '/boiler/agendas',
+			name: 'agendas',
+			component: () => import('../views/AgendasView.vue')
 		},
 
 	]

@@ -9,7 +9,7 @@
     {
       "uid": "06a2fbb04dffecdb444936073cae9123",
       "css": "thumbs-up",
-      "code": 59392,
+      "code": 59391,
       "src": "linecons"
     },
     {
@@ -20,7 +20,7 @@
     },
     {
       "uid": "9c7fd7637a41b59a358cb70893f945a5",
-      "css": "rocket",
+      "css": "rocket-2",
       "code": 59394,
       "src": "entypo"
     },
@@ -3439,6 +3439,24 @@
       "search": [
         "shinkansen"
       ]
+    },
+    {
+      "uid": "d407a4707f719b042ed2ad28d2619d7e",
+      "css": "signal",
+      "code": 57370,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "cd4bfdae4dc89b175ff49330ce29611a",
+      "css": "wifi",
+      "code": 61931,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "69bd9dfe950d07d910f39c6988364e49",
+      "css": "battery-4",
+      "code": 62016,
+      "src": "fontawesome"
     }
   ]
 }
