@@ -19,15 +19,22 @@ export default {
 		let curdate = new Date(`${this.year}-1-1`)
 		curdate.setDate(curdate.getDate() + this.dayofyear);
 		return {
-			day: curdate.getDate()
+			day:   curdate.getDate(),
+			month: curdate.getMonth(),
 		}
 	},
 
 	methods: {
 		classes() {
 			let classes = ['box']
-			classes.push(this.inrange ? 'inrange' : 'box-full')
-			if (this.half) classes.push('box-half')
+
+			classes.push(this.inrange ? 'inrange' : 'outrange')
+			if (this.inrange) {
+				classes.push('m' + (this.month % 2) )
+				if (this.half) classes.push('box-half')
+			}
+
+
 
 			return classes
 		},
@@ -37,6 +44,7 @@ export default {
 }
 </script>
 <style>
+
     .box {
     	position: relative;
         width: 50px;
