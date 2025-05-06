@@ -1,6 +1,7 @@
 <template>
     <section class="home" >
         <div class="buttonrow">
+            <link-button label="Maps"    routename="maps" />
             <link-button label="Agendas" routename="agendas" />
             <link-button label="Buttons" routename="buttons" />
             <link-button label="Icons"   routename="icons"   />

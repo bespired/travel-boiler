@@ -8,8 +8,18 @@ export default {
 
 	beforeMount(){
 		// this can become prefered theme
-		var link = document.getElementById('theme');
-		link.setAttribute('href', '../themes/jungle.css');
+		const css = document.getElementById('theme.css');
+		const jst = document.getElementById('theme.js');
+
+		css.setAttribute('href', '../themes/jungle.css');
+
+		var script = document.createElement('script');
+    	script.id  = 'theme.dutch';
+    	script.src = '../themes/dutch.js';
+    	document.head.appendChild(script);
+
+    	jst.remove()
+
 	}
 
 }

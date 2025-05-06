@@ -1,5 +1,8 @@
 <template>
 	<div class="agenda">
+		<div class="agenda-legenda">
+			<span class="legenda-day" v-for="d in 7">{{ $t.weekdays.abr[d] }}</span>
+		</div>
 		<template v-for="w in weeks">
 			<div class="agenda-week">
 				<template v-for="d in 7">
@@ -8,11 +11,11 @@
 						:dayofyear = "dayOfYear(start, w-1, d-1)"
 						:inrange   = "inRange(start, w-1, d-1)"
 						:half      = "d > 5"
+
 					/>
 				</template>
 			</div>
 		</template>
-		{{ weeks }} , {{ sdate }}, {{ edate }}
 	</div>
 </template>
 <script>
@@ -44,6 +47,10 @@ export default {
 
 		last() {
 			return this.monday(this.edate, -1)
+		},
+
+		$t() {
+			return window.$t
 		}
 	},
 
@@ -80,6 +87,18 @@ export default {
     	flex-direction: column;
     	gap: 5px;
     	padding: 8px;
+	}
+	.agenda-legenda {
+		display: flex;
+		width: 100%;
+		justify-content: space-evenly;
+	}
+	.legenda-day {
+		display: flex;
+		width: calc(100%/7);
+		justify-content: center;
+		font-size: 12px;
+
 	}
 	.agenda-week {
 		display: flex;
