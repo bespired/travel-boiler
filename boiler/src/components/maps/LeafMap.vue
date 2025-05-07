@@ -1,7 +1,28 @@
 <template>
 	<div id="map"></div>
-</template>
+	<div class="overlay">
+		<div class="pill" id="location"> Location </div>
+	</div>
 
+</template>
+<style>
+	.overlay {
+		position: fixed;
+		top:5em; left:10px; right:1em; bottom: 1em;
+		pointer-events: none;
+	}
+
+	#location {
+		display: inline-flex;
+		position: fixed;
+		right: 10px; top: 10px;
+		border-radius: 12px;
+		padding: 8px;
+		background-color: white ;
+		color: black;
+		font-family: monospace;
+	}
+</style>
 <script>
 export default {
 	name: 'LeafMap',
@@ -46,8 +67,26 @@ export default {
 	methods: {
 		initMap(){
 			var L = window.L
-	        this.map = L.map('map').setView([53, 12], 5)
-	        L.tileLayer(this.tiles, { maxZoom: 14 }).addTo(this.map)
+	        var map = L.map('map').setView([31.64, 130.66], 10)
+	        L.tileLayer(this.tiles, { maxZoom: 14 }).addTo(map)
+
+	        var renderer = L.canvas()
+	        var domLocation = document.getElementById('location')
+
+	        map.on('drag', function(evt) {
+	        	domLocation.innerHTML = map.getCenter()
+			});
+
+	        // This is all just for mapcode...
+			var bounds1 = [[31.60, 130.60], [31.70, 130.70]]
+			var bounds2 = [[31.60, 130.90], [31.70, 131.10]];
+
+			L.rectangle(bounds1, {color: "#ff7800", weight: 1}, {renderer}).addTo(map);
+			L.rectangle(bounds2, {color: "#00ff78", weight: 1}, {renderer}).addTo(map);
+
+
+			this.map = map
+
 		}
 	}
 
