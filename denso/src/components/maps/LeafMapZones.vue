@@ -29,7 +29,7 @@
 	}
 	.zone-overlay {
 		position: absolute;
-		font-size: 8px;
+		font-size: 12px;
 	}
 </style>
 <script>
@@ -117,10 +117,22 @@ export default {
 			// })
 
 
-			minlat=  24.0043510
-			minlon= 122.8736509
-			maxlat=  45.7519756
-			maxlon= 154.1209048
+			// zone: 0 lat: 35.5033927, lon: 139.6219384
+
+			// minlat=  24.0043510
+			// minlon= 122.8736509
+			// maxlat=  45.7519756
+			// maxlon= 154.1209048
+
+			// latblockHeight:  0.24969981272571
+			// lonblockWidth:   0.24959716698194367
+
+			minlat=  35.50339947 - (138 * (0.25 / 3))
+			maxlat=  35.50339947 + (123 * (0.25 / 3))
+			minlon= 139.62191944 - (134 * (0.25 / 2))
+			maxlon= 139.62191944 + (116 * (0.25 / 2))
+
+			// 35.50339947315338,139.62191944444444
 
 			let distlat= maxlat - minlat
 			let distlon= maxlon - minlon
@@ -139,19 +151,20 @@ export default {
 			let latoffs= []
 			let lonoffs= []
 
-			let ybits = 261
+			let ybits = 262
 			for(let hor=0; hor<ybits; hor++){
-				let offs = (distlat / ybits) * hor
+				// let offs = (distlat / ybits) * hor
+				let offs = (0.25  / 3) * hor
 				latoffs.push(minlat + offs)
 				this.line(minlat + offs, minlon, minlat + offs, maxlon)
 			}
 
-			let xbits = 250
+			let xbits = 251
 			for(let ver=0; ver<xbits; ver++){
-				let offs = (distlon / xbits) * ver
+				// let offs = (distlon / xbits) * ver
+				let offs = (0.25 / 2) * ver
 				lonoffs.push(minlon + offs)
 				this.line(minlat, minlon + offs, maxlat, minlon + offs )
-
 			}
 
 			// console.log(latoffs, lonoffs)
@@ -194,9 +207,21 @@ export default {
 				// console.log(frind, latoffs[frind], frlat, sfrdist)
 				// console.log(toind, latoffs[toind], tolat, stodist)
 
-				let out = `zone: ${id} `
-				out += `from: { ${frlatind}, ${frlonind} },`
-				out += `to { ${tolatind}, ${tolonind} } },`
+
+				var latfr= latoffs[frlatind].toFixed(7)
+				var lonfr= lonoffs[frlonind].toFixed(7)
+				var latto= latoffs[tolatind].toFixed(7)
+				var lonto= lonoffs[tolonind].toFixed(7)
+
+				let out = `{ zone: ${id},  `
+				out += `from: { lat: ${latfr}, lon: ${lonfr} },`
+				out += `to: { lat: ${latto}, lon: ${lonto} } },`
+
+
+				// let out = `{ zone: ${id},  `
+				// out += `from: { lat: ${frlatind}, lon: ${frlonind} },`
+				// out += `to: { lat: ${tolatind}, lon: ${tolonind} } },`
+
 
 				console.log( out )
 
@@ -231,7 +256,6 @@ export default {
 				}
 			})
 
-
 		},
 
 
@@ -245,7 +269,7 @@ export default {
 
 			var L = window.L
 	        // var map = L.map('map').setView([34.840859, 136.856689], 7)
-	        var map = L.map('map').setView([24.069036, 122.99469], 9)
+	        var map = L.map('map').setView([35.50338, 139.622101], 12)
 
 	        L.tileLayer(this.tiles, { maxZoom: 18 }).addTo(map)
 

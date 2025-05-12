@@ -29,7 +29,7 @@
 	}
 	.zone-overlay {
 		position: absolute;
-		font-size: 8px;
+		font-size: 12px;
 	}
 </style>
 <script>
@@ -63,17 +63,16 @@ export default {
 
 	methods: {
 		zoneFix(densoZones) {
-			let minlat=  24.0043510
-			let minlon= 122.8736509
-			let maxlat=  45.7519756
-			let maxlon= 154.1209048
+			let minlat=  35.5033927 - (138 * (0.25 / 3))
+			let maxlat=  35.5033927 + (123 * (0.25 / 3))
+			let minlon= 139.6219384 - (134 * (0.25 / 2))
+			let maxlon= 139.6219384 + (116 * (0.25 / 2))
 
 			let distlat= maxlat - minlat
 			let distlon= maxlon - minlon
 
 			let latoffs= []
 			let lonoffs= []
-
 
 			let ybits = 261
 			for(let hor=0; hor<ybits; hor++){
@@ -262,7 +261,6 @@ export default {
 					boundbox = [[zone.from.lat,zone.from.lon],[zone.to.lat,zone.to.lon]]
 					L.rectangle(boundbox, rectObj, {renderer}).addTo(this.map)
 
-
 					var latlng = L.latLng([zone.from.lat,zone.from.lon])
 					var pixels = this.map.options.crs.latLngToPoint(latlng, this.map._zoom)
 
@@ -289,7 +287,7 @@ export default {
 
 			var L = window.L
 	        // var map = L.map('map').setView([34.840859, 136.856689], 7)
-	        var map = L.map('map').setView([24.069036, 122.99469], 9)
+	        var map = L.map('map').setView([35.366096, 140.210266], 9)
 
 	        L.tileLayer(this.tiles, { maxZoom: 18 }).addTo(map)
 

@@ -38,7 +38,7 @@
 </style>
 <script>
 
-import densoZones from "./zones.js"
+import idxDensoZones from "./idxZones.js"
 
 export default {
 
@@ -57,37 +57,56 @@ export default {
 			first: false,
 			zoomfactor:  7,
 			tiles: 'https://tile.openstreetmap.de/{z}/{x}/{y}.png',
-			// densoZones: this.fixZones(densoZones),
-			densoZones: densoZones,
+			densoZones: this.expandZones(idxDensoZones),
 		}
 	},
 
 	methods: {
 
-		fixZones(densoZones) {
-			let fixed=[]
-			let latdiff = 0.0002896 / 2
-			let londiff = 0.0003600 / 2
+		expandZones(densoZones) {
+			let minlat=  35.50339947 - (138 * (0.25 / 3))
+			let maxlat=  35.50339947 + (123 * (0.25 / 3))
+			let minlon= 139.62191944 - (134 * (0.25 / 2))
+			let maxlon= 139.62191944 + (116 * (0.25 / 2))
 
-			// let latblockHeight = 0
-			// let lonblockWidth  = 0
-			// let zonecount = 0
+			// maxlon=141.87121866158682
 
-			densoZones.forEach((zone) => {
-				// latblockHeight += zone.to.lat - zone.from.lat
-				// lonblockWidth  += zone.to.lon - zone.from.lon
-				// zonecount++
-				fixed.push({
+			let distlat= maxlat - minlat
+			let distlon= maxlon - minlon
+
+			let latoffs= []
+			let lonoffs= []
+
+			let ybits = 262
+			for(let hor=0; hor<ybits; hor++){
+				// let offs = (distlat / ybits) * hor
+				let offs = (0.25  / 3) * hor
+				latoffs.push(minlat + offs)
+			}
+
+			let xbits = 251
+			for(let ver=0; ver<xbits; ver++){
+				// let offs = (distlon / xbits) * ver
+				let offs = (0.25 / 2) * ver
+				lonoffs.push(minlon + offs)
+			}
+
+			let expanded = []
+			densoZones.forEach( (zone, idx) => {
+				let	afr= zone.from.lat
+				let ofr= zone.from.lon
+				let ato= zone.to.lat
+				let oto= zone.to.lon
+				expanded.push({
 					zone: zone.zone,
-					from: {lat: zone.from.lat - latdiff, lon: zone.from.lon - londiff},
-					to:   {lat: zone.to.lat + latdiff, lon: zone.to.lon + londiff},
+					from: { lat: latoffs[afr], lon: lonoffs[ofr] },
+					to:   { lat: latoffs[ato], lon: lonoffs[oto] }
 				})
 			})
 
-			// console.log('latblockHeight: ', latblockHeight / zonecount)
-			// console.log('lonblockWidth:  ', lonblockWidth/ zonecount)
 
-			return fixed
+
+			return expanded
 		},
 
 		random_rgba() {
@@ -181,7 +200,7 @@ export default {
 
 			var L = window.L
 	        // var map = L.map('map').setView([34.840859, 136.856689], 7)
-	        var map = L.map('map').setView([36.4197371,138.2987309], 12)
+	        var map = L.map('map').setView([35.629954, 139.793129], 12)
 
 	        L.tileLayer(this.tiles, { maxZoom: 18 }).addTo(map)
 
