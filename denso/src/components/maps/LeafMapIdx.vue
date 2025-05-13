@@ -66,7 +66,7 @@ export default {
 
 	methods: {
 
-		expandZones(densoZones, idxLongitudes, idxLatitudes) {
+		expandZones(densoZones, idxLatitudes, idxLongitudes) {
 
 			let expanded = []
 			densoZones.forEach( (zone, idx) => {
@@ -252,12 +252,12 @@ export default {
 			});
 
 			map.on('click', function(e) {
-				const lat = e.latlng.lat.toFixed(7)
-  				const lon = e.latlng.lng.toFixed(7)
-  				let   url = 'https://www.mapion.co.jp/f/mmail/send_mobile/SendMobile_map.html?'
-  				url += `lon=${lon}&lat=${lat}`
-  				console.log(url)
-  				window.open(url);
+				// const lat = e.latlng.lat.toFixed(7)
+  				// const lon = e.latlng.lng.toFixed(7)
+  				// let   url = 'https://www.mapion.co.jp/f/mmail/send_mobile/SendMobile_map.html?'
+  				// url += `lon=${lon}&lat=${lat}`
+  				// console.log(url)
+  				// window.open(url);
 			});
 
 			// https://www.mapion.co.jp/f/mmail/send_mobile/SendMobile_map.html?lon=130.99586961830084&lat=34.272715550129554
