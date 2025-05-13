@@ -64,30 +64,45 @@ export default {
 	methods: {
 
 		expandZones(densoZones) {
-			let minlat=  35.50339947 - (138 * (0.25 / 3))
-			let maxlat=  35.50339947 + (123 * (0.25 / 3))
-			let minlon= 139.62191944 - (134 * (0.25 / 2))
-			let maxlon= 139.62191944 + (116 * (0.25 / 2))
 
-			// maxlon=141.87121866158682
+			let minlat=  24.0043510
+			let minlon= 122.8736509
+			let maxlat=  45.7519756
+			let maxlon= 154.1209048
+
+
+			 minlat=  24.0043510
+			 maxlat=  45.752
+
+			 minlon= 122.8737
+			 maxlon= 154.1209048
+
+
+			// let lbh= 0.24969981272571
+			// let lbw= 0.24959716698194367
 
 			let distlat= maxlat - minlat
 			let distlon= maxlon - minlon
 
+			let ybits = 261
+			let xbits = 250
+			let lbh= (distlat / ybits)
+			let lbw= (distlon / xbits)
+
 			let latoffs= []
 			let lonoffs= []
 
-			let ybits = 262
-			for(let hor=0; hor<ybits; hor++){
-				// let offs = (distlat / ybits) * hor
-				let offs = (0.25  / 3) * hor
+			for(let hor=0; hor<=ybits; hor++){
+				let offs = lbh * hor
+				// let offs = (0.25  / 3) * hor
+				// let offs = (lbh  / 3) * hor
 				latoffs.push(minlat + offs)
 			}
 
-			let xbits = 251
-			for(let ver=0; ver<xbits; ver++){
-				// let offs = (distlon / xbits) * ver
-				let offs = (0.25 / 2) * ver
+			for(let ver=0; ver<=xbits; ver++){
+				let offs = lbw * ver
+				// let offs = (0.25 / 2) * ver
+				// let offs = (lbw / 2) * ver
 				lonoffs.push(minlon + offs)
 			}
 
@@ -129,12 +144,43 @@ export default {
   			let L = window.L
 			let renderer = L.canvas()
 			let boundbox = null
+			let rectObj   = { color: "#77ff78", weight: 1, className: "zone-box"}
 			let rectObj1  = { color: "#00ff78", weight: 1, className: "zone-box"}
 			let rectObj2  = { color: "#ff7800", weight: 1, className: "zone-box"}
 			let rectObj3  = { color: "#ff0078", weight: 1, className: "zone-box"}
 
   			let zones = ''
   			let mapcode = ''
+
+			let ttlayer = document.querySelector('.leaflet-pane.leaflet-marker-pane')
+
+			this.densoZones.forEach((zone)=>{
+
+				if (zone.hasOwnProperty('div')){
+
+					var latlng = L.latLng([zone.from.lat,zone.from.lon])
+					var pixels = this.map.options.crs.latLngToPoint(latlng, this.map._zoom)
+					zone.div.style = `left: ${pixels.x - origin.x }px; top: ${pixels.y - origin.y - 20 }px;`
+
+				} else {
+
+					rectObj.color = this.random_rgba()
+					rectObj.className = `class-zone-${zone.zone}`
+
+					boundbox = [[zone.from.lat,zone.from.lon],[zone.to.lat,zone.to.lon]]
+					L.rectangle(boundbox, rectObj, {renderer}).addTo(this.map)
+
+					var latlng = L.latLng([zone.from.lat,zone.from.lon])
+					var pixels = this.map.options.crs.latLngToPoint(latlng, this.map._zoom)
+
+					zone.div = document.createElement("div")
+					// zone.div.id = `zone-${zone.zone}`
+					// zone.div.className = 'zone-overlay'
+					// zone.div.style = `left: ${pixels.x - origin.x }px; top: ${pixels.y - origin.y - 20 }px;`
+					// zone.div.innerHTML = zone.zone
+					// ttlayer.appendChild(zone.div)
+				}
+			})
 
   			this.densoZones.forEach((zone) => {
   				if ((lat >= zone.from.lat) && (lat <= zone.to.lat)) {
@@ -200,7 +246,9 @@ export default {
 
 			var L = window.L
 	        // var map = L.map('map').setView([34.840859, 136.856689], 7)
-	        var map = L.map('map').setView([35.629954, 139.793129], 12)
+	        // var map = L.map('map').setView([35.629954, 139.793129], 12)
+			var map = L.map('map').setView([24.2550445, 153.8714111], 12)
+
 
 	        L.tileLayer(this.tiles, { maxZoom: 18 }).addTo(map)
 

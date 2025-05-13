@@ -137,7 +137,7 @@ export default {
 			let distlat= maxlat - minlat
 			let distlon= maxlon - minlon
 
-			console.log(minlat,minlon , ' - ' , maxlat,maxlon )
+			// console.log(minlat,minlon , ' - ' , maxlat,maxlon )
 
 			rectObj.color = this.random_rgba()
 			rectObj.className = 'class-zone'
@@ -223,7 +223,7 @@ export default {
 				// out += `to: { lat: ${tolatind}, lon: ${tolonind} } },`
 
 
-				console.log( out )
+				// console.log( out )
 
 			})
 
@@ -243,7 +243,6 @@ export default {
 					boundbox = [[zone.from.lat,zone.from.lon],[zone.to.lat,zone.to.lon]]
 					L.rectangle(boundbox, rectObj, {renderer}).addTo(this.map)
 
-
 					var latlng = L.latLng([zone.from.lat,zone.from.lon])
 					var pixels = this.map.options.crs.latLngToPoint(latlng, this.map._zoom)
 
@@ -256,12 +255,14 @@ export default {
 				}
 			})
 
+
+
 		},
 
 
 		initMap(){
 
-			console.log(this.densoZones)
+			// console.log(this.densoZones)
 			// this.densoZones.forEach((zone) => {
 			// 	zone.to.lat += 0.00027
 			// 	zone.to.lon += 0.00036

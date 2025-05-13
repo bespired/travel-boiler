@@ -1074,7 +1074,7 @@ const idxDensoZones = [
     { zone: 1072, from: { lat:   8, lon:  18 }, to: { lat:  11, lon:  20 } },
     { zone: 1073, from: { lat: 165, lon: 133 }, to: { lat: 168, lon: 135 } },
     { zone: 1074, from: { lat: 248, lon: 156 }, to: { lat: 251, lon: 158 } },
-    { zone: 1075, from: { lat:   3, lon: 248 }, to: { lat:   6, lon: 249 } },
+    { zone: 1075, from: { lat:   3, lon: 248 }, to: { lat:   6, lon: 250 } },
     { zone: 1076, from: { lat:  25, lon:  40 }, to: { lat:  28, lon:  42 } },
     { zone: 1077, from: { lat:  43, lon:  48 }, to: { lat:  46, lon:  50 } },
     { zone: 1078, from: { lat: 239, lon: 173 }, to: { lat: 242, lon: 175 } },
