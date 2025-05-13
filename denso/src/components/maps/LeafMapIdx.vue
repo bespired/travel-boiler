@@ -97,6 +97,7 @@ export default {
 				// let offs = (0.25  / 3) * hor
 				// let offs = (lbh  / 3) * hor
 				latoffs.push(minlat + offs)
+				// this.line(minlat + offs, minlon, minlat + offs, maxlon)
 			}
 
 			for(let ver=0; ver<=xbits; ver++){
@@ -104,6 +105,7 @@ export default {
 				// let offs = (0.25 / 2) * ver
 				// let offs = (lbw / 2) * ver
 				lonoffs.push(minlon + offs)
+				// this.line(minlat, minlon + offs, maxlat, minlon + offs )
 			}
 
 			let expanded = []
@@ -119,9 +121,17 @@ export default {
 				})
 			})
 
-
-
 			return expanded
+		},
+
+		line(lat1, lon1, lat2, lon2) {
+			let L = window.L
+			let renderer = L.canvas()
+			var latlngA  = L.latLng([lat1, lon1])
+			var latlngB  = L.latLng([lat2, lon2])
+			let rectObj  = { color: "#00ff78", weight: 1}
+			let boundbox = [latlngA, latlngB]
+			L.polyline(boundbox, rectObj, {renderer}).addTo(this.map)
 		},
 
 		random_rgba() {
@@ -133,6 +143,7 @@ export default {
 		},
 
 		drawBox(e) {
+
 			const lat = e.latlng.lat.toFixed(7)
   			const lon = e.latlng.lng.toFixed(7)
 

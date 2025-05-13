@@ -55,6 +55,7 @@ export default {
 		return {
 			map: null,
 			first: false,
+			lines: true,
 			zoomfactor:  7,
 			tiles: 'https://tile.openstreetmap.de/{z}/{x}/{y}.png',
 			densoZones: this.zoneFix(idxDensoZones),
@@ -182,20 +183,30 @@ export default {
 			let latoffs= []
 			let lonoffs= []
 
-			let ybits = 261
-			for(let hor=0; hor<ybits; hor++){
-				let offs = (distlat / ybits) * hor
-				latoffs.push(minlat + offs)
-				this.line(minlat + offs, minlon, minlat + offs, maxlon)
-			}
+			if (this.lines) {
 
-			let xbits = 250
-			for(let ver=0; ver<xbits; ver++){
-				let offs = (distlon / xbits) * ver
-				lonoffs.push(minlon + offs)
-				this.line(minlat, minlon + offs, maxlat, minlon + offs )
+				let ybits = 261
+				for(let hor=0; hor<ybits; hor++){
+					let offs = (distlat / ybits) * hor
+					latoffs.push(minlat + offs)
+					if (this.lines) {
+						this.line(minlat + offs, minlon, minlat + offs, maxlon)
+					}
+				}
 
-			}
+				let xbits = 250
+				for(let ver=0; ver<xbits; ver++){
+					let offs = (distlon / xbits) * ver
+					lonoffs.push(minlon + offs)
+					if (this.lines) {
+						this.line(minlat, minlon + offs, maxlat, minlon + offs )
+					}
+
+				}
+
+				this.lines = false
+
+		}
 
 			// console.log(latoffs, lonoffs)
 
