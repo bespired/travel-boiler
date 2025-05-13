@@ -55,6 +55,7 @@ export default {
 		return {
 			map: null,
 			first: false,
+			lines: false,
 			zoomfactor:  7,
 			tiles: 'https://tile.openstreetmap.de/{z}/{x}/{y}.png',
 			densoZones: this.expandZones(idxDensoZones),
@@ -97,7 +98,7 @@ export default {
 				// let offs = (0.25  / 3) * hor
 				// let offs = (lbh  / 3) * hor
 				latoffs.push(minlat + offs)
-				// this.line(minlat + offs, minlon, minlat + offs, maxlon)
+
 			}
 
 			for(let ver=0; ver<=xbits; ver++){
@@ -105,7 +106,7 @@ export default {
 				// let offs = (0.25 / 2) * ver
 				// let offs = (lbw / 2) * ver
 				lonoffs.push(minlon + offs)
-				// this.line(minlat, minlon + offs, maxlat, minlon + offs )
+
 			}
 
 			let expanded = []
@@ -120,6 +121,9 @@ export default {
 					to:   { lat: latoffs[ato], lon: lonoffs[oto] }
 				})
 			})
+
+			global.latoffs = latoffs
+			global.lonoffs = lonoffs
 
 			return expanded
 		},
@@ -144,6 +148,18 @@ export default {
 
 		drawBox(e) {
 
+			if (!this.lines) {
+				let ll = global.lonoffs.length-1
+				global.latoffs.forEach(l=>{
+					this.line(l, lonoffs[0], l, lonoffs[ll])
+				})
+				ll = global.latoffs.length-1
+				global.lonoffs.forEach(l=>{
+					this.line(latoffs[0], l, latoffs[ll], l )
+				})
+				this.lines = true
+			}
+
 			const lat = e.latlng.lat.toFixed(7)
   			const lon = e.latlng.lng.toFixed(7)
 
@@ -164,6 +180,7 @@ export default {
   			let mapcode = ''
 
 			let ttlayer = document.querySelector('.leaflet-pane.leaflet-marker-pane')
+   			let origin  = this.map.getPixelOrigin()
 
 			this.densoZones.forEach((zone)=>{
 
@@ -185,11 +202,11 @@ export default {
 					var pixels = this.map.options.crs.latLngToPoint(latlng, this.map._zoom)
 
 					zone.div = document.createElement("div")
-					// zone.div.id = `zone-${zone.zone}`
-					// zone.div.className = 'zone-overlay'
-					// zone.div.style = `left: ${pixels.x - origin.x }px; top: ${pixels.y - origin.y - 20 }px;`
-					// zone.div.innerHTML = zone.zone
-					// ttlayer.appendChild(zone.div)
+					zone.div.id = `zone-${zone.zone}`
+					zone.div.className = 'zone-overlay'
+					zone.div.style = `left: ${pixels.x - origin.x }px; top: ${pixels.y - origin.y - 20 }px;`
+					zone.div.innerHTML = zone.zone
+					ttlayer.appendChild(zone.div)
 				}
 			})
 
@@ -259,7 +276,6 @@ export default {
 	        // var map = L.map('map').setView([34.840859, 136.856689], 7)
 	        // var map = L.map('map').setView([35.629954, 139.793129], 12)
 			var map = L.map('map').setView([24.2550445, 153.8714111], 12)
-
 
 	        L.tileLayer(this.tiles, { maxZoom: 18 }).addTo(map)
 
