@@ -31,15 +31,15 @@ services:
     platform: linux/arm64
 
     restart: unless-stopped
-    container_name: travel.mysql
+    container_name: latest.mysql
     tty: true
     ports:
       - "3309:3306"
     networks:
       - docker.network
     volumes:
-      - "./docker/mysql/dbdata:/var/lib/mysql"
-      - "./docker/mysql/mysqlconf:/etc/mysql/conf.d"
+      - ./docker/mysql/dbdata:/var/lib/mysql
+      # - "./docker/mysql/mysqlconf:/etc/mysql/conf.d"
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-root}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD:-root}
