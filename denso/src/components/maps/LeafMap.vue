@@ -90,34 +90,6 @@ export default {
 			L.rectangle(boundbox, rectObj, {renderer}).addTo(this.map);
 		},
 
-		// drawBoxes() {
-		// 	let zones = Zone.getZoneCoords()
-		// 	let keys  = Object.keys(zones)
-  		// 	let L = window.L
-		// 	let renderer = L.canvas()
-		// 	let rectObj  = { weight: 1, className: "test-box"}
-		// 	keys.forEach(key => {
-		// 		let zone = zones[key]
-  		// 		let boundbox = [[zone[0], zone[1]],[zone[2], zone[3]]]
-  		// 		rectObj.color = '#8888ff'
-  		// 		let height = zone[2] - zone[0]
-  		// 		if ((height < 0.24) || (height > 0.33)) rectObj.color  = '#77ff78'
-		// 		L.rectangle(boundbox, rectObj, {renderer}).addTo(this.map);
-
-		// 		// L.marker([zone[0], zone[1]]).addTo(map);
-		// 		var marker = new L.marker([zone[0], zone[1]], { opacity: 0.01 })
-		// 			.bindTooltip(key, {
-		// 				icon: null,
-		// 				permanent: true, direction: 'center',
-		// 				className: "my-labels" }).addTo(this.map)
-
-		// 		// var lat = zone[0] + ( (zone[2] - zone[0]) / 2.0)
-		// 		// var lon = zone[1] + ( (zone[3] - zone[1]) / 2.0)
-		// 		// let url = `http://localhost/mapcode.php?lat=${lat}&lon=${lon}&check=${key}`
-		// 		// console.log(url)
-		// 	})
-		// },
-
 		drawBox(lat, lon) {
 
   			this.clearRects()
@@ -145,9 +117,16 @@ export default {
 			var domMapCode = document.getElementById('mapcode')
   			domMapCode.innerHTML = Zone.mapCode(lat, lon)
 
-			var domInfoBox = document.getElementById('infobox')
-  			domInfoBox.innerHTML = Zone.infobox(lat, lon)
+			var domInfoBox  = document.getElementById('infobox')
+			var dataInfobox = Zone.infobox(lat, lon)
+  			domInfoBox.innerHTML = dataInfobox.html
 
+  			if (dataInfobox.perc) {
+  				var block = dataInfobox.perc.draw.block
+  				this.drawRect(block.from.lat, block.from.lon, block.to.lat, block.to.lon, '#77ffff' )
+  				var unit  = dataInfobox.perc.draw.unit
+  				this.drawRect(unit.from.lat,  unit.from.lon,  unit.to.lat,  unit.to.lon,  '#ff77ff' )
+  			}
 
 		},
 
