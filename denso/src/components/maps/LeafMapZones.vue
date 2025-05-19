@@ -30,6 +30,7 @@
 	.zone-overlay {
 		position: absolute;
 		font-size: 12px;
+		text-shadow: 1px 1px white, -1px 1px white, 1px -1px white, -1px -1px white;
 	}
 </style>
 <script>

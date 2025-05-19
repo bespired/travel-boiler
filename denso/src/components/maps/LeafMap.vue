@@ -3,6 +3,7 @@
 	<div class="overlay">
 		<div class="pill" id="location"> Location </div>
 		<div class="pill" id="mapcode"> Mapcode </div>
+		<div class="pill" id="infobox"> Infobox </div>
 	</div>
 </template>
 <style>
@@ -17,7 +18,7 @@
 		pointer-events: none;
 	}
 
-	#mapcode, #location {
+	#infobox, #mapcode, #location {
 		display: inline-flex;
 		position: fixed;
 		right: 10px; top: 10px;
@@ -31,148 +32,122 @@
 	#mapcode {
 		 top: 50px;
 	}
+	#infobox {
+		 top: 90px;
+	}
 	.zone-overlay {
 		position: absolute;
 		font-size: 10px;
 	}
+	.my-labels {
+		margin-top: 9px;
+		font-size: 10px;
+		padding: 0 8px;
+	}
 </style>
 <script>
 
-import densoZones from "./zones.js"
+import Zone from "@/helpers/Zone.js"
 
 export default {
 
-	// Many thanks to
-	// https://saibara.sakura.ne.jp/map/convgeo.cgi
 
 	name: 'LeafMap',
 
 	mounted() {
-		if (!this.first) this.initMap()
+		if (this.first) this.initMap()
+		// Zone.fetchLines()
+		// Zone.getZoneCoords()
 	},
 
 	data() {
 		return {
 			map: null,
-			first: false,
+			first: true,
 			zoomfactor:  7,
 			tiles: 'https://tile.openstreetmap.de/{z}/{x}/{y}.png',
-			// densoZones: this.fixZones(densoZones),
-			densoZones: densoZones,
+
+			lat: 0,
+			lon: 0,
 		}
 	},
 
 	methods: {
 
-		fixZones(densoZones) {
-			let fixed=[]
-			let latdiff = 0.0002896 / 2
-			let londiff = 0.0003600 / 2
-
-			// let latblockHeight = 0
-			// let lonblockWidth  = 0
-			// let zonecount = 0
-
-			densoZones.forEach((zone) => {
-				// latblockHeight += zone.to.lat - zone.from.lat
-				// lonblockWidth  += zone.to.lon - zone.from.lon
-				// zonecount++
-				fixed.push({
-					zone: zone.zone,
-					from: {lat: zone.from.lat - latdiff, lon: zone.from.lon - londiff},
-					to:   {lat: zone.to.lat + latdiff, lon: zone.to.lon + londiff},
-				})
-			})
-
-			// console.log('latblockHeight: ', latblockHeight / zonecount)
-			// console.log('lonblockWidth:  ', lonblockWidth/ zonecount)
-
-			return fixed
-		},
-
-		random_rgba() {
-    		var o = Math.round, r = Math.random, s = 255;
-    		return 'rgb(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ')';
-		},
-		pad3(n) {
-    		return ('000' + n).substr(-3)
-		},
-
-		drawBox(e) {
-			const lat = e.latlng.lat.toFixed(7)
-  			const lon = e.latlng.lng.toFixed(7)
-
+		clearRects() {
   			let boxes = document.getElementsByClassName('zone-box')
   			for (const element of boxes) {
   				element.remove()
 			}
+		},
 
+		drawRect(lat1,lon1, lat2,lon2, color) {
   			let L = window.L
 			let renderer = L.canvas()
-			let boundbox = null
-			let rectObj1  = { color: "#00ff78", weight: 1, className: "zone-box"}
-			let rectObj2  = { color: "#ff7800", weight: 1, className: "zone-box"}
-			let rectObj3  = { color: "#ff0078", weight: 1, className: "zone-box"}
+			let rectObj  = { color: color, weight: 1, className: "zone-box"}
 
-  			let zones = ''
-  			let mapcode = ''
+  			let boundbox = [[lat1,lon1],[lat2,lon2]]
+			L.rectangle(boundbox, rectObj, {renderer}).addTo(this.map);
+		},
 
-  			this.densoZones.forEach((zone) => {
-  				if ((lat >= zone.from.lat) && (lat <= zone.to.lat)) {
-  					if ((lon >= zone.from.lon) && (lon <= zone.to.lon)) {
-  						zones += zone.zone + ' '
+		// drawBoxes() {
+		// 	let zones = Zone.getZoneCoords()
+		// 	let keys  = Object.keys(zones)
+  		// 	let L = window.L
+		// 	let renderer = L.canvas()
+		// 	let rectObj  = { weight: 1, className: "test-box"}
+		// 	keys.forEach(key => {
+		// 		let zone = zones[key]
+  		// 		let boundbox = [[zone[0], zone[1]],[zone[2], zone[3]]]
+  		// 		rectObj.color = '#8888ff'
+  		// 		let height = zone[2] - zone[0]
+  		// 		if ((height < 0.24) || (height > 0.33)) rectObj.color  = '#77ff78'
+		// 		L.rectangle(boundbox, rectObj, {renderer}).addTo(this.map);
 
-  						// Draw the zone
-  						boundbox = [[zone.from.lat,zone.from.lon],[zone.to.lat,zone.to.lon]]
-						L.rectangle(boundbox, rectObj1, {renderer}).addTo(this.map);
+		// 		// L.marker([zone[0], zone[1]]).addTo(map);
+		// 		var marker = new L.marker([zone[0], zone[1]], { opacity: 0.01 })
+		// 			.bindTooltip(key, {
+		// 				icon: null,
+		// 				permanent: true, direction: 'center',
+		// 				className: "my-labels" }).addTo(this.map)
 
-						// Find the block
-						let dlat = zone.to.lat - zone.from.lat
-						let dlon = zone.to.lon - zone.from.lon
+		// 		// var lat = zone[0] + ( (zone[2] - zone[0]) / 2.0)
+		// 		// var lon = zone[1] + ( (zone[3] - zone[1]) / 2.0)
+		// 		// let url = `http://localhost/mapcode.php?lat=${lat}&lon=${lon}&check=${key}`
+		// 		// console.log(url)
+		// 	})
+		// },
 
-						let latblock= dlat / 30.0
-						let lonblock= dlon / 30.0
+		drawBox(lat, lon) {
 
-						let blkperlat = Math.floor(30 * ((lat - zone.from.lat) / dlat))
-						let blkperlon = Math.floor(30 * ((lon - zone.from.lon) / dlon))
+  			this.clearRects()
 
-						let blkslat = zone.from.lat + blkperlat * latblock
-						let blkslon = zone.from.lon + blkperlon * lonblock
+			const zones = Zone.inZone(lat, lon)
+			zones.forEach( zone => {
+				this.drawRect( zone.from.lat, zone.from.lon, zone.to.lat, zone.to.lon, '#8888ff' )
+			})
 
-						let block = blkperlon + 30 * blkperlat
+			if (zones.length) {
+				let color = '#ffff78'
+				let zone  = zones[0]
+				let height = zone.to.lat - zone.from.lat
+				if ((height < 0.24) || (height > 0.33)) color = '#77ff78'
+				this.drawRect(zone.from.lat, zone.from.lon, zone.to.lat, zone.to.lon, color )
 
-						// Draw the block
-						boundbox = [[blkslat, blkslon], [blkslat + latblock, blkslon + lonblock]]
-						L.rectangle(boundbox, rectObj2, {renderer}).addTo(this.map);
+				var domMapCode = document.getElementById('mapcode')
+				domMapCode.innerHTML = zone.zone
 
-						// Find the unit
-						let latunit= dlat / 900.0  // let latunit= latblock / 30.0
-						let lonunit= dlon / 900.0  // let lonunit= lonblock / 30.0
+			}
 
-						let uniperlat = Math.floor(30 * ((lat - blkslat) / latblock))
-						let uniperlon = Math.floor(30 * ((lon - blkslon) / lonblock))
-
-						let unislat = blkslat + uniperlat * latunit
-						let unislon = blkslon + uniperlon * lonunit
-
-						let unit = uniperlon + 30 * uniperlat
-
-						// Draw the unit
-						boundbox = [[unislat, unislon], [unislat + latunit, unislon + lonunit]]
-						L.rectangle(boundbox, rectObj3, {renderer}).addTo(this.map);
-
-						mapcode = zone.zone + ' ' + this.pad3(block) + ' ' + this.pad3(unit) + '*55  '
-
-  					}
-  				}
-  			})
-
-  			zones = lat + "," + lon + " " + zones
 			var domLocation = document.getElementById('location')
-  			domLocation.innerHTML = zones
+  			domLocation.innerHTML = lat + "," + lon
 
 			var domMapCode = document.getElementById('mapcode')
-  			domMapCode.innerHTML = mapcode
+  			domMapCode.innerHTML = Zone.mapCode(lat, lon)
+
+			var domInfoBox = document.getElementById('infobox')
+  			domInfoBox.innerHTML = Zone.infobox(lat, lon)
+
 
 		},
 
@@ -180,8 +155,7 @@ export default {
 		initMap(){
 
 			var L = window.L
-	        // var map = L.map('map').setView([34.840859, 136.856689], 7)
-	        var map = L.map('map').setView([36.4197371,138.2987309], 12)
+	        var map = L.map('map').setView([36.4197371,138.2987309], 9)
 
 	        L.tileLayer(this.tiles, { maxZoom: 18 }).addTo(map)
 
@@ -190,26 +164,50 @@ export default {
 
 	        let me = this
 
-	        map.on('drag', function(evt) {
-	        	domLocation.innerHTML = map.getCenter()
-			});
+	        // map.on('drag', function(evt) {
+	        	// domLocation.innerHTML = map.getCenter()
+			// });
+
+			// map.on('keyup', function(e) {
+			// 	if (e.originalEvent.altKey) {
+
+			// 		switch (e.originalEvent.code) {
+			// 		case 'ArrowLeft':
+			// 		case 'ArrowRight':
+			// 			break;
+
+			// 		case 'ArrowUp':
+			// 			var zones = Zone.inZone(me.lat, me.lon)
+			// 			Zone.fix('up', zones[0])
+			// 			me.drawBox(me.lat, me.lon)
+			// 			break;
+			// 		case 'ArrowDown':
+			// 			var zones = Zone.inZone(me.lat, me.lon)
+			// 			Zone.fix('down', zones[0])
+			// 			me.drawBox(me.lat, me.lon)
+			// 			break;
+
+			// 		}
+			// 	}
+  			// 	// console.log(e)
+			// });
 
 			map.on('mousemove', function(e) {
-  				me.drawBox(e)
+  				me.lat = e.latlng.lat.toFixed(7)
+  				me.lon = e.latlng.lng.toFixed(7)
+  				me.drawBox(me.lat, me.lon)
 			});
 
 			map.on('click', function(e) {
 				const lat = e.latlng.lat.toFixed(7)
   				const lon = e.latlng.lng.toFixed(7)
-  				let   url = 'https://www.mapion.co.jp/f/mmail/send_mobile/SendMobile_map.html?'
-  				url += `lon=${lon}&lat=${lat}`
-  				console.log(url)
-  				window.open(url);
+  				let   url = `http://localhost/mapcode.php?lat=${lat}&lon=${lon}`
+  				// window.open(url);
 			});
 
-			// https://www.mapion.co.jp/f/mmail/send_mobile/SendMobile_map.html?lon=130.99586961830084&lat=34.272715550129554
-
 			this.map = map
+			this.first = false
+			// this.drawBoxes()
 
 		}
 	}

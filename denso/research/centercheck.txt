@@ -1,0 +1,2326 @@
+http://localhost/mapcode.php?lat=35.6283787&lon=139.74691&check=0
+ERROR 465 ≠ 0
+http://localhost/mapcode.php?lat=34.71171325&lon=135.4973238&check=1
+OK    1 = 1
+http://localhost/mapcode.php?lat=35.5450481&lon=139.49693455&check=2
+OK    2 = 2
+http://localhost/mapcode.php?lat=35.878350499999996&lon=139.74691&check=3
+OK    3 = 3
+http://localhost/mapcode.php?lat=35.2116875&lon=136.87219199999998&check=4
+OK    4 = 4
+http://localhost/mapcode.php?lat=35.7950199&lon=139.49693455&check=5
+OK    5 = 5
+http://localhost/mapcode.php?lat=35.711709299999995&lon=139.9969049&check=6
+OK    6 = 6
+http://localhost/mapcode.php?lat=34.96170105&lon=135.7472976&check=7
+OK    7 = 7
+http://localhost/mapcode.php?lat=35.37840515&lon=139.62192805&check=8
+OK    8 = 8
+http://localhost/mapcode.php?lat=43.04423195&lon=141.37142914999998&check=9
+OK    9 = 9
+http://localhost/mapcode.php?lat=34.461738749999995&lon=135.4973238&check=10
+OK    10 = 10
+http://localhost/mapcode.php?lat=34.71171325&lon=135.7472976&check=11
+OK    11 = 11
+http://localhost/mapcode.php?lat=34.71171325&lon=135.24735&check=12
+OK    12 = 12
+http://localhost/mapcode.php?lat=33.628398849999996&lon=130.3728423&check=13
+OK    13 = 13
+http://localhost/mapcode.php?lat=36.04498665&lon=139.49693455&check=14
+OK    14 = 14
+http://localhost/mapcode.php?lat=35.37840515&lon=139.3719694&check=15
+OK    15 = 15
+http://localhost/mapcode.php?lat=33.878412100000006&lon=130.87279415&check=16
+OK    16 = 16
+http://localhost/mapcode.php?lat=34.96170105&lon=136.9971901&check=17
+OK    17 = 17
+http://localhost/mapcode.php?lat=35.961684500000004&lon=139.9969049&check=18
+OK    18 = 18
+http://localhost/mapcode.php?lat=34.54507135&lon=133.87248085&check=19
+OK    19 = 19
+http://localhost/mapcode.php?lat=36.29496505&lon=139.1219726&check=20
+OK    20 = 20
+http://localhost/mapcode.php?lat=38.211457800000005&lon=140.8716859&check=21
+OK    21 = 21
+http://localhost/mapcode.php?lat=34.461738749999995&lon=132.49761105&check=22
+OK    22 = 22
+http://localhost/mapcode.php?lat=35.711709299999995&lon=139.24697025&check=23
+OK    23 = 23
+http://localhost/mapcode.php?lat=34.878368800000004&lon=134.7473913&check=24
+OK    24 = 24
+http://localhost/mapcode.php?lat=34.96170105&lon=138.37205775&check=25
+OK    25 = 25
+http://localhost/mapcode.php?lat=34.7950683&lon=137.74710495&check=26
+OK    26 = 26
+http://localhost/mapcode.php?lat=35.6283787&lon=140.24686830000002&check=27
+OK    27 = 27
+http://localhost/mapcode.php?lat=35.37840515&lon=136.74720285&check=28
+OK    28 = 28
+http://localhost/mapcode.php?lat=32.79516065&lon=130.74780045&check=29
+OK    29 = 29
+http://localhost/mapcode.php?lat=35.12839995&lon=137.12214195&check=30
+OK    30 = 30
+http://localhost/mapcode.php?lat=34.71171325&lon=134.997372&check=31
+OK    31 = 31
+http://localhost/mapcode.php?lat=37.79479465&lon=139.1219726&check=32
+OK    32 = 32
+http://localhost/mapcode.php?lat=26.295826249999998&lon=127.74820465&check=33
+OK    33 = 33
+http://localhost/mapcode.php?lat=36.29496505&lon=139.3719694&check=34
+OK    34 = 34
+http://localhost/mapcode.php?lat=34.295070100000004&lon=135.24735&check=35
+OK    35 = 35
+http://localhost/mapcode.php?lat=34.461738749999995&lon=135.7472976&check=36
+OK    36 = 36
+http://localhost/mapcode.php?lat=33.2951025&lon=130.49782184999998&check=37
+OK    37 = 37
+http://localhost/mapcode.php?lat=34.96170105&lon=136.6222167&check=38
+OK    38 = 38
+http://localhost/mapcode.php?lat=36.54494665&lon=139.9969049&check=39
+OK    39 = 39
+http://localhost/mapcode.php?lat=36.7115169&lon=137.12214195&check=40
+OK    40 = 40
+http://localhost/mapcode.php?lat=36.54494665&lon=136.6222167&check=41
+OK    41 = 41
+http://localhost/mapcode.php?lat=31.71195635&lon=130.62281625&check=42
+OK    42 = 42
+http://localhost/mapcode.php?lat=34.7950683&lon=137.49715145&check=43
+OK    43 = 43
+http://localhost/mapcode.php?lat=32.79516065&lon=129.9978668&check=44
+OK    44 = 44
+http://localhost/mapcode.php?lat=36.1283239&lon=139.74691&check=45
+OK    45 = 45
+http://localhost/mapcode.php?lat=33.2951025&lon=131.4977278&check=46
+OK    46 = 46
+http://localhost/mapcode.php?lat=36.461593449999995&lon=140.4966981&check=47
+OK    47 = 47
+http://localhost/mapcode.php?lat=34.461738749999995&lon=133.2475287&check=48
+OK    48 = 48
+http://localhost/mapcode.php?lat=35.37840515&lon=139.9969049&check=49
+OK    49 = 49
+http://localhost/mapcode.php?lat=35.2116875&lon=138.8719971&check=50
+OK    50 = 50
+http://localhost/mapcode.php?lat=34.878368800000004&lon=137.24717149999998&check=51
+OK    51 = 51
+http://localhost/mapcode.php?lat=34.96170105&lon=135.4973238&check=52
+OK    52 = 52
+http://localhost/mapcode.php?lat=33.878412100000006&lon=132.74759115&check=53
+OK    53 = 53
+http://localhost/mapcode.php?lat=36.7115169&lon=138.24700324999998&check=54
+OK    54 = 54
+http://localhost/mapcode.php?lat=33.54507505&lon=130.62281625&check=55
+OK    55 = 55
+http://localhost/mapcode.php?lat=34.1284306&lon=134.49742275&check=56
+OK    56 = 56
+http://localhost/mapcode.php?lat=35.29507135&lon=139.1219726&check=57
+OK    57 = 57
+http://localhost/mapcode.php?lat=37.54480625&lon=138.8719971&check=58
+OK    58 = 58
+http://localhost/mapcode.php?lat=35.6283787&lon=138.62203175000002&check=59
+OK    59 = 59
+http://localhost/mapcode.php?lat=34.295070100000004&lon=134.1224692&check=60
+OK    60 = 60
+http://localhost/mapcode.php?lat=37.294852399999996&lon=140.3718366&check=61
+OK    61 = 61
+http://localhost/mapcode.php?lat=38.3780906&lon=140.3718366&check=62
+OK    62 = 62
+http://localhost/mapcode.php?lat=36.04498665&lon=136.2472403&check=63
+OK    63 = 63
+http://localhost/mapcode.php?lat=36.29496505&lon=139.62192805&check=64
+OK    64 = 64
+http://localhost/mapcode.php?lat=35.961684500000004&lon=140.24686830000002&check=65
+OK    65 = 65
+http://localhost/mapcode.php?lat=31.9619364&lon=131.3727654&check=66
+OK    66 = 66
+http://localhost/mapcode.php?lat=35.045057549999996&lon=136.1222377&check=67
+OK    67 = 67
+http://localhost/mapcode.php?lat=33.79505235&lon=130.62281625&check=68
+OK    68 = 68
+http://localhost/mapcode.php?lat=33.04512985&lon=130.49782184999998&check=69
+OK    69 = 69
+http://localhost/mapcode.php?lat=35.4616991&lon=136.9971901&check=70
+OK    70 = 70
+http://localhost/mapcode.php?lat=40.711155500000004&lon=140.4966981&check=71
+OK    71 = 71
+http://localhost/mapcode.php?lat=35.2116875&lon=138.62203175000002&check=72
+OK    72 = 72
+http://localhost/mapcode.php?lat=33.628398849999996&lon=133.62251315&check=73
+OK    73 = 73
+http://localhost/mapcode.php?lat=36.378257950000005&lon=139.87185055&check=74
+OK    74 = 74
+http://localhost/mapcode.php?lat=36.1283239&lon=137.9970468&check=75
+OK    75 = 75
+http://localhost/mapcode.php?lat=37.87814295&lon=140.4966981&check=76
+OK    76 = 76
+http://localhost/mapcode.php?lat=34.2117478&lon=133.74748525&check=77
+OK    77 = 77
+http://localhost/mapcode.php?lat=35.29507135&lon=136.6222167&check=78
+ERROR 28 ≠ 78
+http://localhost/mapcode.php?lat=43.79416555&lon=142.37126675000002&check=79
+OK    79 = 79
+http://localhost/mapcode.php?lat=34.628389600000006&lon=136.49723039999998&check=80
+OK    80 = 80
+http://localhost/mapcode.php?lat=39.627957699999996&lon=141.12153575&check=81
+OK    81 = 81
+http://localhost/mapcode.php?lat=37.044908750000005&lon=140.8716859&check=82
+OK    82 = 82
+http://localhost/mapcode.php?lat=34.71171325&lon=138.12209625&check=83
+OK    83 = 83
+http://localhost/mapcode.php?lat=40.62783205&lon=141.37142914999998&check=84
+OK    84 = 84
+http://localhost/mapcode.php?lat=36.29496505&lon=138.37205775&check=85
+OK    85 = 85
+http://localhost/mapcode.php?lat=41.877714749999996&lon=140.74663395&check=86
+OK    86 = 86
+http://localhost/mapcode.php?lat=33.2951025&lon=130.24783785&check=87
+OK    87 = 87
+http://localhost/mapcode.php?lat=39.794593750000004&lon=139.9969049&check=88
+OK    88 = 88
+http://localhost/mapcode.php?lat=33.2951025&lon=129.62290285&check=89
+OK    89 = 89
+http://localhost/mapcode.php?lat=38.7947035&lon=139.87185055&check=90
+OK    90 = 90
+http://localhost/mapcode.php?lat=35.961684500000004&lon=139.24697025&check=91
+OK    91 = 91
+http://localhost/mapcode.php?lat=35.7950199&lon=140.62179435000002&check=92
+OK    92 = 92
+http://localhost/mapcode.php?lat=34.1284306&lon=131.4977278&check=93
+OK    93 = 93
+http://localhost/mapcode.php?lat=36.378257950000005&lon=138.9969751&check=94
+ERROR 20 ≠ 94
+http://localhost/mapcode.php?lat=34.04507175&lon=131.2477376&check=95
+OK    95 = 95
+http://localhost/mapcode.php?lat=33.628398849999996&lon=130.87279415&check=96
+OK    96 = 96
+http://localhost/mapcode.php?lat=37.54480625&lon=139.87185055&check=97
+OK    97 = 97
+http://localhost/mapcode.php?lat=35.37840515&lon=137.24717149999998&check=98
+OK    98 = 98
+http://localhost/mapcode.php?lat=40.794475000000006&lon=140.74663395&check=99
+OK    99 = 99
+http://localhost/mapcode.php?lat=36.7115169&lon=140.74663395&check=100
+OK    100 = 100
+http://localhost/mapcode.php?lat=35.29507135&lon=136.2472403&check=101
+OK    101 = 101
+http://localhost/mapcode.php?lat=34.295070100000004&lon=132.62257945&check=102
+OK    102 = 102
+http://localhost/mapcode.php?lat=34.295070100000004&lon=132.24762735000002&check=103
+OK    103 = 103
+http://localhost/mapcode.php?lat=33.2118012&lon=129.9978668&check=104
+OK    104 = 104
+http://localhost/mapcode.php?lat=38.54473435&lon=141.2466238&check=105
+OK    105 = 105
+http://localhost/mapcode.php?lat=34.3784251&lon=135.3723528&check=106
+ERROR 10 ≠ 106
+http://localhost/mapcode.php?lat=34.04507175&lon=131.87267085&check=107
+OK    107 = 107
+http://localhost/mapcode.php?lat=39.29464855&lon=141.12153575&check=108
+OK    108 = 108
+http://localhost/mapcode.php?lat=35.4616991&lon=133.2475287&check=109
+OK    109 = 109
+http://localhost/mapcode.php?lat=38.3780906&lon=140.99669755000002&check=110
+OK    110 = 110
+http://localhost/mapcode.php?lat=34.628389600000006&lon=133.62251315&check=111
+OK    111 = 111
+http://localhost/mapcode.php?lat=36.211663099999996&lon=140.24686830000002&check=112
+OK    112 = 112
+http://localhost/mapcode.php?lat=42.710938999999996&lon=141.62139845000002&check=113
+OK    113 = 113
+http://localhost/mapcode.php?lat=34.878368800000004&lon=134.49742275&check=114
+OK    114 = 114
+http://localhost/mapcode.php?lat=34.04507175&lon=132.1226347&check=115
+OK    115 = 115
+http://localhost/mapcode.php?lat=35.045057549999996&lon=138.9969751&check=116
+OK    116 = 116
+http://localhost/mapcode.php?lat=31.71195635&lon=131.1227971&check=117
+OK    117 = 117
+http://localhost/mapcode.php?lat=34.461738749999995&lon=136.74720285&check=118
+OK    118 = 118
+http://localhost/mapcode.php?lat=33.961750300000006&lon=133.12256285&check=119
+OK    119 = 119
+http://localhost/mapcode.php?lat=36.378257950000005&lon=136.3722173&check=120
+OK    120 = 120
+http://localhost/mapcode.php?lat=36.878220049999996&lon=139.9969049&check=121
+OK    121 = 121
+http://localhost/mapcode.php?lat=36.62823125&lon=136.87219199999998&check=122
+OK    122 = 122
+http://localhost/mapcode.php?lat=36.211663099999996&lon=139.9969049&check=123
+OK    123 = 123
+http://localhost/mapcode.php?lat=42.8776103&lon=143.1212697&check=124
+OK    124 = 124
+http://localhost/mapcode.php?lat=35.4616991&lon=134.24743535&check=125
+OK    125 = 125
+http://localhost/mapcode.php?lat=37.128172649999996&lon=138.24700324999998&check=126
+OK    126 = 126
+http://localhost/mapcode.php?lat=38.044779649999995&lon=140.12180965&check=127
+OK    127 = 127
+http://localhost/mapcode.php?lat=32.5451902&lon=130.62281625&check=128
+OK    128 = 128
+http://localhost/mapcode.php?lat=37.54480625&lon=140.4966981&check=129
+OK    129 = 129
+http://localhost/mapcode.php?lat=35.37840515&lon=140.24686830000002&check=130
+OK    130 = 130
+http://localhost/mapcode.php?lat=34.71171325&lon=136.1222377&check=131
+OK    131 = 131
+http://localhost/mapcode.php?lat=36.62823125&lon=139.74691&check=132
+OK    132 = 132
+http://localhost/mapcode.php?lat=34.96170105&lon=134.997372&check=133
+OK    133 = 133
+http://localhost/mapcode.php?lat=35.37840515&lon=132.87256209999998&check=134
+OK    134 = 134
+http://localhost/mapcode.php?lat=36.9615109&lon=136.87219199999998&check=135
+OK    135 = 135
+http://localhost/mapcode.php?lat=32.461870950000005&lon=131.622715&check=136
+OK    136 = 136
+http://localhost/mapcode.php?lat=35.711709299999995&lon=140.3718366&check=137
+OK    137 = 137
+http://localhost/mapcode.php?lat=39.37797775&lon=140.4966981&check=138
+OK    138 = 138
+http://localhost/mapcode.php?lat=43.1276039&lon=141.62139845000002&check=139
+OK    139 = 139
+http://localhost/mapcode.php?lat=37.21153765&lon=138.8719971&check=140
+OK    140 = 140
+http://localhost/mapcode.php?lat=38.6280707&lon=140.99669755000002&check=141
+OK    141 = 141
+http://localhost/mapcode.php?lat=39.0446926&lon=141.12153575&check=142
+OK    142 = 142
+http://localhost/mapcode.php?lat=35.6283787&lon=137.87210535&check=143
+OK    143 = 143
+http://localhost/mapcode.php?lat=36.7115169&lon=137.37212184999998&check=144
+OK    144 = 144
+http://localhost/mapcode.php?lat=33.54507505&lon=131.2477376&check=145
+OK    145 = 145
+http://localhost/mapcode.php?lat=34.04507175&lon=135.24735&check=146
+OK    146 = 146
+http://localhost/mapcode.php?lat=31.71195635&lon=130.3728423&check=147
+OK    147 = 147
+http://localhost/mapcode.php?lat=34.96170105&lon=135.99725635&check=148
+ERROR 67 ≠ 148
+http://localhost/mapcode.php?lat=43.04423195&lon=144.37114730000002&check=149
+OK    149 = 149
+http://localhost/mapcode.php?lat=36.04498665&lon=139.1219726&check=150
+ERROR 91 ≠ 150
+http://localhost/mapcode.php?lat=34.71171325&lon=134.1224692&check=151
+OK    151 = 151
+http://localhost/mapcode.php?lat=35.045057549999996&lon=136.74720285&check=152
+OK    152 = 152
+http://localhost/mapcode.php?lat=35.045057549999996&lon=133.99744285&check=153
+OK    153 = 153
+http://localhost/mapcode.php?lat=34.295070100000004&lon=132.9975601&check=154
+OK    154 = 154
+http://localhost/mapcode.php?lat=34.96170105&lon=135.24735&check=155
+OK    155 = 155
+http://localhost/mapcode.php?lat=38.044779649999995&lon=140.74663395&check=156
+OK    156 = 156
+http://localhost/mapcode.php?lat=37.96145625&lon=139.3719694&check=157
+OK    157 = 157
+http://localhost/mapcode.php?lat=36.378257950000005&lon=137.87210535&check=158
+OK    158 = 158
+http://localhost/mapcode.php?lat=42.377662799999996&lon=140.99669755000002&check=159
+OK    159 = 159
+http://localhost/mapcode.php?lat=34.1284306&lon=134.24743535&check=160
+OK    160 = 160
+http://localhost/mapcode.php?lat=35.5450481&lon=138.8719971&check=161
+OK    161 = 161
+http://localhost/mapcode.php?lat=36.04498665&lon=140.4966981&check=162
+OK    162 = 162
+http://localhost/mapcode.php?lat=35.4616991&lon=132.9975601&check=163
+OK    163 = 163
+http://localhost/mapcode.php?lat=43.1276039&lon=140.8716859&check=164
+OK    164 = 164
+http://localhost/mapcode.php?lat=35.2116875&lon=135.12235809999999&check=165
+OK    165 = 165
+http://localhost/mapcode.php?lat=33.2951025&lon=130.74780045&check=166
+OK    166 = 166
+http://localhost/mapcode.php?lat=35.711709299999995&lon=138.37205775&check=167
+OK    167 = 167
+http://localhost/mapcode.php?lat=34.54507135&lon=132.74759115&check=168
+OK    168 = 168
+http://localhost/mapcode.php?lat=34.7950683&lon=137.9970468&check=169
+ERROR 83 ≠ 169
+http://localhost/mapcode.php?lat=31.2953316&lon=130.87279415&check=170
+OK    170 = 170
+http://localhost/mapcode.php?lat=35.878350499999996&lon=137.9970468&check=171
+OK    171 = 171
+http://localhost/mapcode.php?lat=33.878412100000006&lon=133.37254565&check=172
+OK    172 = 172
+http://localhost/mapcode.php?lat=32.7118299&lon=130.24783785&check=173
+OK    173 = 173
+http://localhost/mapcode.php?lat=35.37840515&lon=135.3723528&check=174
+OK    174 = 174
+http://localhost/mapcode.php?lat=33.04512985&lon=130.74780045&check=175
+OK    175 = 175
+http://localhost/mapcode.php?lat=33.2951025&lon=132.62257945&check=176
+OK    176 = 176
+http://localhost/mapcode.php?lat=36.461593449999995&lon=138.12209625&check=177
+OK    177 = 177
+http://localhost/mapcode.php?lat=35.5450481&lon=137.49715145&check=178
+OK    178 = 178
+http://localhost/mapcode.php?lat=43.62750665&lon=141.99633075&check=179
+OK    179 = 179
+http://localhost/mapcode.php?lat=43.2942097&lon=141.87138055&check=180
+OK    180 = 180
+http://localhost/mapcode.php?lat=33.4618018&lon=133.37254565&check=181
+OK    181 = 181
+http://localhost/mapcode.php?lat=33.4618018&lon=129.9978668&check=182
+OK    182 = 182
+http://localhost/mapcode.php?lat=36.62823125&lon=138.9969751&check=183
+OK    183 = 183
+http://localhost/mapcode.php?lat=33.79505235&lon=135.3723528&check=184
+OK    184 = 184
+http://localhost/mapcode.php?lat=43.79416555&lon=143.9961262&check=185
+OK    185 = 185
+http://localhost/mapcode.php?lat=33.04512985&lon=131.87267085&check=186
+OK    186 = 186
+http://localhost/mapcode.php?lat=37.3781676&lon=138.62203175000002&check=187
+OK    187 = 187
+http://localhost/mapcode.php?lat=36.461593449999995&lon=140.24686830000002&check=188
+OK    188 = 188
+http://localhost/mapcode.php?lat=35.37840515&lon=133.74748525&check=189
+OK    189 = 189
+http://localhost/mapcode.php?lat=37.79479465&lon=138.8719971&check=190
+OK    190 = 190
+http://localhost/mapcode.php?lat=36.211663099999996&lon=137.24717149999998&check=191
+OK    191 = 191
+http://localhost/mapcode.php?lat=35.5450481&lon=136.1222377&check=192
+OK    192 = 192
+http://localhost/mapcode.php?lat=38.9613839&lon=141.62139845000002&check=193
+OK    193 = 193
+http://localhost/mapcode.php?lat=35.4616991&lon=134.87236205&check=194
+OK    194 = 194
+http://localhost/mapcode.php?lat=32.1285649&lon=130.74780045&check=195
+OK    195 = 195
+http://localhost/mapcode.php?lat=34.71171325&lon=136.9971901&check=196
+OK    196 = 196
+http://localhost/mapcode.php?lat=35.6283787&lon=135.12235809999999&check=197
+OK    197 = 197
+http://localhost/mapcode.php?lat=31.37865805&lon=130.3728423&check=198
+OK    198 = 198
+http://localhost/mapcode.php?lat=38.7947035&lon=141.2466238&check=199
+OK    199 = 199
+http://localhost/mapcode.php?lat=35.878350499999996&lon=136.1222377&check=200
+OK    200 = 200
+http://localhost/mapcode.php?lat=34.628389600000006&lon=133.37254565&check=201
+OK    201 = 201
+http://localhost/mapcode.php?lat=33.2118012&lon=130.99776115&check=202
+OK    202 = 202
+http://localhost/mapcode.php?lat=37.128172649999996&lon=140.12180965&check=203
+OK    203 = 203
+http://localhost/mapcode.php?lat=33.54507505&lon=132.49761105&check=204
+OK    204 = 204
+http://localhost/mapcode.php?lat=34.2117478&lon=135.6223446&check=205
+OK    205 = 205
+http://localhost/mapcode.php?lat=26.54580085&lon=127.87318905000001&check=206
+OK    206 = 206
+http://localhost/mapcode.php?lat=33.961750300000006&lon=133.62251315&check=207
+OK    207 = 207
+http://localhost/mapcode.php?lat=37.711484999999996&lon=140.8716859&check=208
+OK    208 = 208
+http://localhost/mapcode.php?lat=40.2945439&lon=141.37142914999998&check=209
+OK    209 = 209
+http://localhost/mapcode.php?lat=34.3784251&lon=134.87236205&check=210
+OK    210 = 210
+http://localhost/mapcode.php?lat=35.045057549999996&lon=139.87185055&check=211
+OK    211 = 211
+http://localhost/mapcode.php?lat=39.1279977&lon=140.4966981&check=212
+OK    212 = 212
+http://localhost/mapcode.php?lat=34.878368800000004&lon=136.3722173&check=213
+OK    213 = 213
+http://localhost/mapcode.php?lat=35.7950199&lon=140.8716859&check=214
+OK    214 = 214
+http://localhost/mapcode.php?lat=40.711155500000004&lon=141.12153575&check=215
+OK    215 = 215
+http://localhost/mapcode.php?lat=31.71195635&lon=130.87279415&check=216
+OK    216 = 216
+http://localhost/mapcode.php?lat=33.878412100000006&lon=134.62240585&check=217
+OK    217 = 217
+http://localhost/mapcode.php?lat=35.961684500000004&lon=138.24700324999998&check=218
+OK    218 = 218
+http://localhost/mapcode.php?lat=32.211910700000004&lon=131.4977278&check=219
+OK    219 = 219
+http://localhost/mapcode.php?lat=36.878220049999996&lon=137.49715145&check=220
+OK    220 = 220
+http://localhost/mapcode.php?lat=38.7947035&lon=140.24686830000002&check=221
+OK    221 = 221
+http://localhost/mapcode.php?lat=36.7115169&lon=140.24686830000002&check=222
+OK    222 = 222
+http://localhost/mapcode.php?lat=40.12788575&lon=140.12180965&check=223
+OK    223 = 223
+http://localhost/mapcode.php?lat=33.54507505&lon=130.24783785&check=224
+ERROR 13 ≠ 224
+http://localhost/mapcode.php?lat=37.044908750000005&lon=140.3718366&check=225
+OK    225 = 225
+http://localhost/mapcode.php?lat=32.1285649&lon=130.3728423&check=226
+OK    226 = 226
+http://localhost/mapcode.php?lat=31.9619364&lon=130.99776115&check=227
+OK    227 = 227
+http://localhost/mapcode.php?lat=34.1284306&lon=133.99744285&check=228
+OK    228 = 228
+http://localhost/mapcode.php?lat=40.2112053&lon=140.4966981&check=229
+OK    229 = 229
+http://localhost/mapcode.php?lat=42.96094005&lon=141.62139845000002&check=230
+OK    230 = 230
+http://localhost/mapcode.php?lat=39.29464855&lon=139.9969049&check=231
+OK    231 = 231
+http://localhost/mapcode.php?lat=26.1291753&lon=127.74820465&check=232
+OK    232 = 232
+http://localhost/mapcode.php?lat=34.96170105&lon=134.24743535&check=233
+OK    233 = 233
+http://localhost/mapcode.php?lat=33.628398849999996&lon=132.74759115&check=234
+OK    234 = 234
+http://localhost/mapcode.php?lat=34.96170105&lon=133.74748525&check=235
+OK    235 = 235
+http://localhost/mapcode.php?lat=34.878368800000004&lon=133.4975103&check=236
+OK    236 = 236
+http://localhost/mapcode.php?lat=33.04512985&lon=131.4977278&check=237
+OK    237 = 237
+http://localhost/mapcode.php?lat=31.461981950000002&lon=131.1227971&check=238
+OK    238 = 238
+http://localhost/mapcode.php?lat=36.29496505&lon=140.4966981&check=239
+OK    239 = 239
+http://localhost/mapcode.php?lat=35.961684500000004&lon=136.49723039999998&check=240
+OK    240 = 240
+http://localhost/mapcode.php?lat=34.96170105&lon=132.1226347&check=241
+OK    241 = 241
+http://localhost/mapcode.php?lat=35.4616991&lon=136.49723039999998&check=242
+OK    242 = 242
+http://localhost/mapcode.php?lat=34.295070100000004&lon=131.3727654&check=243
+OK    243 = 243
+http://localhost/mapcode.php?lat=34.7950683&lon=132.74759115&check=244
+OK    244 = 244
+http://localhost/mapcode.php?lat=33.04512985&lon=132.62257945&check=245
+OK    245 = 245
+http://localhost/mapcode.php?lat=33.79505235&lon=135.99725635&check=246
+OK    246 = 246
+http://localhost/mapcode.php?lat=36.211663099999996&lon=138.8719971&check=247
+OK    247 = 247
+http://localhost/mapcode.php?lat=34.7950683&lon=138.8719971&check=248
+OK    248 = 248
+http://localhost/mapcode.php?lat=39.8779133&lon=141.12153575&check=249
+OK    249 = 249
+http://localhost/mapcode.php?lat=38.211457800000005&lon=139.49693455&check=250
+OK    250 = 250
+http://localhost/mapcode.php?lat=35.5450481&lon=139.24697025&check=251
+OK    251 = 251
+http://localhost/mapcode.php?lat=35.37840515&lon=133.4975103&check=252
+OK    252 = 252
+http://localhost/mapcode.php?lat=37.044908750000005&lon=138.74696985&check=253
+OK    253 = 253
+http://localhost/mapcode.php?lat=32.461870950000005&lon=130.24783785&check=254
+OK    254 = 254
+http://localhost/mapcode.php?lat=34.3784251&lon=136.49723039999998&check=255
+OK    255 = 255
+http://localhost/mapcode.php?lat=32.878481199999996&lon=131.1227971&check=256
+OK    256 = 256
+http://localhost/mapcode.php?lat=34.54507135&lon=132.9975601&check=257
+OK    257 = 257
+http://localhost/mapcode.php?lat=35.29507135&lon=132.62257945&check=258
+OK    258 = 258
+http://localhost/mapcode.php?lat=39.37797775&lon=141.87138055&check=259
+OK    259 = 259
+http://localhost/mapcode.php?lat=37.461536699999996&lon=140.99669755000002&check=260
+OK    260 = 260
+http://localhost/mapcode.php?lat=36.54494665&lon=139.24697025&check=261
+OK    261 = 261
+http://localhost/mapcode.php?lat=32.878481199999996&lon=129.74789470000002&check=262
+OK    262 = 262
+http://localhost/mapcode.php?lat=35.29507135&lon=135.99725635&check=263
+OK    263 = 263
+http://localhost/mapcode.php?lat=36.29496505&lon=136.2472403&check=264
+ERROR 120 ≠ 264
+http://localhost/mapcode.php?lat=33.54507505&lon=131.622715&check=265
+OK    265 = 265
+http://localhost/mapcode.php?lat=34.54507135&lon=135.99725635&check=266
+OK    266 = 266
+http://localhost/mapcode.php?lat=34.7950683&lon=132.9975601&check=267
+OK    267 = 267
+http://localhost/mapcode.php?lat=34.2117478&lon=130.99776115&check=268
+OK    268 = 268
+http://localhost/mapcode.php?lat=33.2951025&lon=131.2477376&check=269
+OK    269 = 269
+http://localhost/mapcode.php?lat=31.9619364&lon=130.49782184999998&check=270
+OK    270 = 270
+http://localhost/mapcode.php?lat=35.5450481&lon=140.4966981&check=271
+OK    271 = 271
+http://localhost/mapcode.php?lat=44.2941044&lon=142.37126675000002&check=272
+OK    272 = 272
+http://localhost/mapcode.php?lat=38.211457800000005&lon=140.24686830000002&check=273
+OK    273 = 273
+http://localhost/mapcode.php?lat=31.62862895&lon=131.3727654&check=274
+OK    274 = 274
+http://localhost/mapcode.php?lat=34.7950683&lon=133.87248085&check=275
+OK    275 = 275
+http://localhost/mapcode.php?lat=32.878481199999996&lon=132.87256209999998&check=276
+OK    276 = 276
+http://localhost/mapcode.php?lat=34.71171325&lon=131.87267085&check=277
+OK    277 = 277
+http://localhost/mapcode.php?lat=37.96145625&lon=138.37205775&check=278
+OK    278 = 278
+http://localhost/mapcode.php?lat=34.878368800000004&lon=138.24700324999998&check=279
+ERROR 25 ≠ 279
+http://localhost/mapcode.php?lat=39.627957699999996&lon=140.62179435000002&check=280
+OK    280 = 280
+http://localhost/mapcode.php?lat=35.12839995&lon=137.37212184999998&check=281
+OK    281 = 281
+http://localhost/mapcode.php?lat=35.37840515&lon=135.6223446&check=282
+OK    282 = 282
+http://localhost/mapcode.php?lat=37.294852399999996&lon=136.87219199999998&check=283
+OK    283 = 283
+http://localhost/mapcode.php?lat=41.294411499999995&lon=141.2466238&check=284
+OK    284 = 284
+http://localhost/mapcode.php?lat=31.2953316&lon=130.62281625&check=285
+OK    285 = 285
+http://localhost/mapcode.php?lat=39.711274&lon=141.87138055&check=286
+OK    286 = 286
+http://localhost/mapcode.php?lat=35.2116875&lon=140.3718366&check=287
+OK    287 = 287
+http://localhost/mapcode.php?lat=36.461593449999995&lon=137.12214195&check=288
+OK    288 = 288
+http://localhost/mapcode.php?lat=35.6283787&lon=136.87219199999998&check=289
+OK    289 = 289
+http://localhost/mapcode.php?lat=35.2116875&lon=136.49723039999998&check=290
+ERROR 78 ≠ 290
+http://localhost/mapcode.php?lat=32.6285199&lon=130.87279415&check=291
+OK    291 = 291
+http://localhost/mapcode.php?lat=36.29496505&lon=138.62203175000002&check=292
+OK    292 = 292
+http://localhost/mapcode.php?lat=36.9615109&lon=138.37205775&check=293
+OK    293 = 293
+http://localhost/mapcode.php?lat=33.71177085&lon=132.9975601&check=294
+OK    294 = 294
+http://localhost/mapcode.php?lat=36.54494665&lon=138.74696985&check=295
+OK    295 = 295
+http://localhost/mapcode.php?lat=40.2945439&lon=141.74644425&check=296
+OK    296 = 296
+http://localhost/mapcode.php?lat=40.2112053&lon=140.74663395&check=297
+OK    297 = 297
+http://localhost/mapcode.php?lat=37.21153765&lon=138.4969746&check=298
+OK    298 = 298
+http://localhost/mapcode.php?lat=32.1285649&lon=130.12285945&check=299
+OK    299 = 299
+http://localhost/mapcode.php?lat=37.294852399999996&lon=140.62179435000002&check=300
+OK    300 = 300
+http://localhost/mapcode.php?lat=35.045057549999996&lon=137.6221208&check=301
+OK    301 = 301
+http://localhost/mapcode.php?lat=33.878412100000006&lon=135.12235809999999&check=302
+OK    302 = 302
+http://localhost/mapcode.php?lat=39.627957699999996&lon=140.24686830000002&check=303
+OK    303 = 303
+http://localhost/mapcode.php?lat=35.12839995&lon=134.49742275&check=304
+OK    304 = 304
+http://localhost/mapcode.php?lat=43.96084845&lon=144.2461036&check=305
+OK    305 = 305
+http://localhost/mapcode.php?lat=35.2116875&lon=139.74691&check=306
+OK    306 = 306
+http://localhost/mapcode.php?lat=33.128482950000006&lon=129.74789470000002&check=307
+OK    307 = 307
+http://localhost/mapcode.php?lat=39.0446926&lon=141.37142914999998&check=308
+OK    308 = 308
+http://localhost/mapcode.php?lat=35.12839995&lon=140.12180965&check=309
+OK    309 = 309
+http://localhost/mapcode.php?lat=24.795814749999998&lon=125.37324435&check=310
+OK    310 = 310
+http://localhost/mapcode.php?lat=34.71171325&lon=137.24717149999998&check=311
+OK    311 = 311
+http://localhost/mapcode.php?lat=35.4616991&lon=138.4969746&check=312
+OK    312 = 312
+http://localhost/mapcode.php?lat=35.37840515&lon=137.74710495&check=313
+OK    313 = 313
+http://localhost/mapcode.php?lat=37.044908750000005&lon=137.87210535&check=314
+OK    314 = 314
+http://localhost/mapcode.php?lat=36.79493035&lon=139.87185055&check=315
+ERROR 121 ≠ 315
+http://localhost/mapcode.php?lat=40.87778695&lon=140.3718366&check=316
+OK    316 = 316
+http://localhost/mapcode.php?lat=38.6280707&lon=140.74663395&check=317
+OK    317 = 317
+http://localhost/mapcode.php?lat=37.54480625&lon=139.1219726&check=318
+OK    318 = 318
+http://localhost/mapcode.php?lat=38.87803425&lon=140.99669755000002&check=319
+OK    319 = 319
+http://localhost/mapcode.php?lat=42.96094005&lon=141.87138055&check=320
+OK    320 = 320
+http://localhost/mapcode.php?lat=42.544268450000004&lon=140.8716859&check=321
+OK    321 = 321
+http://localhost/mapcode.php?lat=34.71171325&lon=132.49761105&check=322
+OK    322 = 322
+http://localhost/mapcode.php?lat=40.46117565&lon=140.62179435000002&check=323
+OK    323 = 323
+http://localhost/mapcode.php?lat=33.54507505&lon=135.8723087&check=324
+OK    324 = 324
+http://localhost/mapcode.php?lat=32.961799150000004&lon=130.24783785&check=325
+OK    325 = 325
+http://localhost/mapcode.php?lat=34.878368800000004&lon=133.2475287&check=326
+OK    326 = 326
+http://localhost/mapcode.php?lat=34.295070100000004&lon=131.1227971&check=327
+OK    327 = 327
+http://localhost/mapcode.php?lat=33.128482950000006&lon=131.74769125&check=328
+ERROR 186 ≠ 328
+http://localhost/mapcode.php?lat=37.3781676&lon=137.24717149999998&check=329
+OK    329 = 329
+http://localhost/mapcode.php?lat=32.6285199&lon=131.2477376&check=330
+OK    330 = 330
+http://localhost/mapcode.php?lat=34.1284306&lon=136.2472403&check=331
+OK    331 = 331
+http://localhost/mapcode.php?lat=37.96145625&lon=140.8716859&check=332
+OK    332 = 332
+http://localhost/mapcode.php?lat=32.2952207&lon=130.99776115&check=333
+OK    333 = 333
+http://localhost/mapcode.php?lat=32.7118299&lon=128.74798625&check=334
+OK    334 = 334
+http://localhost/mapcode.php?lat=33.54507505&lon=133.87248085&check=335
+OK    335 = 335
+http://localhost/mapcode.php?lat=36.79493035&lon=136.74720285&check=336
+OK    336 = 336
+http://localhost/mapcode.php?lat=28.37882605&lon=129.49796600000002&check=337
+OK    337 = 337
+http://localhost/mapcode.php?lat=34.3784251&lon=136.87219199999998&check=338
+OK    338 = 338
+http://localhost/mapcode.php?lat=34.628389600000006&lon=134.87236205&check=339
+ERROR 31 ≠ 339
+http://localhost/mapcode.php?lat=36.04498665&lon=140.74663395&check=340
+OK    340 = 340
+http://localhost/mapcode.php?lat=36.62823125&lon=138.4969746&check=341
+OK    341 = 341
+http://localhost/mapcode.php?lat=34.54507135&lon=136.2472403&check=342
+OK    342 = 342
+http://localhost/mapcode.php?lat=43.04423195&lon=142.9962835&check=343
+OK    343 = 343
+http://localhost/mapcode.php?lat=35.2116875&lon=135.4973238&check=344
+OK    344 = 344
+http://localhost/mapcode.php?lat=35.4616991&lon=133.99744285&check=345
+OK    345 = 345
+http://localhost/mapcode.php?lat=40.46117565&lon=141.4965581&check=346
+OK    346 = 346
+http://localhost/mapcode.php?lat=35.2116875&lon=134.87236205&check=347
+OK    347 = 347
+http://localhost/mapcode.php?lat=35.711709299999995&lon=138.9969751&check=348
+OK    348 = 348
+http://localhost/mapcode.php?lat=43.460877&lon=142.49632830000002&check=349
+OK    349 = 349
+http://localhost/mapcode.php?lat=38.711396300000004&lon=140.4966981&check=350
+OK    350 = 350
+http://localhost/mapcode.php?lat=39.96122375&lon=139.87185055&check=351
+OK    351 = 351
+http://localhost/mapcode.php?lat=39.0446926&lon=139.87185055&check=352
+OK    352 = 352
+http://localhost/mapcode.php?lat=45.29395975&lon=141.74644425&check=353
+OK    353 = 353
+http://localhost/mapcode.php?lat=34.295070100000004&lon=131.99765235&check=354
+OK    354 = 354
+http://localhost/mapcode.php?lat=34.96170105&lon=132.37260859999998&check=355
+OK    355 = 355
+http://localhost/mapcode.php?lat=34.1284306&lon=132.87256209999998&check=356
+OK    356 = 356
+http://localhost/mapcode.php?lat=33.961750300000006&lon=133.87248085&check=357
+OK    357 = 357
+http://localhost/mapcode.php?lat=34.295070100000004&lon=131.74769125&check=358
+OK    358 = 358
+http://localhost/mapcode.php?lat=36.04498665&lon=138.4969746&check=359
+OK    359 = 359
+http://localhost/mapcode.php?lat=43.54418765&lon=141.87138055&check=360
+ERROR 179 ≠ 360
+http://localhost/mapcode.php?lat=35.7950199&lon=137.12214195&check=361
+OK    361 = 361
+http://localhost/mapcode.php?lat=33.2951025&lon=133.12256285&check=362
+OK    362 = 362
+http://localhost/mapcode.php?lat=34.54507135&lon=132.24762735000002&check=363
+OK    363 = 363
+http://localhost/mapcode.php?lat=34.3784251&lon=134.24743535&check=364
+OK    364 = 364
+http://localhost/mapcode.php?lat=35.5450481&lon=134.49742275&check=365
+OK    365 = 365
+http://localhost/mapcode.php?lat=24.46264365&lon=124.2483459&check=366
+OK    366 = 366
+http://localhost/mapcode.php?lat=36.79493035&lon=139.62192805&check=367
+OK    367 = 367
+http://localhost/mapcode.php?lat=35.29507135&lon=137.49715145&check=368
+OK    368 = 368
+http://localhost/mapcode.php?lat=42.8776103&lon=143.3712205&check=369
+OK    369 = 369
+http://localhost/mapcode.php?lat=33.878412100000006&lon=134.37245374999998&check=370
+OK    370 = 370
+http://localhost/mapcode.php?lat=34.7950683&lon=136.87219199999998&check=371
+ERROR 196 ≠ 371
+http://localhost/mapcode.php?lat=32.461870950000005&lon=130.49782184999998&check=372
+ERROR 128 ≠ 372
+http://localhost/mapcode.php?lat=39.211354850000006&lon=141.62139845000002&check=373
+OK    373 = 373
+http://localhost/mapcode.php?lat=34.2117478&lon=132.49761105&check=374
+ERROR 102 ≠ 374
+http://localhost/mapcode.php?lat=33.878412100000006&lon=130.3728423&check=375
+OK    375 = 375
+http://localhost/mapcode.php?lat=31.9619364&lon=130.74780045&check=376
+OK    376 = 376
+http://localhost/mapcode.php?lat=37.54480625&lon=140.24686830000002&check=377
+OK    377 = 377
+http://localhost/mapcode.php?lat=39.37797775&lon=141.2466238&check=378
+OK    378 = 378
+http://localhost/mapcode.php?lat=36.7115169&lon=140.4966981&check=379
+OK    379 = 379
+http://localhost/mapcode.php?lat=35.5450481&lon=135.8723087&check=380
+OK    380 = 380
+http://localhost/mapcode.php?lat=34.2117478&lon=133.12256285&check=381
+OK    381 = 381
+http://localhost/mapcode.php?lat=36.62823125&lon=137.9970468&check=382
+OK    382 = 382
+http://localhost/mapcode.php?lat=33.54507505&lon=130.99776115&check=383
+OK    383 = 383
+http://localhost/mapcode.php?lat=35.6283787&lon=137.24717149999998&check=384
+OK    384 = 384
+http://localhost/mapcode.php?lat=42.79424615&lon=140.8716859&check=385
+OK    385 = 385
+http://localhost/mapcode.php?lat=35.045057549999996&lon=137.87210535&check=386
+OK    386 = 386
+http://localhost/mapcode.php?lat=35.12839995&lon=133.62251315&check=387
+OK    387 = 387
+http://localhost/mapcode.php?lat=35.12839995&lon=132.9975601&check=388
+OK    388 = 388
+http://localhost/mapcode.php?lat=43.7108768&lon=142.49632830000002&check=389
+OK    389 = 389
+http://localhost/mapcode.php?lat=35.2116875&lon=134.24743535&check=390
+OK    390 = 390
+http://localhost/mapcode.php?lat=34.295070100000004&lon=133.87248085&check=391
+OK    391 = 391
+http://localhost/mapcode.php?lat=33.2951025&lon=132.87256209999998&check=392
+OK    392 = 392
+http://localhost/mapcode.php?lat=31.545294900000002&lon=130.62281625&check=393
+OK    393 = 393
+http://localhost/mapcode.php?lat=35.2116875&lon=139.62192805&check=394
+ERROR 306 ≠ 394
+http://localhost/mapcode.php?lat=40.12788575&lon=140.3718366&check=395
+ERROR 229 ≠ 395
+http://localhost/mapcode.php?lat=42.6276674&lon=143.24625565&check=396
+OK    396 = 396
+http://localhost/mapcode.php?lat=37.54480625&lon=139.62192805&check=397
+OK    397 = 397
+http://localhost/mapcode.php?lat=42.8776103&lon=140.62179435000002&check=398
+OK    398 = 398
+http://localhost/mapcode.php?lat=38.7947035&lon=141.4965581&check=399
+OK    399 = 399
+http://localhost/mapcode.php?lat=30.628744249999997&lon=130.99776115&check=400
+OK    400 = 400
+http://localhost/mapcode.php?lat=44.37744895&lon=143.24625565&check=401
+OK    401 = 401
+http://localhost/mapcode.php?lat=43.7108768&lon=143.62117125&check=402
+OK    402 = 402
+http://localhost/mapcode.php?lat=35.878350499999996&lon=136.87219199999998&check=403
+OK    403 = 403
+http://localhost/mapcode.php?lat=44.12749465&lon=143.62117125&check=404
+OK    404 = 404
+http://localhost/mapcode.php?lat=36.1283239&lon=137.74710495&check=405
+OK    405 = 405
+http://localhost/mapcode.php?lat=34.295070100000004&lon=134.7473913&check=406
+ERROR 210 ≠ 406
+http://localhost/mapcode.php?lat=38.294767050000004&lon=140.12180965&check=407
+ERROR 273 ≠ 407
+http://localhost/mapcode.php?lat=39.29464855&lon=140.24686830000002&check=408
+OK    408 = 408
+http://localhost/mapcode.php?lat=33.79505235&lon=129.74789470000002&check=409
+OK    409 = 409
+http://localhost/mapcode.php?lat=34.54507135&lon=131.622715&check=410
+OK    410 = 410
+http://localhost/mapcode.php?lat=32.878481199999996&lon=128.9980124&check=411
+OK    411 = 411
+http://localhost/mapcode.php?lat=40.37787505&lon=141.2466238&check=412
+ERROR 209 ≠ 412
+http://localhost/mapcode.php?lat=37.6281647&lon=139.9969049&check=413
+OK    413 = 413
+http://localhost/mapcode.php?lat=37.294852399999996&lon=138.74696985&check=414
+ERROR 140 ≠ 414
+http://localhost/mapcode.php?lat=32.79516065&lon=130.49782184999998&check=415
+OK    415 = 415
+http://localhost/mapcode.php?lat=43.96084845&lon=141.74644425&check=416
+OK    416 = 416
+http://localhost/mapcode.php?lat=37.128172649999996&lon=138.9969751&check=417
+OK    417 = 417
+http://localhost/mapcode.php?lat=35.12839995&lon=133.37254565&check=418
+OK    418 = 418
+http://localhost/mapcode.php?lat=33.54507505&lon=130.49782184999998&check=419
+ERROR 55 ≠ 419
+http://localhost/mapcode.php?lat=35.878350499999996&lon=137.74710495&check=420
+OK    420 = 420
+http://localhost/mapcode.php?lat=33.37846005&lon=134.1224692&check=421
+OK    421 = 421
+http://localhost/mapcode.php?lat=36.211663099999996&lon=139.3719694&check=422
+ERROR 34 ≠ 422
+http://localhost/mapcode.php?lat=43.2942097&lon=145.62101489999998&check=423
+OK    423 = 423
+http://localhost/mapcode.php?lat=43.1276039&lon=143.24625565&check=424
+OK    424 = 424
+http://localhost/mapcode.php?lat=37.044908750000005&lon=140.62179435000002&check=425
+OK    425 = 425
+http://localhost/mapcode.php?lat=33.37846005&lon=132.37260859999998&check=426
+OK    426 = 426
+http://localhost/mapcode.php?lat=33.628398849999996&lon=134.37245374999998&check=427
+OK    427 = 427
+http://localhost/mapcode.php?lat=35.5450481&lon=134.7473913&check=428
+ERROR 194 ≠ 428
+http://localhost/mapcode.php?lat=43.460877&lon=144.87107275&check=429
+OK    429 = 429
+http://localhost/mapcode.php?lat=35.045057549999996&lon=132.62257945&check=430
+OK    430 = 430
+http://localhost/mapcode.php?lat=32.211910700000004&lon=130.49782184999998&check=431
+OK    431 = 431
+http://localhost/mapcode.php?lat=39.96122375&lon=141.87138055&check=432
+OK    432 = 432
+http://localhost/mapcode.php?lat=37.294852399999996&lon=139.87185055&check=433
+OK    433 = 433
+http://localhost/mapcode.php?lat=35.4616991&lon=138.8719971&check=434
+ERROR 161 ≠ 434
+http://localhost/mapcode.php?lat=39.794593750000004&lon=140.8716859&check=435
+OK    435 = 435
+http://localhost/mapcode.php?lat=38.461423350000004&lon=141.4965581&check=436
+OK    436 = 436
+http://localhost/mapcode.php?lat=40.9611314&lon=141.2466238&check=437
+OK    437 = 437
+http://localhost/mapcode.php?lat=35.045057549999996&lon=138.12209625&check=438
+OK    438 = 438
+http://localhost/mapcode.php?lat=34.295070100000004&lon=135.8723087&check=439
+OK    439 = 439
+http://localhost/mapcode.php?lat=33.04512985&lon=131.2477376&check=440
+OK    440 = 440
+http://localhost/mapcode.php?lat=27.795687299999997&lon=128.9980124&check=441
+OK    441 = 441
+http://localhost/mapcode.php?lat=42.544268450000004&lon=142.12134179999998&check=442
+OK    442 = 442
+http://localhost/mapcode.php?lat=32.6285199&lon=129.87289485&check=443
+OK    443 = 443
+http://localhost/mapcode.php?lat=43.79416555&lon=144.4960839&check=444
+OK    444 = 444
+http://localhost/mapcode.php?lat=33.54507505&lon=133.12256285&check=445
+OK    445 = 445
+http://localhost/mapcode.php?lat=37.79479465&lon=140.62179435000002&check=446
+OK    446 = 446
+http://localhost/mapcode.php?lat=40.12788575&lon=141.12153575&check=447
+OK    447 = 447
+http://localhost/mapcode.php?lat=43.54418765&lon=145.1210562&check=448
+OK    448 = 448
+http://localhost/mapcode.php?lat=38.54473435&lon=139.62192805&check=449
+OK    449 = 449
+http://localhost/mapcode.php?lat=43.460877&lon=142.2463129&check=450
+OK    450 = 450
+http://localhost/mapcode.php?lat=37.461536699999996&lon=140.74663395&check=451
+OK    451 = 451
+http://localhost/mapcode.php?lat=32.79516065&lon=131.74769125&check=452
+OK    452 = 452
+http://localhost/mapcode.php?lat=34.96170105&lon=136.2472403&check=453
+ERROR 213 ≠ 453
+http://localhost/mapcode.php?lat=42.377662799999996&lon=143.24625565&check=454
+OK    454 = 454
+http://localhost/mapcode.php?lat=42.6276674&lon=141.87138055&check=455
+OK    455 = 455
+http://localhost/mapcode.php?lat=39.8779133&lon=140.12180965&check=456
+OK    456 = 456
+http://localhost/mapcode.php?lat=33.628398849999996&lon=135.4973238&check=457
+OK    457 = 457
+http://localhost/mapcode.php?lat=33.37846005&lon=129.74789470000002&check=458
+OK    458 = 458
+http://localhost/mapcode.php?lat=33.54507505&lon=131.4977278&check=459
+ERROR 265 ≠ 459
+http://localhost/mapcode.php?lat=35.5450481&lon=136.3722173&check=460
+ERROR 242 ≠ 460
+http://localhost/mapcode.php?lat=33.04512985&lon=129.9978668&check=461
+OK    461 = 461
+http://localhost/mapcode.php?lat=43.3775797&lon=144.4960839&check=462
+OK    462 = 462
+http://localhost/mapcode.php?lat=37.711484999999996&lon=139.3719694&check=463
+OK    463 = 463
+http://localhost/mapcode.php?lat=38.211457800000005&lon=140.62179435000002&check=464
+OK    464 = 464
+http://localhost/mapcode.php?lat=34.3784251&lon=133.4975103&check=465
+OK    465 = 465
+http://localhost/mapcode.php?lat=33.04512985&lon=132.9975601&check=466
+OK    466 = 466
+http://localhost/mapcode.php?lat=42.377662799999996&lon=139.9969049&check=467
+OK    467 = 467
+http://localhost/mapcode.php?lat=36.211663099999996&lon=138.12209625&check=468
+OK    468 = 468
+http://localhost/mapcode.php?lat=36.9615109&lon=138.12209625&check=469
+OK    469 = 469
+http://localhost/mapcode.php?lat=44.044135&lon=142.37126675000002&check=470
+OK    470 = 470
+http://localhost/mapcode.php?lat=37.21153765&lon=136.74720285&check=471
+ERROR 283 ≠ 471
+http://localhost/mapcode.php?lat=31.545294900000002&lon=130.87279415&check=472
+OK    472 = 472
+http://localhost/mapcode.php?lat=35.4616991&lon=135.12235809999999&check=473
+OK    473 = 473
+http://localhost/mapcode.php?lat=32.3785379&lon=129.9978668&check=474
+OK    474 = 474
+http://localhost/mapcode.php?lat=37.79479465&lon=140.3718366&check=475
+ERROR 76 ≠ 475
+http://localhost/mapcode.php?lat=28.21231425&lon=129.2480395&check=476
+OK    476 = 476
+http://localhost/mapcode.php?lat=35.6283787&lon=136.6222167&check=477
+OK    477 = 477
+http://localhost/mapcode.php?lat=33.878412100000006&lon=135.7472976&check=478
+OK    478 = 478
+http://localhost/mapcode.php?lat=35.2116875&lon=135.7472976&check=479
+OK    479 = 479
+http://localhost/mapcode.php?lat=32.79516065&lon=130.99776115&check=480
+ERROR 256 ≠ 480
+http://localhost/mapcode.php?lat=43.2109242&lon=143.49619045&check=481
+OK    481 = 481
+http://localhost/mapcode.php?lat=41.877714749999996&lon=140.24686830000002&check=482
+OK    482 = 482
+http://localhost/mapcode.php?lat=35.2116875&lon=138.37205775&check=483
+OK    483 = 483
+http://localhost/mapcode.php?lat=40.04458485&lon=141.4965581&check=484
+OK    484 = 484
+http://localhost/mapcode.php?lat=26.6289917&lon=128.12316615&check=485
+OK    485 = 485
+http://localhost/mapcode.php?lat=36.211663099999996&lon=133.2475287&check=486
+OK    486 = 486
+http://localhost/mapcode.php?lat=36.461593449999995&lon=140.12180965&check=487
+ERROR 188 ≠ 487
+http://localhost/mapcode.php?lat=34.878368800000004&lon=139.1219726&check=488
+OK    488 = 488
+http://localhost/mapcode.php?lat=36.54494665&lon=139.49693455&check=489
+OK    489 = 489
+http://localhost/mapcode.php?lat=42.04430945&lon=140.62179435000002&check=490
+OK    490 = 490
+http://localhost/mapcode.php?lat=35.12839995&lon=134.7473913&check=491
+ERROR 347 ≠ 491
+http://localhost/mapcode.php?lat=40.711155500000004&lon=140.24686830000002&check=492
+OK    492 = 492
+http://localhost/mapcode.php?lat=43.1276039&lon=141.12153575&check=493
+OK    493 = 493
+http://localhost/mapcode.php?lat=39.54460255&lon=140.12180965&check=494
+ERROR 303 ≠ 494
+http://localhost/mapcode.php?lat=43.877503899999994&lon=141.99633075&check=495
+OK    495 = 495
+http://localhost/mapcode.php?lat=43.2942097&lon=145.1210562&check=496
+OK    496 = 496
+http://localhost/mapcode.php?lat=33.878412100000006&lon=134.1224692&check=497
+OK    497 = 497
+http://localhost/mapcode.php?lat=32.7118299&lon=131.4977278&check=498
+OK    498 = 498
+http://localhost/mapcode.php?lat=26.295826249999998&lon=127.99817895000001&check=499
+OK    499 = 499
+http://localhost/mapcode.php?lat=35.37840515&lon=137.12214195&check=500
+ERROR 98 ≠ 500
+http://localhost/mapcode.php?lat=32.3785379&lon=131.2477376&check=501
+OK    501 = 501
+http://localhost/mapcode.php?lat=34.7950683&lon=135.99725635&check=502
+ERROR 131 ≠ 502
+http://localhost/mapcode.php?lat=33.878412100000006&lon=132.24762735000002&check=503
+OK    503 = 503
+http://localhost/mapcode.php?lat=37.3781676&lon=140.12180965&check=504
+OK    504 = 504
+http://localhost/mapcode.php?lat=31.461981950000002&lon=130.24783785&check=505
+ERROR 198 ≠ 505
+http://localhost/mapcode.php?lat=37.294852399999996&lon=140.8716859&check=506
+OK    506 = 506
+http://localhost/mapcode.php?lat=36.29496505&lon=136.6222167&check=507
+OK    507 = 507
+http://localhost/mapcode.php?lat=44.2941044&lon=141.74644425&check=508
+OK    508 = 508
+http://localhost/mapcode.php?lat=36.04498665&lon=137.37212184999998&check=509
+OK    509 = 509
+http://localhost/mapcode.php?lat=37.21153765&lon=139.62192805&check=510
+OK    510 = 510
+http://localhost/mapcode.php?lat=42.79424615&lon=143.62117125&check=511
+OK    511 = 511
+http://localhost/mapcode.php?lat=37.294852399999996&lon=138.9969751&check=512
+OK    512 = 512
+http://localhost/mapcode.php?lat=34.54507135&lon=131.87267085&check=513
+OK    513 = 513
+http://localhost/mapcode.php?lat=43.2942097&lon=141.37142914999998&check=514
+OK    514 = 514
+http://localhost/mapcode.php?lat=37.96145625&lon=139.9969049&check=515
+ERROR 127 ≠ 515
+http://localhost/mapcode.php?lat=36.54494665&lon=138.37205775&check=516
+ERROR 341 ≠ 516
+http://localhost/mapcode.php?lat=41.1277745&lon=140.3718366&check=517
+OK    517 = 517
+http://localhost/mapcode.php?lat=39.54460255&lon=140.3718366&check=518
+OK    518 = 518
+http://localhost/mapcode.php?lat=40.87778695&lon=140.99669755000002&check=519
+OK    519 = 519
+http://localhost/mapcode.php?lat=34.71171325&lon=132.1226347&check=520
+OK    520 = 520
+http://localhost/mapcode.php?lat=42.6276674&lon=140.3718366&check=521
+OK    521 = 521
+http://localhost/mapcode.php?lat=38.54473435&lon=140.24686830000002&check=522
+OK    522 = 522
+http://localhost/mapcode.php?lat=38.54473435&lon=139.87185055&check=523
+OK    523 = 523
+http://localhost/mapcode.php?lat=38.044779649999995&lon=139.1219726&check=524
+OK    524 = 524
+http://localhost/mapcode.php?lat=44.044135&lon=143.9961262&check=525
+OK    525 = 525
+http://localhost/mapcode.php?lat=34.295070100000004&lon=129.2480395&check=526
+OK    526 = 526
+http://localhost/mapcode.php?lat=34.04507175&lon=135.4973238&check=527
+OK    527 = 527
+http://localhost/mapcode.php?lat=31.878595250000004&lon=130.24783785&check=528
+OK    528 = 528
+http://localhost/mapcode.php?lat=36.79493035&lon=140.12180965&check=529
+ERROR 222 ≠ 529
+http://localhost/mapcode.php?lat=44.9606614&lon=141.87138055&check=530
+OK    530 = 530
+http://localhost/mapcode.php?lat=34.71171325&lon=136.6222167&check=531
+OK    531 = 531
+http://localhost/mapcode.php?lat=35.37840515&lon=134.62240585&check=532
+OK    532 = 532
+http://localhost/mapcode.php?lat=35.878350499999996&lon=140.24686830000002&check=533
+ERROR 65 ≠ 533
+http://localhost/mapcode.php?lat=35.961684500000004&lon=138.8719971&check=534
+OK    534 = 534
+http://localhost/mapcode.php?lat=36.79493035&lon=137.87210535&check=535
+OK    535 = 535
+http://localhost/mapcode.php?lat=32.3785379&lon=130.74780045&check=536
+OK    536 = 536
+http://localhost/mapcode.php?lat=35.7950199&lon=138.4969746&check=537
+OK    537 = 537
+http://localhost/mapcode.php?lat=33.54507505&lon=132.74759115&check=538
+ERROR 234 ≠ 538
+http://localhost/mapcode.php?lat=34.54507135&lon=129.37290095&check=539
+OK    539 = 539
+http://localhost/mapcode.php?lat=36.79493035&lon=139.1219726&check=540
+OK    540 = 540
+http://localhost/mapcode.php?lat=34.71171325&lon=134.37245374999998&check=541
+OK    541 = 541
+http://localhost/mapcode.php?lat=34.04507175&lon=135.99725635&check=542
+OK    542 = 542
+http://localhost/mapcode.php?lat=35.12839995&lon=132.87256209999998&check=543
+ERROR 388 ≠ 543
+http://localhost/mapcode.php?lat=35.29507135&lon=133.99744285&check=544
+OK    544 = 544
+http://localhost/mapcode.php?lat=42.6276674&lon=141.37142914999998&check=545
+OK    545 = 545
+http://localhost/mapcode.php?lat=33.878412100000006&lon=133.62251315&check=546
+ERROR 207 ≠ 546
+http://localhost/mapcode.php?lat=39.37797775&lon=140.74663395&check=547
+OK    547 = 547
+http://localhost/mapcode.php?lat=37.044908750000005&lon=139.87185055&check=548
+OK    548 = 548
+http://localhost/mapcode.php?lat=36.378257950000005&lon=136.87219199999998&check=549
+OK    549 = 549
+http://localhost/mapcode.php?lat=43.2109242&lon=142.49632830000002&check=550
+OK    550 = 550
+http://localhost/mapcode.php?lat=42.4609814&lon=142.37126675000002&check=551
+OK    551 = 551
+http://localhost/mapcode.php?lat=37.3781676&lon=136.9971901&check=552
+OK    552 = 552
+http://localhost/mapcode.php?lat=26.79577535&lon=127.87318905000001&check=553
+OK    553 = 553
+http://localhost/mapcode.php?lat=36.79493035&lon=138.8719971&check=554
+OK    554 = 554
+http://localhost/mapcode.php?lat=38.044779649999995&lon=139.74691&check=555
+OK    555 = 555
+http://localhost/mapcode.php?lat=43.2109242&lon=144.2461036&check=556
+OK    556 = 556
+http://localhost/mapcode.php?lat=33.961750300000006&lon=130.99776115&check=557
+OK    557 = 557
+http://localhost/mapcode.php?lat=33.71177085&lon=133.37254565&check=558
+OK    558 = 558
+http://localhost/mapcode.php?lat=40.62783205&lon=139.9969049&check=559
+OK    559 = 559
+http://localhost/mapcode.php?lat=36.04498665&lon=135.99725635&check=560
+OK    560 = 560
+http://localhost/mapcode.php?lat=43.7108768&lon=143.87117030000002&check=561
+ERROR 185 ≠ 561
+http://localhost/mapcode.php?lat=39.1279977&lon=141.87138055&check=562
+OK    562 = 562
+http://localhost/mapcode.php?lat=27.379181950000003&lon=128.6230558&check=563
+OK    563 = 563
+http://localhost/mapcode.php?lat=42.21102985&lon=142.74631855&check=564
+OK    564 = 564
+http://localhost/mapcode.php?lat=34.3784251&lon=132.87256209999998&check=565
+ERROR 154 ≠ 565
+http://localhost/mapcode.php?lat=35.045057549999996&lon=136.3722173&check=566
+OK    566 = 566
+http://localhost/mapcode.php?lat=42.79424615&lon=142.2463129&check=567
+OK    567 = 567
+http://localhost/mapcode.php?lat=35.2116875&lon=133.2475287&check=568
+ERROR 418 ≠ 568
+http://localhost/mapcode.php?lat=38.12811225&lon=140.4966981&check=569
+ERROR 464 ≠ 569
+http://localhost/mapcode.php?lat=44.12749465&lon=143.1212697&check=570
+OK    570 = 570
+http://localhost/mapcode.php?lat=44.877368149999995&lon=142.49632830000002&check=571
+OK    571 = 571
+http://localhost/mapcode.php?lat=44.21079625&lon=142.6212437&check=572
+OK    572 = 572
+http://localhost/mapcode.php?lat=38.87803425&lon=140.74663395&check=573
+OK    573 = 573
+http://localhost/mapcode.php?lat=30.461956&lon=130.87279415&check=574
+OK    574 = 574
+http://localhost/mapcode.php?lat=43.3775797&lon=141.62139845000002&check=575
+OK    575 = 575
+http://localhost/mapcode.php?lat=43.04423195&lon=144.62111140000002&check=576
+OK    576 = 576
+http://localhost/mapcode.php?lat=35.6283787&lon=134.87236205&check=577
+OK    577 = 577
+http://localhost/mapcode.php?lat=35.6283787&lon=133.62251315&check=578
+OK    578 = 578
+http://localhost/mapcode.php?lat=36.878220049999996&lon=138.4969746&check=579
+OK    579 = 579
+http://localhost/mapcode.php?lat=41.461054250000004&lon=140.8716859&check=580
+OK    580 = 580
+http://localhost/mapcode.php?lat=38.3780906&lon=141.2466238&check=581
+OK    581 = 581
+http://localhost/mapcode.php?lat=41.794357149999996&lon=140.99669755000002&check=582
+OK    582 = 582
+http://localhost/mapcode.php?lat=38.461423350000004&lon=140.74663395&check=583
+OK    583 = 583
+http://localhost/mapcode.php?lat=41.6277028&lon=140.3718366&check=584
+OK    584 = 584
+http://localhost/mapcode.php?lat=33.2951025&lon=129.37290095&check=585
+OK    585 = 585
+http://localhost/mapcode.php?lat=43.96084845&lon=143.7461489&check=586
+OK    586 = 586
+http://localhost/mapcode.php?lat=44.4607656&lon=142.9962835&check=587
+OK    587 = 587
+http://localhost/mapcode.php?lat=34.461738749999995&lon=131.4977278&check=588
+ERROR 410 ≠ 588
+http://localhost/mapcode.php?lat=43.96084845&lon=142.6212437&check=589
+OK    589 = 589
+http://localhost/mapcode.php?lat=37.128172649999996&lon=136.9971901&check=590
+OK    590 = 590
+http://localhost/mapcode.php?lat=31.878595250000004&lon=131.2477376&check=591
+ERROR 66 ≠ 591
+http://localhost/mapcode.php?lat=42.710938999999996&lon=142.9962835&check=592
+OK    592 = 592
+http://localhost/mapcode.php?lat=34.96170105&lon=134.1224692&check=593
+ERROR 233 ≠ 593
+http://localhost/mapcode.php?lat=41.044452899999996&lon=140.74663395&check=594
+OK    594 = 594
+http://localhost/mapcode.php?lat=34.3784251&lon=136.2472403&check=595
+OK    595 = 595
+http://localhost/mapcode.php?lat=43.460877&lon=143.7461489&check=596
+OK    596 = 596
+http://localhost/mapcode.php?lat=36.1283239&lon=136.9971901&check=597
+OK    597 = 597
+http://localhost/mapcode.php?lat=40.37787505&lon=140.12180965&check=598
+OK    598 = 598
+http://localhost/mapcode.php?lat=35.2116875&lon=132.37260859999998&check=599
+OK    599 = 599
+http://localhost/mapcode.php?lat=32.1285649&lon=131.2477376&check=600
+OK    600 = 600
+http://localhost/mapcode.php?lat=36.9615109&lon=140.74663395&check=601
+ERROR 425 ≠ 601
+http://localhost/mapcode.php?lat=32.79516065&lon=132.62257945&check=602
+OK    602 = 602
+http://localhost/mapcode.php?lat=42.544268450000004&lon=141.12153575&check=603
+OK    603 = 603
+http://localhost/mapcode.php?lat=37.3781676&lon=139.3719694&check=604
+OK    604 = 604
+http://localhost/mapcode.php?lat=31.04536045&lon=130.74780045&check=605
+OK    605 = 605
+http://localhost/mapcode.php?lat=40.87778695&lon=141.37142914999998&check=606
+OK    606 = 606
+http://localhost/mapcode.php?lat=32.878481199999996&lon=131.99765235&check=607
+OK    607 = 607
+http://localhost/mapcode.php?lat=43.04423195&lon=142.74631855&check=608
+OK    608 = 608
+http://localhost/mapcode.php?lat=35.961684500000004&lon=140.4966981&check=609
+ERROR 162 ≠ 609
+http://localhost/mapcode.php?lat=40.04458485&lon=141.74644425&check=610
+ERROR 432 ≠ 610
+http://localhost/mapcode.php?lat=33.4618018&lon=130.99776115&check=611
+ERROR 383 ≠ 611
+http://localhost/mapcode.php?lat=40.46117565&lon=140.99669755000002&check=612
+OK    612 = 612
+http://localhost/mapcode.php?lat=43.460877&lon=144.62111140000002&check=613
+OK    613 = 613
+http://localhost/mapcode.php?lat=43.04423195&lon=145.1210562&check=614
+OK    614 = 614
+http://localhost/mapcode.php?lat=33.71177085&lon=135.6223446&check=615
+OK    615 = 615
+http://localhost/mapcode.php?lat=35.2116875&lon=135.99725635&check=616
+ERROR 263 ≠ 616
+http://localhost/mapcode.php?lat=44.044135&lon=143.3712205&check=617
+OK    617 = 617
+http://localhost/mapcode.php?lat=33.04512985&lon=130.99776115&check=618
+OK    618 = 618
+http://localhost/mapcode.php?lat=33.79505235&lon=133.87248085&check=619
+OK    619 = 619
+http://localhost/mapcode.php?lat=36.1283239&lon=137.49715145&check=620
+OK    620 = 620
+http://localhost/mapcode.php?lat=32.461870950000005&lon=131.4977278&check=621
+ERROR 136 ≠ 621
+http://localhost/mapcode.php?lat=36.9615109&lon=140.3718366&check=622
+ERROR 225 ≠ 622
+http://localhost/mapcode.php?lat=43.79416555&lon=142.87126335&check=623
+OK    623 = 623
+http://localhost/mapcode.php?lat=33.2951025&lon=131.99765235&check=624
+OK    624 = 624
+http://localhost/mapcode.php?lat=35.37840515&lon=137.9970468&check=625
+OK    625 = 625
+http://localhost/mapcode.php?lat=39.54460255&lon=140.99669755000002&check=626
+ERROR 81 ≠ 626
+http://localhost/mapcode.php?lat=40.46117565&lon=140.3718366&check=627
+OK    627 = 627
+http://localhost/mapcode.php?lat=35.045057549999996&lon=132.9975601&check=628
+ERROR 388 ≠ 628
+http://localhost/mapcode.php?lat=41.294411499999995&lon=140.99669755000002&check=629
+OK    629 = 629
+http://localhost/mapcode.php?lat=43.04423195&lon=144.12116955&check=630
+OK    630 = 630
+http://localhost/mapcode.php?lat=34.71171325&lon=133.2475287&check=631
+ERROR 201 ≠ 631
+http://localhost/mapcode.php?lat=35.7950199&lon=137.6221208&check=632
+ERROR 420 ≠ 632
+http://localhost/mapcode.php?lat=34.71171325&lon=138.8719971&check=633
+ERROR 248 ≠ 633
+http://localhost/mapcode.php?lat=39.627957699999996&lon=141.37142914999998&check=634
+OK    634 = 634
+http://localhost/mapcode.php?lat=35.7950199&lon=136.2472403&check=635
+OK    635 = 635
+http://localhost/mapcode.php?lat=34.7950683&lon=132.37260859999998&check=636
+ERROR 322 ≠ 636
+http://localhost/mapcode.php?lat=43.1276039&lon=144.87107275&check=637
+OK    637 = 637
+http://localhost/mapcode.php?lat=43.7108768&lon=144.2461036&check=638
+OK    638 = 638
+http://localhost/mapcode.php?lat=39.54460255&lon=141.62139845000002&check=639
+OK    639 = 639
+http://localhost/mapcode.php?lat=44.79403445&lon=141.99633075&check=640
+OK    640 = 640
+http://localhost/mapcode.php?lat=35.2116875&lon=135.3723528&check=641
+ERROR 344 ≠ 641
+http://localhost/mapcode.php?lat=43.877503899999994&lon=144.74606434999998&check=642
+OK    642 = 642
+http://localhost/mapcode.php?lat=30.3787663&lon=130.49782184999998&check=643
+OK    643 = 643
+http://localhost/mapcode.php?lat=45.043999299999996&lon=142.2463129&check=644
+OK    644 = 644
+http://localhost/mapcode.php?lat=39.29464855&lon=141.37142914999998&check=645
+ERROR 378 ≠ 645
+http://localhost/mapcode.php?lat=34.04507175&lon=131.622715&check=646
+OK    646 = 646
+http://localhost/mapcode.php?lat=33.628398849999996&lon=134.1224692&check=647
+OK    647 = 647
+http://localhost/mapcode.php?lat=31.12867795&lon=130.49782184999998&check=648
+OK    648 = 648
+http://localhost/mapcode.php?lat=36.878220049999996&lon=136.9971901&check=649
+OK    649 = 649
+http://localhost/mapcode.php?lat=35.045057549999996&lon=138.8719971&check=650
+ERROR 116 ≠ 650
+http://localhost/mapcode.php?lat=44.54406735&lon=142.37126675000002&check=651
+OK    651 = 651
+http://localhost/mapcode.php?lat=35.6283787&lon=135.3723528&check=652
+OK    652 = 652
+http://localhost/mapcode.php?lat=33.04512985&lon=139.74691&check=653
+OK    653 = 653
+http://localhost/mapcode.php?lat=43.1276039&lon=140.62179435000002&check=654
+OK    654 = 654
+http://localhost/mapcode.php?lat=43.7108768&lon=142.2463129&check=655
+ERROR 79 ≠ 655
+http://localhost/mapcode.php?lat=39.1279977&lon=140.74663395&check=656
+OK    656 = 656
+http://localhost/mapcode.php?lat=40.04458485&lon=140.8716859&check=657
+OK    657 = 657
+http://localhost/mapcode.php?lat=43.7108768&lon=144.99603044999998&check=658
+OK    658 = 658
+http://localhost/mapcode.php?lat=35.2116875&lon=133.87248085&check=659
+ERROR 544 ≠ 659
+http://localhost/mapcode.php?lat=37.96145625&lon=140.24686830000002&check=660
+OK    660 = 660
+http://localhost/mapcode.php?lat=35.29507135&lon=137.74710495&check=661
+ERROR 313 ≠ 661
+http://localhost/mapcode.php?lat=42.6276674&lon=140.62179435000002&check=662
+OK    662 = 662
+http://localhost/mapcode.php?lat=38.12811225&lon=138.24700324999998&check=663
+OK    663 = 663
+http://localhost/mapcode.php?lat=35.7950199&lon=138.74696985&check=664
+OK    664 = 664
+http://localhost/mapcode.php?lat=36.04498665&lon=138.74696985&check=665
+ERROR 534 ≠ 665
+http://localhost/mapcode.php?lat=33.54507505&lon=132.9975601&check=666
+ERROR 445 ≠ 666
+http://localhost/mapcode.php?lat=28.29550955&lon=129.9978668&check=667
+OK    667 = 667
+http://localhost/mapcode.php?lat=39.0446926&lon=140.24686830000002&check=668
+OK    668 = 668
+http://localhost/mapcode.php?lat=26.295826249999998&lon=126.7482894&check=669
+OK    669 = 669
+http://localhost/mapcode.php?lat=31.21201315&lon=130.99776115&check=670
+OK    670 = 670
+http://localhost/mapcode.php?lat=42.96094005&lon=143.87117030000002&check=671
+OK    671 = 671
+http://localhost/mapcode.php?lat=33.2118012&lon=129.1229247&check=672
+OK    672 = 672
+http://localhost/mapcode.php?lat=36.04498665&lon=132.9975601&check=673
+OK    673 = 673
+http://localhost/mapcode.php?lat=37.79479465&lon=139.74691&check=674
+OK    674 = 674
+http://localhost/mapcode.php?lat=28.462154400000003&lon=129.74789470000002&check=675
+OK    675 = 675
+http://localhost/mapcode.php?lat=41.461054250000004&lon=140.24686830000002&check=676
+OK    676 = 676
+http://localhost/mapcode.php?lat=32.7118299&lon=130.49782184999998&check=677
+ERROR 415 ≠ 677
+http://localhost/mapcode.php?lat=36.461593449999995&lon=137.37212184999998&check=678
+OK    678 = 678
+http://localhost/mapcode.php?lat=43.3775797&lon=143.24625565&check=679
+OK    679 = 679
+http://localhost/mapcode.php?lat=45.29395975&lon=142.12134179999998&check=680
+OK    680 = 680
+http://localhost/mapcode.php?lat=35.045057549999996&lon=137.49715145&check=681
+ERROR 301 ≠ 681
+http://localhost/mapcode.php?lat=33.4618018&lon=132.24762735000002&check=682
+ERROR 426 ≠ 682
+http://localhost/mapcode.php?lat=39.8779133&lon=141.37142914999998&check=683
+OK    683 = 683
+http://localhost/mapcode.php?lat=44.79403445&lon=142.2463129&check=684
+OK    684 = 684
+http://localhost/mapcode.php?lat=32.878481199999996&lon=131.3727654&check=685
+OK    685 = 685
+http://localhost/mapcode.php?lat=39.8779133&lon=140.4966981&check=686
+OK    686 = 686
+http://localhost/mapcode.php?lat=42.21102985&lon=140.3718366&check=687
+OK    687 = 687
+http://localhost/mapcode.php?lat=33.2118012&lon=130.24783785&check=688
+ERROR 87 ≠ 688
+http://localhost/mapcode.php?lat=35.4616991&lon=138.74696985&check=689
+ERROR 161 ≠ 689
+http://localhost/mapcode.php?lat=35.6283787&lon=138.12209625&check=690
+OK    690 = 690
+http://localhost/mapcode.php?lat=36.54494665&lon=137.74710495&check=691
+OK    691 = 691
+http://localhost/mapcode.php?lat=44.54406735&lon=141.87138055&check=692
+OK    692 = 692
+http://localhost/mapcode.php?lat=39.794593750000004&lon=141.62139845000002&check=693
+OK    693 = 693
+http://localhost/mapcode.php?lat=42.96094005&lon=142.49632830000002&check=694
+OK    694 = 694
+http://localhost/mapcode.php?lat=37.6281647&lon=138.74696985&check=695
+ERROR 58 ≠ 695
+http://localhost/mapcode.php?lat=34.54507135&lon=132.1226347&check=696
+ERROR 363 ≠ 696
+http://localhost/mapcode.php?lat=42.377662799999996&lon=142.6212437&check=697
+OK    697 = 697
+http://localhost/mapcode.php?lat=31.71195635&lon=129.74789470000002&check=698
+OK    698 = 698
+http://localhost/mapcode.php?lat=42.6276674&lon=143.49619045&check=699
+OK    699 = 699
+http://localhost/mapcode.php?lat=43.04423195&lon=141.99633075&check=700
+OK    700 = 700
+http://localhost/mapcode.php?lat=44.044135&lon=142.12134179999998&check=701
+OK    701 = 701
+http://localhost/mapcode.php?lat=43.2942097&lon=142.9962835&check=702
+OK    702 = 702
+http://localhost/mapcode.php?lat=33.128482950000006&lon=132.37260859999998&check=703
+OK    703 = 703
+http://localhost/mapcode.php?lat=40.62783205&lon=140.8716859&check=704
+OK    704 = 704
+http://localhost/mapcode.php?lat=36.461593449999995&lon=138.8719971&check=705
+ERROR 94 ≠ 705
+http://localhost/mapcode.php?lat=35.6283787&lon=140.12180965&check=706
+ERROR 27 ≠ 706
+http://localhost/mapcode.php?lat=37.21153765&lon=138.12209625&check=707
+ERROR 126 ≠ 707
+http://localhost/mapcode.php?lat=42.8776103&lon=141.2466238&check=708
+OK    708 = 708
+http://localhost/mapcode.php?lat=35.37840515&lon=134.49742275&check=709
+ERROR 532 ≠ 709
+http://localhost/mapcode.php?lat=31.62862895&lon=130.49782184999998&check=710
+ERROR 42 ≠ 710
+http://localhost/mapcode.php?lat=36.04498665&lon=137.12214195&check=711
+OK    711 = 711
+http://localhost/mapcode.php?lat=42.1276885&lon=142.9962835&check=712
+OK    712 = 712
+http://localhost/mapcode.php?lat=32.6285199&lon=130.12285945&check=713
+ERROR 173 ≠ 713
+http://localhost/mapcode.php?lat=45.2104852&lon=141.2466238&check=714
+OK    714 = 714
+http://localhost/mapcode.php?lat=39.211354850000006&lon=140.99669755000002&check=715
+ERROR 108 ≠ 715
+http://localhost/mapcode.php?lat=37.044908750000005&lon=139.62192805&check=716
+OK    716 = 716
+http://localhost/mapcode.php?lat=35.12839995&lon=139.24697025&check=717
+OK    717 = 717
+http://localhost/mapcode.php?lat=42.1276885&lon=139.9969049&check=718
+OK    718 = 718
+http://localhost/mapcode.php?lat=33.79505235&lon=131.622715&check=719
+OK    719 = 719
+http://localhost/mapcode.php?lat=38.461423350000004&lon=140.4966981&check=720
+OK    720 = 720
+http://localhost/mapcode.php?lat=24.879137999999998&lon=125.24825405&check=721
+OK    721 = 721
+http://localhost/mapcode.php?lat=36.54494665&lon=139.74691&check=722
+ERROR 132 ≠ 722
+http://localhost/mapcode.php?lat=30.29543675&lon=130.62281625&check=723
+OK    723 = 723
+http://localhost/mapcode.php?lat=31.461981950000002&lon=131.3727654&check=724
+OK    724 = 724
+http://localhost/mapcode.php?lat=43.04423195&lon=143.62117125&check=725
+OK    725 = 725
+http://localhost/mapcode.php?lat=34.96170105&lon=132.62257945&check=726
+ERROR 430 ≠ 726
+http://localhost/mapcode.php?lat=32.961799150000004&lon=129.49796600000002&check=727
+OK    727 = 727
+http://localhost/mapcode.php?lat=26.79577535&lon=128.24815035&check=728
+OK    728 = 728
+http://localhost/mapcode.php?lat=35.878350499999996&lon=136.6222167&check=729
+OK    729 = 729
+http://localhost/mapcode.php?lat=42.8776103&lon=140.3718366&check=730
+OK    730 = 730
+http://localhost/mapcode.php?lat=43.54418765&lon=144.37114730000002&check=731
+OK    731 = 731
+http://localhost/mapcode.php?lat=35.5450481&lon=139.1219726&check=732
+ERROR 251 ≠ 732
+http://localhost/mapcode.php?lat=32.961799150000004&lon=131.622715&check=733
+OK    733 = 733
+http://localhost/mapcode.php?lat=43.2942097&lon=145.3710425&check=734
+OK    734 = 734
+http://localhost/mapcode.php?lat=36.878220049999996&lon=139.3719694&check=735
+OK    735 = 735
+http://localhost/mapcode.php?lat=45.043999299999996&lon=141.74644425&check=736
+ERROR 530 ≠ 736
+http://localhost/mapcode.php?lat=36.54494665&lon=138.62203175000002&check=737
+ERROR 295 ≠ 737
+http://localhost/mapcode.php?lat=42.8776103&lon=141.87138055&check=738
+ERROR 320 ≠ 738
+http://localhost/mapcode.php?lat=43.460877&lon=144.12116955&check=739
+OK    739 = 739
+http://localhost/mapcode.php?lat=44.2941044&lon=142.12134179999998&check=740
+OK    740 = 740
+http://localhost/mapcode.php?lat=44.21079625&lon=142.87126335&check=741
+OK    741 = 741
+http://localhost/mapcode.php?lat=38.294767050000004&lon=141.4965581&check=742
+OK    742 = 742
+http://localhost/mapcode.php?lat=43.62750665&lon=143.1212697&check=743
+OK    743 = 743
+http://localhost/mapcode.php?lat=42.04430945&lon=140.8716859&check=744
+OK    744 = 744
+http://localhost/mapcode.php?lat=43.62750665&lon=143.3712205&check=745
+OK    745 = 745
+http://localhost/mapcode.php?lat=44.627405350000004&lon=142.74631855&check=746
+OK    746 = 746
+http://localhost/mapcode.php?lat=34.295070100000004&lon=136.1222377&check=747
+ERROR 595 ≠ 747
+http://localhost/mapcode.php?lat=33.54507505&lon=130.87279415&check=748
+ERROR 96 ≠ 748
+http://localhost/mapcode.php?lat=33.79505235&lon=131.99765235&check=749
+OK    749 = 749
+http://localhost/mapcode.php?lat=40.37787505&lon=141.62139845000002&check=750
+ERROR 346 ≠ 750
+http://localhost/mapcode.php?lat=32.5451902&lon=130.99776115&check=751
+OK    751 = 751
+http://localhost/mapcode.php?lat=38.211457800000005&lon=138.4969746&check=752
+OK    752 = 752
+http://localhost/mapcode.php?lat=34.295070100000004&lon=139.24697025&check=753
+OK    753 = 753
+http://localhost/mapcode.php?lat=33.71177085&lon=134.62240585&check=754
+OK    754 = 754
+http://localhost/mapcode.php?lat=35.711709299999995&lon=137.12214195&check=755
+ERROR 361 ≠ 755
+http://localhost/mapcode.php?lat=34.96170105&lon=139.87185055&check=756
+ERROR 211 ≠ 756
+http://localhost/mapcode.php?lat=44.044135&lon=145.1210562&check=757
+OK    757 = 757
+http://localhost/mapcode.php?lat=34.628389600000006&lon=134.24743535&check=758
+ERROR 541 ≠ 758
+http://localhost/mapcode.php?lat=42.79424615&lon=141.12153575&check=759
+ERROR 708 ≠ 759
+http://localhost/mapcode.php?lat=32.5451902&lon=131.74769125&check=760
+OK    760 = 760
+http://localhost/mapcode.php?lat=31.2953316&lon=130.24783785&check=761
+ERROR 198 ≠ 761
+http://localhost/mapcode.php?lat=42.377662799999996&lon=140.24686830000002&check=762
+OK    762 = 762
+http://localhost/mapcode.php?lat=43.7108768&lon=141.74644425&check=763
+OK    763 = 763
+http://localhost/mapcode.php?lat=33.128482950000006&lon=132.87256209999998&check=764
+ERROR 466 ≠ 764
+http://localhost/mapcode.php?lat=42.04430945&lon=143.24625565&check=765
+OK    765 = 765
+http://localhost/mapcode.php?lat=45.043999299999996&lon=141.99633075&check=766
+OK    766 = 766
+http://localhost/mapcode.php?lat=40.37787505&lon=140.3718366&check=767
+ERROR 627 ≠ 767
+http://localhost/mapcode.php?lat=36.461593449999995&lon=140.74663395&check=768
+OK    768 = 768
+http://localhost/mapcode.php?lat=35.29507135&lon=139.87185055&check=769
+ERROR 49 ≠ 769
+http://localhost/mapcode.php?lat=34.878368800000004&lon=133.74748525&check=770
+ERROR 235 ≠ 770
+http://localhost/mapcode.php?lat=34.71171325&lon=134.62240585&check=771
+OK    771 = 771
+http://localhost/mapcode.php?lat=35.7950199&lon=137.37212184999998&check=772
+OK    772 = 772
+http://localhost/mapcode.php?lat=34.1284306&lon=139.49693455&check=773
+OK    773 = 773
+http://localhost/mapcode.php?lat=41.877714749999996&lon=140.4966981&check=774
+OK    774 = 774
+http://localhost/mapcode.php?lat=43.2109242&lon=140.4966981&check=775
+ERROR 654 ≠ 775
+http://localhost/mapcode.php?lat=33.628398849999996&lon=135.7472976&check=776
+ERROR 324 ≠ 776
+http://localhost/mapcode.php?lat=35.29507135&lon=138.24700324999998&check=777
+ERROR 483 ≠ 777
+http://localhost/mapcode.php?lat=33.961750300000006&lon=132.9975601&check=778
+ERROR 119 ≠ 778
+http://localhost/mapcode.php?lat=37.044908750000005&lon=140.24686830000002&check=779
+ERROR 225 ≠ 779
+http://localhost/mapcode.php?lat=27.12908225&lon=128.49806815&check=780
+OK    780 = 780
+http://localhost/mapcode.php?lat=42.1276885&lon=139.49693455&check=781
+OK    781 = 781
+http://localhost/mapcode.php?lat=37.87814295&lon=138.24700324999998&check=782
+ERROR 278 ≠ 782
+http://localhost/mapcode.php?lat=43.2942097&lon=143.9961262&check=783
+OK    783 = 783
+http://localhost/mapcode.php?lat=27.0458658&lon=127.99817895000001&check=784
+OK    784 = 784
+http://localhost/mapcode.php?lat=37.21153765&lon=139.24697025&check=785
+OK    785 = 785
+http://localhost/mapcode.php?lat=34.7950683&lon=139.3719694&check=786
+OK    786 = 786
+http://localhost/mapcode.php?lat=43.877503899999994&lon=143.1212697&check=787
+OK    787 = 787
+http://localhost/mapcode.php?lat=35.7950199&lon=135.99725635&check=788
+ERROR 200 ≠ 788
+http://localhost/mapcode.php?lat=38.87803425&lon=140.12180965&check=789
+ERROR 221 ≠ 789
+http://localhost/mapcode.php?lat=36.9615109&lon=138.62203175000002&check=790
+ERROR 253 ≠ 790
+http://localhost/mapcode.php?lat=36.04498665&lon=136.6222167&check=791
+OK    791 = 791
+http://localhost/mapcode.php?lat=34.1284306&lon=135.7472976&check=792
+OK    792 = 792
+http://localhost/mapcode.php?lat=35.6283787&lon=133.4975103&check=793
+ERROR 578 ≠ 793
+http://localhost/mapcode.php?lat=43.54418765&lon=141.4965581&check=794
+OK    794 = 794
+http://localhost/mapcode.php?lat=43.2942097&lon=144.62111140000002&check=795
+OK    795 = 795
+http://localhost/mapcode.php?lat=43.54418765&lon=142.74631855&check=796
+OK    796 = 796
+http://localhost/mapcode.php?lat=42.710938999999996&lon=140.12180965&check=797
+OK    797 = 797
+http://localhost/mapcode.php?lat=41.1277745&lon=141.37142914999998&check=798
+OK    798 = 798
+http://localhost/mapcode.php?lat=43.2109242&lon=143.7461489&check=799
+OK    799 = 799
+http://localhost/mapcode.php?lat=35.045057549999996&lon=138.62203175000002&check=800
+OK    800 = 800
+http://localhost/mapcode.php?lat=44.2941044&lon=143.3712205&check=801
+OK    801 = 801
+http://localhost/mapcode.php?lat=43.79416555&lon=141.4965581&check=802
+OK    802 = 802
+http://localhost/mapcode.php?lat=43.2109242&lon=141.87138055&check=803
+ERROR 180 ≠ 803
+http://localhost/mapcode.php?lat=40.54450475&lon=140.74663395&check=804
+ERROR 704 ≠ 804
+http://localhost/mapcode.php?lat=45.377291299999996&lon=141.99633075&check=805
+ERROR 680 ≠ 805
+http://localhost/mapcode.php?lat=24.37917475&lon=123.8735661&check=806
+OK    806 = 806
+http://localhost/mapcode.php?lat=41.711012600000004&lon=140.12180965&check=807
+OK    807 = 807
+http://localhost/mapcode.php?lat=33.961750300000006&lon=136.2472403&check=808
+OK    808 = 808
+http://localhost/mapcode.php?lat=42.4609814&lon=139.87185055&check=809
+ERROR 467 ≠ 809
+http://localhost/mapcode.php?lat=39.461329500000005&lon=141.62139845000002&check=810
+ERROR 639 ≠ 810
+http://localhost/mapcode.php?lat=42.710938999999996&lon=142.37126675000002&check=811
+OK    811 = 811
+http://localhost/mapcode.php?lat=37.711484999999996&lon=141.12153575&check=812
+OK    812 = 812
+http://localhost/mapcode.php?lat=38.9613839&lon=140.4966981&check=813
+OK    813 = 813
+http://localhost/mapcode.php?lat=36.04498665&lon=137.6221208&check=814
+ERROR 405 ≠ 814
+http://localhost/mapcode.php?lat=43.460877&lon=143.49619045&check=815
+OK    815 = 815
+http://localhost/mapcode.php?lat=36.211663099999996&lon=138.37205775&check=816
+ERROR 85 ≠ 816
+http://localhost/mapcode.php?lat=39.54460255&lon=141.99633075&check=817
+OK    817 = 817
+http://localhost/mapcode.php?lat=44.12749465&lon=141.87138055&check=818
+OK    818 = 818
+http://localhost/mapcode.php?lat=38.7947035&lon=139.62192805&check=819
+OK    819 = 819
+http://localhost/mapcode.php?lat=33.79505235&lon=131.1227971&check=820
+OK    820 = 820
+http://localhost/mapcode.php?lat=39.8779133&lon=140.74663395&check=821
+ERROR 435 ≠ 821
+http://localhost/mapcode.php?lat=33.79505235&lon=133.2475287&check=822
+ERROR 172 ≠ 822
+http://localhost/mapcode.php?lat=34.7950683&lon=136.3722173&check=823
+ERROR 213 ≠ 823
+http://localhost/mapcode.php?lat=40.62783205&lon=141.2466238&check=824
+ERROR 84 ≠ 824
+http://localhost/mapcode.php?lat=36.378257950000005&lon=137.12214195&check=825
+ERROR 288 ≠ 825
+http://localhost/mapcode.php?lat=35.37840515&lon=133.12256285&check=826
+ERROR 109 ≠ 826
+http://localhost/mapcode.php?lat=37.87814295&lon=139.9969049&check=827
+ERROR 515 ≠ 827
+http://localhost/mapcode.php?lat=41.1277745&lon=140.62179435000002&check=828
+ERROR 594 ≠ 828
+http://localhost/mapcode.php?lat=37.96145625&lon=139.62192805&check=829
+ERROR 555 ≠ 829
+http://localhost/mapcode.php?lat=44.79403445&lon=141.74644425&check=830
+OK    830 = 830
+http://localhost/mapcode.php?lat=33.961750300000006&lon=132.49761105&check=831
+OK    831 = 831
+http://localhost/mapcode.php?lat=44.4607656&lon=142.6212437&check=832
+OK    832 = 832
+http://localhost/mapcode.php?lat=44.7107156&lon=142.6212437&check=833
+ERROR 746 ≠ 833
+http://localhost/mapcode.php?lat=42.79424615&lon=142.87126335&check=834
+ERROR 592 ≠ 834
+http://localhost/mapcode.php?lat=40.12788575&lon=141.37142914999998&check=835
+OK    835 = 835
+http://localhost/mapcode.php?lat=36.9615109&lon=137.74710495&check=836
+ERROR 314 ≠ 836
+http://localhost/mapcode.php?lat=38.3780906&lon=139.9969049&check=837
+ERROR 407 ≠ 837
+http://localhost/mapcode.php?lat=32.211910700000004&lon=130.99776115&check=838
+ERROR 333 ≠ 838
+http://localhost/mapcode.php?lat=40.2945439&lon=140.8716859&check=839
+OK    839 = 839
+http://localhost/mapcode.php?lat=43.877503899999994&lon=143.49619045&check=840
+OK    840 = 840
+http://localhost/mapcode.php?lat=34.295070100000004&lon=135.4973238&check=841
+ERROR 205 ≠ 841
+http://localhost/mapcode.php?lat=34.71171325&lon=137.74710495&check=842
+ERROR 26 ≠ 842
+http://localhost/mapcode.php?lat=31.878595250000004&lon=131.4977278&check=843
+OK    843 = 843
+http://localhost/mapcode.php?lat=34.2117478&lon=136.74720285&check=844
+OK    844 = 844
+http://localhost/mapcode.php?lat=43.04423195&lon=142.2463129&check=845
+OK    845 = 845
+http://localhost/mapcode.php?lat=35.4616991&lon=140.4966981&check=846
+ERROR 271 ≠ 846
+http://localhost/mapcode.php?lat=41.21109575&lon=140.8716859&check=847
+ERROR 629 ≠ 847
+http://localhost/mapcode.php?lat=44.54406735&lon=142.12134179999998&check=848
+OK    848 = 848
+http://localhost/mapcode.php?lat=37.711484999999996&lon=140.74663395&check=849
+ERROR 208 ≠ 849
+http://localhost/mapcode.php?lat=34.1284306&lon=129.2480395&check=850
+OK    850 = 850
+http://localhost/mapcode.php?lat=34.3784251&lon=130.87279415&check=851
+OK    851 = 851
+http://localhost/mapcode.php?lat=35.4616991&lon=135.7472976&check=852
+ERROR 380 ≠ 852
+http://localhost/mapcode.php?lat=35.5450481&lon=137.74710495&check=853
+ERROR 143 ≠ 853
+http://localhost/mapcode.php?lat=45.377291299999996&lon=140.99669755000002&check=854
+OK    854 = 854
+http://localhost/mapcode.php?lat=37.128172649999996&lon=139.3719694&check=855
+OK    855 = 855
+http://localhost/mapcode.php?lat=37.461536699999996&lon=139.62192805&check=856
+ERROR 397 ≠ 856
+http://localhost/mapcode.php?lat=35.12839995&lon=133.2475287&check=857
+ERROR 418 ≠ 857
+http://localhost/mapcode.php?lat=33.54507505&lon=133.62251315&check=858
+ERROR 73 ≠ 858
+http://localhost/mapcode.php?lat=32.961799150000004&lon=129.1229247&check=859
+OK    859 = 859
+http://localhost/mapcode.php?lat=43.2942097&lon=142.12134179999998&check=860
+OK    860 = 860
+http://localhost/mapcode.php?lat=36.9615109&lon=140.62179435000002&check=861
+ERROR 425 ≠ 861
+http://localhost/mapcode.php?lat=41.5443777&lon=139.9969049&check=862
+OK    862 = 862
+http://localhost/mapcode.php?lat=37.21153765&lon=141.12153575&check=863
+OK    863 = 863
+http://localhost/mapcode.php?lat=38.044779649999995&lon=138.62203175000002&check=864
+OK    864 = 864
+http://localhost/mapcode.php?lat=39.8779133&lon=140.3718366&check=865
+ERROR 686 ≠ 865
+http://localhost/mapcode.php?lat=43.54418765&lon=143.9961262&check=866
+ERROR 739 ≠ 866
+http://localhost/mapcode.php?lat=42.8776103&lon=141.4965581&check=867
+ERROR 230 ≠ 867
+http://localhost/mapcode.php?lat=41.377744500000006&lon=141.4965581&check=868
+OK    868 = 868
+http://localhost/mapcode.php?lat=45.1273287&lon=142.37126675000002&check=869
+OK    869 = 869
+http://localhost/mapcode.php?lat=34.3784251&lon=131.622715&check=870
+ERROR 358 ≠ 870
+http://localhost/mapcode.php?lat=34.54507135&lon=134.1224692&check=871
+ERROR 758 ≠ 871
+http://localhost/mapcode.php?lat=30.87871225&lon=131.1227971&check=872
+OK    872 = 872
+http://localhost/mapcode.php?lat=39.96122375&lon=139.74691&check=873
+ERROR 351 ≠ 873
+http://localhost/mapcode.php?lat=31.795247500000002&lon=129.87289485&check=874
+OK    874 = 874
+http://localhost/mapcode.php?lat=41.877714749999996&lon=141.2466238&check=875
+OK    875 = 875
+http://localhost/mapcode.php?lat=34.295070100000004&lon=133.62251315&check=876
+ERROR 77 ≠ 876
+http://localhost/mapcode.php?lat=25.879227049999997&lon=131.2477376&check=877
+OK    877 = 877
+http://localhost/mapcode.php?lat=33.37846005&lon=131.74769125&check=878
+OK    878 = 878
+http://localhost/mapcode.php?lat=35.7950199&lon=136.49723039999998&check=879
+ERROR 729 ≠ 879
+http://localhost/mapcode.php?lat=24.5459655&lon=122.99845335&check=880
+OK    880 = 880
+http://localhost/mapcode.php?lat=38.461423350000004&lon=139.49693455&check=881
+ERROR 449 ≠ 881
+http://localhost/mapcode.php?lat=27.12908225&lon=142.2463129&check=882
+OK    882 = 882
+http://localhost/mapcode.php?lat=35.045057549999996&lon=132.87256209999998&check=883
+ERROR 388 ≠ 883
+http://localhost/mapcode.php?lat=34.2117478&lon=134.997372&check=884
+OK    884 = 884
+http://localhost/mapcode.php?lat=40.9611314&lon=140.62179435000002&check=885
+ERROR 594 ≠ 885
+http://localhost/mapcode.php?lat=33.54507505&lon=129.49796600000002&check=886
+OK    886 = 886
+http://localhost/mapcode.php?lat=37.6281647&lon=139.49693455&check=887
+ERROR 397 ≠ 887
+http://localhost/mapcode.php?lat=42.21102985&lon=142.49632830000002&check=888
+OK    888 = 888
+http://localhost/mapcode.php?lat=36.62823125&lon=137.6221208&check=889
+ERROR 691 ≠ 889
+http://localhost/mapcode.php?lat=40.2945439&lon=141.62139845000002&check=890
+ERROR 750 ≠ 890
+http://localhost/mapcode.php?lat=33.961750300000006&lon=135.6223446&check=891
+ERROR 478 ≠ 891
+http://localhost/mapcode.php?lat=42.1276885&lon=140.24686830000002&check=892
+ERROR 687 ≠ 892
+http://localhost/mapcode.php?lat=35.5450481&lon=138.24700324999998&check=893
+OK    893 = 893
+http://localhost/mapcode.php?lat=43.96084845&lon=144.99603044999998&check=894
+ERROR 757 ≠ 894
+http://localhost/mapcode.php?lat=43.1276039&lon=143.49619045&check=895
+ERROR 481 ≠ 895
+http://localhost/mapcode.php?lat=24.712483&lon=124.74829944999999&check=896
+OK    896 = 896
+http://localhost/mapcode.php?lat=38.711396300000004&lon=141.4965581&check=897
+ERROR 399 ≠ 897
+http://localhost/mapcode.php?lat=36.378257950000005&lon=137.49715145&check=898
+OK    898 = 898
+http://localhost/mapcode.php?lat=36.211663099999996&lon=136.49723039999998&check=899
+ERROR 507 ≠ 899
+http://localhost/mapcode.php?lat=43.2942097&lon=144.37114730000002&check=900
+ERROR 462 ≠ 900
+http://localhost/mapcode.php?lat=43.2942097&lon=142.74631855&check=901
+OK    901 = 901
+http://localhost/mapcode.php?lat=38.6280707&lon=140.12180965&check=902
+ERROR 522 ≠ 902
+http://localhost/mapcode.php?lat=40.62783205&lon=140.24686830000002&check=903
+ERROR 492 ≠ 903
+http://localhost/mapcode.php?lat=42.79424615&lon=142.12134179999998&check=904
+ERROR 567 ≠ 904
+http://localhost/mapcode.php?lat=26.295826249999998&lon=127.2480604&check=905
+OK    905 = 905
+http://localhost/mapcode.php?lat=32.3785379&lon=130.24783785&check=906
+ERROR 254 ≠ 906
+http://localhost/mapcode.php?lat=32.79516065&lon=132.9975601&check=907
+OK    907 = 907
+http://localhost/mapcode.php?lat=45.2104852&lon=141.62139845000002&check=908
+ERROR 353 ≠ 908
+http://localhost/mapcode.php?lat=44.54406735&lon=142.87126335&check=909
+ERROR 587 ≠ 909
+http://localhost/mapcode.php?lat=43.7108768&lon=144.62111140000002&check=910
+OK    910 = 910
+http://localhost/mapcode.php?lat=44.044135&lon=142.87126335&check=911
+OK    911 = 911
+http://localhost/mapcode.php?lat=35.29507135&lon=137.9970468&check=912
+ERROR 625 ≠ 912
+http://localhost/mapcode.php?lat=37.6281647&lon=137.24717149999998&check=913
+OK    913 = 913
+http://localhost/mapcode.php?lat=43.79416555&lon=142.74631855&check=914
+ERROR 623 ≠ 914
+http://localhost/mapcode.php?lat=40.37787505&lon=141.12153575&check=915
+ERROR 412 ≠ 915
+http://localhost/mapcode.php?lat=39.461329500000005&lon=140.8716859&check=916
+ERROR 626 ≠ 916
+http://localhost/mapcode.php?lat=32.6285199&lon=128.6230558&check=917
+ERROR 334 ≠ 917
+http://localhost/mapcode.php?lat=37.461536699999996&lon=139.24697025&check=918
+ERROR 604 ≠ 918
+http://localhost/mapcode.php?lat=43.2942097&lon=142.37126675000002&check=919
+ERROR 550 ≠ 919
+http://localhost/mapcode.php?lat=43.04423195&lon=140.8716859&check=920
+ERROR 164 ≠ 920
+http://localhost/mapcode.php?lat=42.710938999999996&lon=143.7461489&check=921
+OK    921 = 921
+http://localhost/mapcode.php?lat=40.46117565&lon=139.87185055&check=922
+OK    922 = 922
+http://localhost/mapcode.php?lat=32.878481199999996&lon=132.49761105&check=923
+ERROR 602 ≠ 923
+http://localhost/mapcode.php?lat=42.710938999999996&lon=139.87185055&check=924
+OK    924 = 924
+http://localhost/mapcode.php?lat=37.3781676&lon=138.37205775&check=925
+OK    925 = 925
+http://localhost/mapcode.php?lat=41.5443777&lon=141.12153575&check=926
+OK    926 = 926
+http://localhost/mapcode.php?lat=43.7108768&lon=141.37142914999998&check=927
+ERROR 802 ≠ 927
+http://localhost/mapcode.php?lat=43.3775797&lon=144.87107275&check=928
+ERROR 429 ≠ 928
+http://localhost/mapcode.php?lat=44.4607656&lon=141.37142914999998&check=929
+OK    929 = 929
+http://localhost/mapcode.php?lat=38.211457800000005&lon=139.87185055&check=930
+OK    930 = 930
+http://localhost/mapcode.php?lat=43.877503899999994&lon=143.3712205&check=931
+ERROR 840 ≠ 931
+http://localhost/mapcode.php?lat=43.2942097&lon=140.3718366&check=932
+ERROR 775 ≠ 932
+http://localhost/mapcode.php?lat=28.29550955&lon=129.37290095&check=933
+ERROR 337 ≠ 933
+http://localhost/mapcode.php?lat=43.96084845&lon=142.2463129&check=934
+ERROR 470 ≠ 934
+http://localhost/mapcode.php?lat=33.961750300000006&lon=139.62192805&check=935
+OK    935 = 935
+http://localhost/mapcode.php?lat=33.2118012&lon=133.2475287&check=936
+OK    936 = 936
+http://localhost/mapcode.php?lat=37.79479465&lon=140.24686830000002&check=937
+ERROR 475 ≠ 937
+http://localhost/mapcode.php?lat=43.2942097&lon=140.62179435000002&check=938
+OK    938 = 938
+http://localhost/mapcode.php?lat=35.5450481&lon=139.87185055&check=939
+OK    939 = 939
+http://localhost/mapcode.php?lat=43.54418765&lon=142.12134179999998&check=940
+ERROR 450 ≠ 940
+http://localhost/mapcode.php?lat=43.54418765&lon=145.3710425&check=941
+OK    941 = 941
+http://localhost/mapcode.php?lat=43.2109242&lon=143.9961262&check=942
+ERROR 783 ≠ 942
+http://localhost/mapcode.php?lat=42.29428315&lon=139.87185055&check=943
+ERROR 467 ≠ 943
+http://localhost/mapcode.php?lat=35.5450481&lon=132.74759115&check=944
+OK    944 = 944
+http://localhost/mapcode.php?lat=42.4609814&lon=142.9962835&check=945
+OK    945 = 945
+http://localhost/mapcode.php?lat=34.461738749999995&lon=135.12235809999999&check=946
+OK    946 = 946
+http://localhost/mapcode.php?lat=36.79493035&lon=139.3719694&check=947
+ERROR 735 ≠ 947
+http://localhost/mapcode.php?lat=36.79493035&lon=138.74696985&check=948
+ERROR 554 ≠ 948
+http://localhost/mapcode.php?lat=44.37744895&lon=141.99633075&check=949
+ERROR 740 ≠ 949
+http://localhost/mapcode.php?lat=36.1283239&lon=136.87219199999998&check=950
+ERROR 597 ≠ 950
+http://localhost/mapcode.php?lat=41.794357149999996&lon=140.62179435000002&check=951
+ERROR 86 ≠ 951
+http://localhost/mapcode.php?lat=43.460877&lon=145.8707936&check=952
+OK    952 = 952
+http://localhost/mapcode.php?lat=33.628398849999996&lon=135.3723528&check=953
+ERROR 457 ≠ 953
+http://localhost/mapcode.php?lat=39.1279977&lon=140.12180965&check=954
+ERROR 668 ≠ 954
+http://localhost/mapcode.php?lat=44.21079625&lon=143.7461489&check=955
+OK    955 = 955
+http://localhost/mapcode.php?lat=24.37917475&lon=124.1235424&check=956
+ERROR 366 ≠ 956
+http://localhost/mapcode.php?lat=44.9606614&lon=142.6212437&check=957
+OK    957 = 957
+http://localhost/mapcode.php?lat=44.044135&lon=144.37114730000002&check=958
+OK    958 = 958
+http://localhost/mapcode.php?lat=44.21079625&lon=141.74644425&check=959
+ERROR 508 ≠ 959
+http://localhost/mapcode.php?lat=35.711709299999995&lon=134.37245374999998&check=960
+OK    960 = 960
+http://localhost/mapcode.php?lat=42.29428315&lon=143.24625565&check=961
+ERROR 454 ≠ 961
+http://localhost/mapcode.php?lat=33.54507505&lon=135.6223446&check=962
+ERROR 776 ≠ 962
+http://localhost/mapcode.php?lat=43.62750665&lon=141.74644425&check=963
+ERROR 360 ≠ 963
+http://localhost/mapcode.php?lat=45.5437941&lon=141.74644425&check=964
+OK    964 = 964
+http://localhost/mapcode.php?lat=34.04507175&lon=130.74780045&check=965
+OK    965 = 965
+http://localhost/mapcode.php?lat=34.2117478&lon=136.49723039999998&check=966
+OK    966 = 966
+http://localhost/mapcode.php?lat=33.628398849999996&lon=129.87289485&check=967
+OK    967 = 967
+http://localhost/mapcode.php?lat=42.4609814&lon=143.49619045&check=968
+OK    968 = 968
+http://localhost/mapcode.php?lat=38.294767050000004&lon=139.74691&check=969
+ERROR 930 ≠ 969
+http://localhost/mapcode.php?lat=43.54418765&lon=142.9962835&check=970
+ERROR 743 ≠ 970
+http://localhost/mapcode.php?lat=37.044908750000005&lon=138.9969751&check=971
+ERROR 417 ≠ 971
+http://localhost/mapcode.php?lat=34.7950683&lon=129.49796600000002&check=972
+OK    972 = 972
+http://localhost/mapcode.php?lat=43.04423195&lon=144.87107275&check=973
+ERROR 637 ≠ 973
+http://localhost/mapcode.php?lat=44.21079625&lon=145.24600535000002&check=974
+OK    974 = 974
+http://localhost/mapcode.php?lat=26.6289917&lon=142.12134179999998&check=975
+OK    975 = 975
+http://localhost/mapcode.php?lat=43.7108768&lon=144.87107275&check=976
+ERROR 658 ≠ 976
+http://localhost/mapcode.php?lat=34.54507135&lon=139.3719694&check=977
+OK    977 = 977
+http://localhost/mapcode.php?lat=35.878350499999996&lon=135.24735&check=978
+OK    978 = 978
+http://localhost/mapcode.php?lat=35.961684500000004&lon=139.1219726&check=979
+ERROR 91 ≠ 979
+http://localhost/mapcode.php?lat=45.29395975&lon=141.99633075&check=980
+ERROR 680 ≠ 980
+http://localhost/mapcode.php?lat=42.6276674&lon=140.12180965&check=981
+ERROR 797 ≠ 981
+http://localhost/mapcode.php?lat=34.628389600000006&lon=136.9971901&check=982
+ERROR 196 ≠ 982
+http://localhost/mapcode.php?lat=42.4609814&lon=141.2466238&check=983
+OK    983 = 983
+http://localhost/mapcode.php?lat=37.128172649999996&lon=136.74720285&check=984
+ERROR 471 ≠ 984
+http://localhost/mapcode.php?lat=42.544268450000004&lon=142.74631855&check=985
+OK    985 = 985
+http://localhost/mapcode.php?lat=34.1284306&lon=135.12235809999999&check=986
+ERROR 146 ≠ 986
+http://localhost/mapcode.php?lat=38.54473435&lon=139.24697025&check=987
+OK    987 = 987
+http://localhost/mapcode.php?lat=39.54460255&lon=141.4965581&check=988
+ERROR 639 ≠ 988
+http://localhost/mapcode.php?lat=43.04423195&lon=141.12153575&check=989
+ERROR 493 ≠ 989
+http://localhost/mapcode.php?lat=26.6289917&lon=127.2480604&check=990
+OK    990 = 990
+http://localhost/mapcode.php?lat=44.21079625&lon=144.2461036&check=991
+OK    991 = 991
+http://localhost/mapcode.php?lat=32.5451902&lon=139.87185055&check=992
+OK    992 = 992
+http://localhost/mapcode.php?lat=42.1276885&lon=140.4966981&check=993
+ERROR 490 ≠ 993
+http://localhost/mapcode.php?lat=40.12788575&lon=140.62179435000002&check=994
+ERROR 297 ≠ 994
+http://localhost/mapcode.php?lat=30.87871225&lon=129.9978668&check=995
+OK    995 = 995
+http://localhost/mapcode.php?lat=30.29543675&lon=130.49782184999998&check=996
+ERROR 643 ≠ 996
+http://localhost/mapcode.php?lat=34.71171325&lon=131.2477376&check=997
+OK    997 = 997
+http://localhost/mapcode.php?lat=45.6271257&lon=141.99633075&check=998
+OK    998 = 998
+http://localhost/mapcode.php?lat=39.794593750000004&lon=140.4966981&check=999
+ERROR 686 ≠ 999
+http://localhost/mapcode.php?lat=35.6283787&lon=135.6223446&check=1000
+OK    1000 = 1000
+http://localhost/mapcode.php?lat=42.377662799999996&lon=142.9962835&check=1001
+ERROR 945 ≠ 1001
+http://localhost/mapcode.php?lat=40.2112053&lon=139.9969049&check=1002
+ERROR 223 ≠ 1002
+http://localhost/mapcode.php?lat=34.71171325&lon=137.49715145&check=1003
+ERROR 43 ≠ 1003
+http://localhost/mapcode.php?lat=36.878220049999996&lon=138.12209625&check=1004
+ERROR 469 ≠ 1004
+http://localhost/mapcode.php?lat=26.3791517&lon=127.62321259999999&check=1005
+ERROR 33 ≠ 1005
+http://localhost/mapcode.php?lat=32.1285649&lon=131.622715&check=1006
+OK    1006 = 1006
+http://localhost/mapcode.php?lat=34.71171325&lon=137.9970468&check=1007
+ERROR 83 ≠ 1007
+http://localhost/mapcode.php?lat=37.044908750000005&lon=139.24697025&check=1008
+ERROR 855 ≠ 1008
+http://localhost/mapcode.php?lat=44.4607656&lon=142.87126335&check=1009
+ERROR 587 ≠ 1009
+http://localhost/mapcode.php?lat=42.710938999999996&lon=142.6212437&check=1010
+OK    1010 = 1010
+http://localhost/mapcode.php?lat=40.87778695&lon=140.12180965&check=1011
+OK    1011 = 1011
+http://localhost/mapcode.php?lat=31.795247500000002&lon=130.24783785&check=1012
+ERROR 147 ≠ 1012
+http://localhost/mapcode.php?lat=36.29496505&lon=133.37254565&check=1013
+OK    1013 = 1013
+http://localhost/mapcode.php?lat=34.04507175&lon=131.4977278&check=1014
+ERROR 93 ≠ 1014
+http://localhost/mapcode.php?lat=29.878807350000002&lon=129.87289485&check=1015
+OK    1015 = 1015
+http://localhost/mapcode.php?lat=32.6285199&lon=128.87297175&check=1016
+OK    1016 = 1016
+http://localhost/mapcode.php?lat=34.54507135&lon=131.1227971&check=1017
+OK    1017 = 1017
+http://localhost/mapcode.php?lat=24.1293381&lon=123.8735661&check=1018
+OK    1018 = 1018
+http://localhost/mapcode.php?lat=39.1279977&lon=140.99669755000002&check=1019
+ERROR 142 ≠ 1019
+http://localhost/mapcode.php?lat=39.627957699999996&lon=141.87138055&check=1020
+ERROR 286 ≠ 1020
+http://localhost/mapcode.php?lat=34.7950683&lon=138.37205775&check=1021
+OK    1021 = 1021
+http://localhost/mapcode.php?lat=34.7950683&lon=131.74769125&check=1022
+ERROR 277 ≠ 1022
+http://localhost/mapcode.php?lat=33.54507505&lon=134.37245374999998&check=1023
+ERROR 427 ≠ 1023
+http://localhost/mapcode.php?lat=34.2117478&lon=133.37254565&check=1024
+OK    1024 = 1024
+http://localhost/mapcode.php?lat=35.711709299999995&lon=133.12256285&check=1025
+OK    1025 = 1025
+http://localhost/mapcode.php?lat=33.128482950000006&lon=132.1226347&check=1026
+OK    1026 = 1026
+http://localhost/mapcode.php?lat=33.2951025&lon=134.24743535&check=1027
+OK    1027 = 1027
+http://localhost/mapcode.php?lat=39.29464855&lon=139.62192805&check=1028
+OK    1028 = 1028
+http://localhost/mapcode.php?lat=43.1276039&lon=140.4966981&check=1029
+ERROR 654 ≠ 1029
+http://localhost/mapcode.php?lat=33.71177085&lon=130.12285945&check=1030
+OK    1030 = 1030
+http://localhost/mapcode.php?lat=30.545411450000003&lon=130.24783785&check=1031
+OK    1031 = 1031
+http://localhost/mapcode.php?lat=41.1277745&lon=140.99669755000002&check=1032
+OK    1032 = 1032
+http://localhost/mapcode.php?lat=42.29428315&lon=142.2463129&check=1033
+OK    1033 = 1033
+http://localhost/mapcode.php?lat=42.6276674&lon=142.6212437&check=1034
+ERROR 985 ≠ 1034
+http://localhost/mapcode.php?lat=24.2959845&lon=124.1235424&check=1035
+ERROR 956 ≠ 1035
+http://localhost/mapcode.php?lat=24.712483&lon=124.37350975000001&check=1036
+OK    1036 = 1036
+http://localhost/mapcode.php?lat=35.878350499999996&lon=138.24700324999998&check=1037
+ERROR 218 ≠ 1037
+http://localhost/mapcode.php?lat=34.7950683&lon=139.1219726&check=1038
+ERROR 488 ≠ 1038
+http://localhost/mapcode.php?lat=38.211457800000005&lon=139.3719694&check=1039
+ERROR 250 ≠ 1039
+http://localhost/mapcode.php?lat=44.37744895&lon=143.62117125&check=1040
+OK    1040 = 1040
+http://localhost/mapcode.php?lat=24.795814749999998&lon=141.37142914999998&check=1041
+OK    1041 = 1041
+http://localhost/mapcode.php?lat=34.2117478&lon=133.62251315&check=1042
+ERROR 77 ≠ 1042
+http://localhost/mapcode.php?lat=43.2109242&lon=145.3710425&check=1043
+ERROR 734 ≠ 1043
+http://localhost/mapcode.php?lat=34.3784251&lon=134.49742275&check=1044
+OK    1044 = 1044
+http://localhost/mapcode.php?lat=41.377744500000006&lon=140.3718366&check=1045
+OK    1045 = 1045
+http://localhost/mapcode.php?lat=34.1284306&lon=134.7473913&check=1046
+OK    1046 = 1046
+http://localhost/mapcode.php?lat=24.2959845&lon=123.62358825000001&check=1047
+OK    1047 = 1047
+http://localhost/mapcode.php?lat=40.711155500000004&lon=139.87185055&check=1048
+ERROR 559 ≠ 1048
+http://localhost/mapcode.php?lat=42.4609814&lon=142.87126335&check=1049
+ERROR 945 ≠ 1049
+http://localhost/mapcode.php?lat=32.79516065&lon=132.87256209999998&check=1050
+ERROR 276 ≠ 1050
+http://localhost/mapcode.php?lat=29.2120655&lon=129.2480395&check=1051
+OK    1051 = 1051
+http://localhost/mapcode.php?lat=29.54550535&lon=129.62290285&check=1052
+OK    1052 = 1052
+http://localhost/mapcode.php?lat=33.79505235&lon=132.49761105&check=1053
+OK    1053 = 1053
+http://localhost/mapcode.php?lat=43.79416555&lon=145.24600535000002&check=1054
+ERROR 0 ≠ 1054
+http://localhost/mapcode.php?lat=26.71231975&lon=128.37313805&check=1055
+OK    1055 = 1055
+http://localhost/mapcode.php?lat=28.0456683&lon=129.37290095&check=1056
+OK    1056 = 1056
+http://localhost/mapcode.php?lat=34.7950683&lon=138.74696985&check=1057
+ERROR 248 ≠ 1057
+http://localhost/mapcode.php?lat=33.04512985&lon=129.37290095&check=1058
+ERROR 727 ≠ 1058
+http://localhost/mapcode.php?lat=33.2118012&lon=129.62290285&check=1059
+ERROR 0 ≠ 1059
+http://localhost/mapcode.php?lat=34.54507135&lon=133.74748525&check=1060
+ERROR 19 ≠ 1060
+http://localhost/mapcode.php?lat=42.96094005&lon=142.74631855&check=1061
+ERROR 608 ≠ 1061
+http://localhost/mapcode.php?lat=34.3784251&lon=129.49796600000002&check=1062
+OK    1062 = 1062
+http://localhost/mapcode.php?lat=39.711274&lon=140.8716859&check=1063
+ERROR 435 ≠ 1063
+http://localhost/mapcode.php?lat=30.87871225&lon=130.3728423&check=1064
+OK    1064 = 1064
+http://localhost/mapcode.php?lat=44.37744895&lon=143.1212697&check=1065
+ERROR 401 ≠ 1065
+http://localhost/mapcode.php?lat=34.54507135&lon=131.3727654&check=1066
+ERROR 588 ≠ 1066
+http://localhost/mapcode.php?lat=37.461536699999996&lon=136.74720285&check=1067
+OK    1067 = 1067
+http://localhost/mapcode.php?lat=36.29496505&lon=136.1222377&check=1068
+ERROR 264 ≠ 1068
+http://localhost/mapcode.php?lat=36.378257950000005&lon=137.74710495&check=1069
+ERROR 158 ≠ 1069
+http://localhost/mapcode.php?lat=44.54406735&lon=141.74644425&check=1070
+ERROR 692 ≠ 1070
+http://localhost/mapcode.php?lat=29.7953412&lon=129.62290285&check=1071
+OK    1071 = 1071
+http://localhost/mapcode.php?lat=24.795814749999998&lon=125.24825405&check=1072
+ERROR 721 ≠ 1072
+http://localhost/mapcode.php?lat=37.87814295&lon=139.62192805&check=1073
+ERROR 674 ≠ 1073
+http://localhost/mapcode.php?lat=44.79403445&lon=142.49632830000002&check=1074
+ERROR 571 ≠ 1074
+http://localhost/mapcode.php?lat=24.37917475&lon=153.99591555&check=1075
+OK    1075 = 1075
+http://localhost/mapcode.php?lat=26.212497499999998&lon=127.99817895000001&check=1076
+ERROR 0 ≠ 1076
+http://localhost/mapcode.php?lat=27.7123545&lon=128.9980124&check=1077
+ERROR 441 ≠ 1077
+http://localhost/mapcode.php?lat=44.044135&lon=144.62111140000002&check=1078
+OK    1078 = 1078
+http://localhost/mapcode.php?lat=32.211910700000004&lon=129.9978668&check=1079
+ERROR 299 ≠ 1079
+http://localhost/mapcode.php?lat=43.54418765&lon=141.37142914999998&check=1080
+ERROR 794 ≠ 1080
+http://localhost/mapcode.php?lat=28.12898785&lon=129.2480395&check=1081
+ERROR 476 ≠ 1081
+http://localhost/mapcode.php?lat=31.37865805&lon=131.2477376&check=1082
+ERROR 724 ≠ 1082
+http://localhost/mapcode.php?lat=37.96145625&lon=136.9971901&check=1083
+OK    1083 = 1083
+http://localhost/mapcode.php?lat=32.6285199&lon=131.99765235&check=1084
+OK    1084 = 1084
+http://localhost/mapcode.php?lat=41.5443777&lon=139.3719694&check=1085
+OK    1085 = 1085
+http://localhost/mapcode.php?lat=32.6285199&lon=129.74789470000002&check=1086
+ERROR 443 ≠ 1086
+http://localhost/mapcode.php?lat=26.212497499999998&lon=127.3732368&check=1087
+OK    1087 = 1087
+http://localhost/mapcode.php?lat=32.04522945&lon=128.37313805&check=1088
+OK    1088 = 1088
+http://localhost/mapcode.php?lat=32.79516065&lon=132.24762735000002&check=1089
+OK    1089 = 1089
+http://localhost/mapcode.php?lat=35.4616991&lon=132.49761105&check=1090
+OK    1090 = 1090
+http://localhost/mapcode.php?lat=34.1284306&lon=132.74759115&check=1091
+ERROR 356 ≠ 1091
+http://localhost/mapcode.php?lat=42.377662799999996&lon=140.74663395&check=1092
+OK    1092 = 1092
+http://localhost/mapcode.php?lat=27.629145700000002&lon=142.12134179999998&check=1093
+OK    1093 = 1093
+http://localhost/mapcode.php?lat=33.79505235&lon=132.24762735000002&check=1094
+ERROR 503 ≠ 1094
+http://localhost/mapcode.php?lat=25.7958331&lon=123.49857975&check=1095
+OK    1095 = 1095
+http://localhost/mapcode.php?lat=25.96250455&lon=123.7483699&check=1096
+OK    1096 = 1096
+http://localhost/mapcode.php?lat=26.4624739&lon=126.99826784999999&check=1097
+OK    1097 = 1097
+http://localhost/mapcode.php?lat=28.8787644&lon=128.9980124&check=1098
+OK    1098 = 1098
+http://localhost/mapcode.php?lat=33.2118012&lon=128.9980124&check=1099
+ERROR 672 ≠ 1099
+http://localhost/mapcode.php?lat=30.87871225&lon=129.49796600000002&check=1100
+OK    1100 = 1100
+http://localhost/mapcode.php?lat=31.21201315&lon=129.49796600000002&check=1101
+OK    1101 = 1101
+http://localhost/mapcode.php?lat=31.461981950000002&lon=130.12285945&check=1102
+ERROR 505 ≠ 1102
+http://localhost/mapcode.php?lat=30.79538815&lon=130.87279415&check=1103
+OK    1103 = 1103
+http://localhost/mapcode.php?lat=32.461870950000005&lon=131.87267085&check=1104
+OK    1104 = 1104
+http://localhost/mapcode.php?lat=34.1284306&lon=132.37260859999998&check=1105
+ERROR 374 ≠ 1105
+http://localhost/mapcode.php?lat=33.878412100000006&lon=134.87236205&check=1106
+OK    1106 = 1106
+http://localhost/mapcode.php?lat=37.711484999999996&lon=136.87219199999998&check=1107
+OK    1107 = 1107
+http://localhost/mapcode.php?lat=41.961024249999994&lon=140.12180965&check=1108
+ERROR 482 ≠ 1108
+http://localhost/mapcode.php?lat=42.4609814&lon=140.4966981&check=1109
+OK    1109 = 1109
+http://localhost/mapcode.php?lat=25.462671999999998&lon=141.37142914999998&check=1110
+OK    1110 = 1110
+http://localhost/mapcode.php?lat=39.794593750000004&lon=142.12134179999998&check=1111
+OK    1111 = 1111
+http://localhost/mapcode.php?lat=26.0458323&lon=124.6232921&check=1112
+OK    1112 = 1112
+http://localhost/mapcode.php?lat=26.71231975&lon=126.87308605000001&check=1113
+OK    1113 = 1113
+http://localhost/mapcode.php?lat=26.212497499999998&lon=127.2480604&check=1114
+ERROR 905 ≠ 1114
+http://localhost/mapcode.php?lat=26.295826249999998&lon=127.62321259999999&check=1115
+ERROR 33 ≠ 1115
+http://localhost/mapcode.php?lat=26.54580085&lon=128.12316615&check=1116
+ERROR 485 ≠ 1116
+http://localhost/mapcode.php?lat=27.962329750000002&lon=128.24815035&check=1117
+OK    1117 = 1117
+http://localhost/mapcode.php?lat=32.961799150000004&lon=128.87297175&check=1118
+ERROR 411 ≠ 1118
+http://localhost/mapcode.php?lat=32.79516065&lon=129.1229247&check=1119
+OK    1119 = 1119
+http://localhost/mapcode.php?lat=33.628398849999996&lon=129.74789470000002&check=1120
+ERROR 967 ≠ 1120
+http://localhost/mapcode.php?lat=30.1287852&lon=129.9978668&check=1121
+OK    1121 = 1121
+http://localhost/mapcode.php?lat=33.961750300000006&lon=130.12285945&check=1122
+OK    1122 = 1122
+http://localhost/mapcode.php?lat=34.295070100000004&lon=130.12285945&check=1123
+OK    1123 = 1123
+http://localhost/mapcode.php?lat=34.71171325&lon=130.12285945&check=1124
+OK    1124 = 1124
+^[[Chttp://localhost/mapcode.php?lat=24.5459655&lon=131.2477376&check=1125
+OK    1125 = 1125
+http://localhost/mapcode.php?lat=34.7950683&lon=131.4977278&check=1126
+OK    1126 = 1126
+http://localhost/mapcode.php?lat=34.96170105&lon=131.99765235&check=1127
+ERROR 241 ≠ 1127
+http://localhost/mapcode.php?lat=33.54507505&lon=132.1226347&check=1128
+ERROR 682 ≠ 1128
+http://localhost/mapcode.php?lat=32.79516065&lon=132.49761105&check=1129
+ERROR 602 ≠ 1129
+http://localhost/mapcode.php?lat=35.711709299999995&lon=132.9975601&check=1130
+ERROR 1025 ≠ 1130
+http://localhost/mapcode.php?lat=36.1283239&lon=133.2475287&check=1131
+ERROR 486 ≠ 1131
+http://localhost/mapcode.php?lat=34.1284306&lon=133.37254565&check=1132
+ERROR 1024 ≠ 1132
+http://localhost/mapcode.php?lat=35.6283787&lon=133.87248085&check=1133
+OK    1133 = 1133
+http://localhost/mapcode.php?lat=35.7950199&lon=134.62240585&check=1134
+OK    1134 = 1134
+http://localhost/mapcode.php?lat=34.628389600000006&lon=135.3723528&check=1135
+ERROR 1 ≠ 1135
+http://localhost/mapcode.php?lat=33.4618018&lon=135.8723087&check=1136
+ERROR 324 ≠ 1136
+http://localhost/mapcode.php?lat=35.878350499999996&lon=135.8723087&check=1137
+ERROR 788 ≠ 1137
+http://localhost/mapcode.php?lat=36.62823125&lon=136.49723039999998&check=1138
+ERROR 41 ≠ 1138
+http://localhost/mapcode.php?lat=36.878220049999996&lon=137.74710495&check=1139
+ERROR 535 ≠ 1139
+http://localhost/mapcode.php?lat=38.461423350000004&lon=138.4969746&check=1140
+OK    1140 = 1140
+http://localhost/mapcode.php?lat=34.295070100000004&lon=139.1219726&check=1141
+ERROR 753 ≠ 1141
+http://localhost/mapcode.php?lat=42.377662799999996&lon=139.62192805&check=1142
+OK    1142 = 1142
+http://localhost/mapcode.php?lat=41.461054250000004&lon=139.87185055&check=1143
+ERROR 862 ≠ 1143
+http://localhost/mapcode.php?lat=41.461054250000004&lon=140.12180965&check=1144
+ERROR 676 ≠ 1144
+http://localhost/mapcode.php?lat=30.545411450000003&lon=140.3718366&check=1145
+OK    1145 = 1145
+http://localhost/mapcode.php?lat=41.377744500000006&lon=140.62179435000002&check=1146
+OK    1146 = 1146
+http://localhost/mapcode.php?lat=27.295970099999998&lon=140.99669755000002&check=1147
+OK    1147 = 1147
+http://localhost/mapcode.php?lat=35.711709299999995&lon=140.99669755000002&check=1148
+OK    1148 = 1148
+http://localhost/mapcode.php?lat=38.294767050000004&lon=141.12153575&check=1149
+ERROR 110 ≠ 1149
+http://localhost/mapcode.php?lat=41.21109575&lon=141.2466238&check=1150
+ERROR 284 ≠ 1150
+http://localhost/mapcode.php?lat=24.2959845&lon=141.4965581&check=1151
+OK    1151 = 1151
+http://localhost/mapcode.php?lat=38.87803425&lon=141.74644425&check=1152
+ERROR 193 ≠ 1152
+http://localhost/mapcode.php?lat=40.62783205&lon=141.74644425&check=1153
+OK    1153 = 1153
+http://localhost/mapcode.php?lat=40.2112053&lon=141.99633075&check=1154
+OK    1154 = 1154
+http://localhost/mapcode.php?lat=39.461329500000005&lon=142.12134179999998&check=1155
+ERROR 817 ≠ 1155
+http://localhost/mapcode.php?lat=27.5458347&lon=142.2463129&check=1156
+ERROR 1093 ≠ 1156
+http://localhost/mapcode.php?lat=45.377291299999996&lon=142.37126675000002&check=1157
+OK    1157 = 1157
+http://localhost/mapcode.php?lat=44.877368149999995&lon=142.87126335&check=1158
+OK    1158 = 1158
+http://localhost/mapcode.php?lat=42.96094005&lon=144.12116955&check=1159
+ERROR 630 ≠ 1159
+http://localhost/mapcode.php?lat=44.4607656&lon=145.3710425&check=1160
+OK    1160 = 1160
+http://localhost/mapcode.php?lat=43.2109242&lon=145.62101489999998&check=1161
+ERROR 423 ≠ 1161
+http://localhost/mapcode.php?lat=43.79416555&lon=145.4958037&check=1162
+OK    1162 = 1162
