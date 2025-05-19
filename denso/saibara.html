@@ -1,0 +1,114 @@
+<html><head>
+<title>Saibara's Convert GEO code Version 1.06e</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8">
+<meta name="ROBOTS" content="NONINDEX"></head>
+<body bgcolor="#c0c0c0" text="#000000"
+link="#0000ee" alink="#ff0000" vlink="#551a8b">
+<h1>ジオコード(地理情報)変換ページ</h1>
+<form action="https://saibara.sakura.ne.jp/map/convgeo.cgi" method="post">
+フリー入力には、地図URLや、単に数字を列挙しただけのものなど、緯度経度の数字をある程度自由に入力できます。(但し、表記形式や測地系は入力場所に依存します。)<br>
+↓変換したいジオコード(変換元)を選択してください。残りの全てのジオコードに変換されます。<br>
+<input type="radio" name="t" value="freewgsdeg">世界測地系DEG表記フリー<input type ="text" name="freewgsdeg" value="https://www.google.co.jp/maps/@24.504581,154.120905,18z" size="80">
+<br>
+<input type="radio" name="t" value="freewgsdms">世界測地系DMS表記フリー<input type ="text" name="freewgsdms" value="24°30'16.49N/154°7'15.26E" size="80">
+<br>
+<input type="radio" name="t" value="wgsdeg">世界測地系DEG表記<input type ="text" name="wgs_lat" value="24.5045809" size="11">
+/<input type ="text" name="wgs_lon" value="154.1209048" size="11">
+<br>
+<input type="radio" name="t" value="wgsdms">世界測地系DMS表記<input type ="text" name="wgs_lat_degree" value="24" size="4">
+.<input type ="text" name="wgs_lat_min" value="30" size="3">
+.<input type ="text" name="wgs_lat_sec" value="16.49" size="6">
+/<input type ="text" name="wgs_lon_degree" value="154" size="4">
+.<input type ="text" name="wgs_lon_min" value="7" size="3">
+.<input type ="text" name="wgs_lon_sec" value="15.26" size="6">
+<br>
+<input type="radio" name="t" value="freejpndeg">日本測地系DEG表記フリー<input type ="text" name="freejpndeg" value="http://www.mapion.co.jp/m/24.499861_154.124769_10/" size="80">
+<br>
+<input type="radio" name="t" value="freejpndms">日本測地系DMS表記フリー<input type ="text" name="freejpndms" value="24°29'59.50N/154°7'29.17E" size="80">
+<br>
+<input type="radio" name="t" value="jpndeg">日本測地系DEG表記<input type ="text" name="jpn_lat" value="24.4998611" size="11">
+/<input type ="text" name="jpn_lon" value="154.1247685" size="11">
+<br>
+<input type="radio" name="t" value="jpndms">日本測地系DMS表記<input type ="text" name="jpn_lat_degree" value="24" size="4">
+.<input type ="text" name="jpn_lat_min" value="29" size="3">
+.<input type ="text" name="jpn_lat_sec" value="59.50" size="6">
+/<input type ="text" name="jpn_lon_degree" value="154" size="4">
+.<input type ="text" name="jpn_lon_min" value="7" size="3">
+.<input type ="text" name="jpn_lon_sec" value="29.17" size="6">
+<br>
+<input type="radio" name="t" value="olc">Open Location Code (OLC)<input type ="text" name="olc" value="7RPPG43C+R9J9" size="15">
+<br>
+<input type="radio" name="t" value="mapcode" checked>MAPCODE (マップコード)<input type ="text" name="mapcode" value="1075 899 899*80" size="15">
+<br>
+<input type="radio" name="t" value="lpa">LP Address (旧ロカポ)<input type ="text" name="lpa" value="QO0.YD4.HJ4.BG5" size="20">
+<br>
+<input type="radio" name="t" value="geopo">geopo (ジオポ)<input type ="text" name="geopo" value="ZotdAvrg" size="10">
+<br>
+<input type ="submit" value="Send">
+<input type ="reset" value="Reset">
+</form>
+<h2>ジオコード(緯度経度情報)変換結果</h2>
+世界測地系(WGS84) : 24.30.16.49 / 154.7.15.26<br>
+世界測地系 : 24.5045809 / 154.1209048<br>
+日本測地系(JPN) : 24.29.59.50 / 154.7.29.17<br>
+日本測地系 : 24.4998611 / 154.1247685<br>
+世界測地系(GRS80) : 24.30.16.49 / 154.7.15.26<br>
+世界測地系 : 24.5045809 / 154.1209048<br>
+Open Localtion Code : 7RPPG43C+R9J9<br>マップコード(MAPCODE) : 1075 899 899*80<br>
+LP Address(旧称ロカポ) : QO0.YD4.HJ4.BG5<br>
+ジオポ : ZotdAvrg<br>
+<h2>ジオコード(緯度経度情報)リンク集</h2>
+<ul>
+<li>OLC：plus.codesサイトで使用可能<br><a href="https://plus.codes/7RPPG43C+R9J9">https://plus.codes/7RPPG43C+R9J9</a>
+<li>LP Address(旧称ロカポ)<br><a href="http://www.locapoint.com/publicutil/viewer.html?lp=QO0.YD4.HJ4.BG5">http://www.locapoint.com/publicutil/viewer.html?lp=QO0.YD4.HJ4.BG5</a>
+<h3>世界測地系リンク集</h3>
+<li>世界測地系：GoogleMap<br><a href="https://www.google.co.jp/maps/@24.504581,154.120905,18z">https://www.google.co.jp/maps/@24.504581,154.120905,18z</a>
+<li>世界測地系：地理院地図(国土地理院)日本国内のみ対応<br><a href="https://maps.gsi.go.jp/#17/24.504581/154.120905">https://maps.gsi.go.jp/#17/24.504581/154.120905</a>
+<li>世界測地系：地理院地図(国土地理院)モバイル版<br><a href="https://maps.gsi.go.jp/index_m.html#17/24.504581/154.120905">https://maps.gsi.go.jp/index_m.html#17/24.504581/154.120905</a>
+<li>世界測地系：Mapion（日本国内のみ）<br><a href="http://www.mapion.co.jp/m2/24.504581,154.120905,19">http://www.mapion.co.jp/m2/24.504581,154.120905,19</a>
+<li>世界測地系：MapFanWeb（日本国内のみ）<br><a href="https://mapfan.com/map?c=24.504581,154.120905,18">https://mapfan.com/map?c=24.504581,154.120905,18</a>
+<li>世界測地系：Yahoo!Japan地図<br><a href="http://map.yahoo.co.jp/place?lat=24.504581&lon=154.120905">http://map.yahoo.co.jp/place?lat=24.504581&lon=154.120905</a>
+<h3>日本測地系リンク集</h3>
+<li>日本測地系：Mapion（日本国内のみ）<br><a href="http://www.mapion.co.jp/m/24.499861_154.124769_10/">http://www.mapion.co.jp/m/24.499861_154.124769_10/</a>
+<li>日本測地系：MapFanWeb（日本国内のみ）<br><a href="http://kokomail.mapfan.com/receivew.cgi?MAP=E154.7.29.166667N24.29.59.500000&ZM=11">http://kokomail.mapfan.com/receivew.cgi?MAP=E154.7.29.166667N24.29.59.500000&ZM=11</a>
+<li>日本測地系：goo地図<br><a href="http://link.maps.goo.ne.jp/map.php?MAP=E154.7.29.166667N24.29.59.500000&ZM=10">http://link.maps.goo.ne.jp/map.php?MAP=E154.7.29.166667N24.29.59.500000&ZM=10</a>
+<li>日本測地系：いつもNAVI(ゼンリン地図)（日本国内のみ）：数字は1/100秒単位<br><a href="http://www.its-mo.com/map/mapclick.htm?lat=88199500&lon=554849167&lvl=16">http://www.its-mo.com/map/mapclick.htm?lat=88199500&lon=554849167&lvl=16</a>
+<li>日本測地系：Yahoo!Japan地図<br><a href="http://map.yahoo.co.jp/pl?type=scroll&lat=24.499861&lon=154.124769&sc=3">http://map.yahoo.co.jp/pl?type=scroll&lat=24.499861&lon=154.124769&sc=3</a>
+</ul>
+<h2>地図表示</h2>
+エラー多数のため休止中<br>
+<hr>
+<h2>使い方</h2><ol>
+<li>変換したいコードの左端のボタンを選択状態にする。
+<li>変換したいコードの値を入力する。
+<li>「Send」ボタンをクリックすると、残りのコードが変換されて表示されます。
+<li>下部にその位置の地図へのリンクが出ます。
+(現在APIエラーにより地図表示自体は休止中。)
+</ol>
+<hr>
+<h2><font color="red"><b>注意！！！！！！！</b></font></h2>
+本プログラムの利用に際し、以下の点についてあらかじめ了承願います。<br>
+<ul>
+<li>本ジオコード(地理情報)変換は「完全非保証」です。大幅にずれることはあまり無いと思いますが、結果についてはあくまで個人の使用において、自己責任のもとで利用願います。
+<li>「マップコード」および「MAPCODE」は(株)デンソーの登録商標です。
+<li>特にマップコードについては、デンソーさんから技術供与を受けないで、公開された情報を基に、あくまで私(サイバラ)の独自の解析・解釈・推定による変換アルゴリズムを適用した結果です。本プログラムによる結果について、デンソーさんへ問い合わせることは絶対にしないようお願いします。
+<li>日本測地系(JPN)と世界測地系(WGS84)の変換には、それぞれベッセル楕円体,WGS84で定義された準拠楕円体を元に計算しています。また、変換「元」の標高を0mと仮定して変換していますので、変換->逆変換すると微妙に位置がずれます。ITRF座標系GRS80楕円体による計算も一応行っていますが、結果を見る限りWGS84との間の差はほとんど無いようです。
+<li>基本マップコード使用時、拡張マップコード部は「*00」(エリアの中心位置)とみなしています。Mapionでは「*55」(エリアの南西隅の位置)を表示する仕様になっているため、この部分について挙動が異なります。(一般のカーナビでは「*00」とみなすと思いますが充分確認が取れていません)
+<li>マップコードのゾーン番号について、私(サイバラ)自身が確認できたもの全てに対応しています。ゾーン番号0～1161番まではほぼ確定しています。それ以上のマップコードは定義上1203番まで存在するはずですが、全部は判明しませんでした。そこで判明した範囲で対応していますが、現時点では仮対応(無保証)と思って下さい。
+<li>一般的な日本領土内であればマップコードは全て網羅されているはずです。
+私の調べた限りでは、北方4島の一部、竹島、沖ノ鳥島(日本の最南端)などにはマップコードが無いことが判明しています。
+<li>OLC(Open Location Code)のショートコード(+の左側の文字数が8文字未満、通常4文字のもの)について、本来は住所名もしくは現在位置を参照して対応するものですが、本プログラムでは現在位置を取得していませんので、現在位置として東京都庁に固定しています。
+<li>OLCは(11文字目までは)本来2文字がペアでセットになっていなければいけないなど、制約が多いです。本プログラムでは出来る限り好意的に柔軟に解釈していますので、本家でエラーになるコードでも変換できることがあります。
+<li>本プログラムは事前の断りなく仕様変更の可能性があります。恒久的な利用を前提としないようにお願いします。
+<li>本プログラムはいろいろと実験的なことをやっていますので、一時的に動作しない可能性があります。
+<li>もしエラーや変換間違いなどが出ましたら、その状況を(入力したジオコードを含めて)私(サイバラ)まで連絡ください。その際、一番下↓に示されているバージョン番号も合わせて連絡頂ければ幸いです。連絡に対しては出来る限り前向きに対応するよう努力するつもりですが、確実な保証はできませんので、あらかじめお断りしておきます。
+</ul>
+<hr>
+Saibara's Convert GEO code Version 1.06e<br>
+<hr>
+<address>
+E-mail address :
+<a href="mailto:saibara(a)big.or.jp">saibara(a)big.or.jp</a>
+(Please use 'atmark' character instead of '(a)')
+</address>
+</body></html>

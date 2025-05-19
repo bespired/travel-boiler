@@ -39,8 +39,7 @@
 <script>
 
 import idxDensoZones from "./idxZones.js"
-import idxLongitudes from "./idxLongitudes.js"
-import idxLatitudes  from "./idxLatitudes.js"
+
 
 export default {
 
@@ -60,13 +59,56 @@ export default {
 			lines: false,
 			zoomfactor:  7,
 			tiles: 'https://tile.openstreetmap.de/{z}/{x}/{y}.png',
-			densoZones: this.expandZones(idxDensoZones, idxLatitudes, idxLongitudes),
+			densoZones: this.expandZones(idxDensoZones),
 		}
 	},
 
 	methods: {
 
-		expandZones(densoZones, idxLatitudes, idxLongitudes) {
+		expandZones(densoZones) {
+
+			let minlat=  24.0043510
+			let minlon= 122.8736509
+			let maxlat=  45.7519756
+			let maxlon= 154.1209048
+
+
+			 minlat=  24.0043510
+			 maxlat=  45.752
+
+			 minlon= 122.8737
+			 maxlon= 154.1209048
+
+
+			// let lbh= 0.24969981272571
+			// let lbw= 0.24959716698194367
+
+			let distlat= maxlat - minlat
+			let distlon= maxlon - minlon
+
+			let ybits = 261
+			let xbits = 250
+			let lbh= (distlat / ybits)
+			let lbw= (distlon / xbits)
+
+			let latoffs= []
+			let lonoffs= []
+
+			for(let hor=0; hor<=ybits; hor++){
+				let offs = lbh * hor
+				// let offs = (0.25  / 3) * hor
+				// let offs = (lbh  / 3) * hor
+				latoffs.push(minlat + offs)
+
+			}
+
+			for(let ver=0; ver<=xbits; ver++){
+				let offs = lbw * ver
+				// let offs = (0.25 / 2) * ver
+				// let offs = (lbw / 2) * ver
+				lonoffs.push(minlon + offs)
+
+			}
 
 			let expanded = []
 			densoZones.forEach( (zone, idx) => {
@@ -76,13 +118,13 @@ export default {
 				let oto= zone.to.lon
 				expanded.push({
 					zone: zone.zone,
-					from: { lat: idxLatitudes[afr], lon: idxLongitudes[ofr] },
-					to:   { lat: idxLatitudes[ato], lon: idxLongitudes[oto] }
+					from: { lat: latoffs[afr], lon: lonoffs[ofr] },
+					to:   { lat: latoffs[ato], lon: lonoffs[oto] }
 				})
 			})
 
-			global.latoffs = idxLatitudes
-			global.lonoffs = idxLongitudes
+			global.latoffs = latoffs
+			global.lonoffs = lonoffs
 
 			return expanded
 		},
@@ -252,12 +294,12 @@ export default {
 			});
 
 			map.on('click', function(e) {
-				// const lat = e.latlng.lat.toFixed(7)
-  				// const lon = e.latlng.lng.toFixed(7)
-  				// let   url = 'https://www.mapion.co.jp/f/mmail/send_mobile/SendMobile_map.html?'
-  				// url += `lon=${lon}&lat=${lat}`
-  				// console.log(url)
-  				// window.open(url);
+				const lat = e.latlng.lat.toFixed(7)
+  				const lon = e.latlng.lng.toFixed(7)
+  				let   url = 'https://www.mapion.co.jp/f/mmail/send_mobile/SendMobile_map.html?'
+  				url += `lon=${lon}&lat=${lat}`
+  				console.log(url)
+  				window.open(url);
 			});
 
 			// https://www.mapion.co.jp/f/mmail/send_mobile/SendMobile_map.html?lon=130.99586961830084&lat=34.272715550129554
