@@ -36,6 +36,12 @@ const Zone = {
 
         let ret = ''
         if (zone == 0) {
+            if (perc.block.id == 0) {
+                if (perc.unit.id == 0) {
+                    return '*' + this.pad(perc.core.id, 2)
+                }
+                return perc.unit.id + '*' + this.pad(perc.core.id, 2)
+            }
             ret += perc.block.id + ' '
             ret += this.pad(perc.unit.id, 3) + '*'
             ret += this.pad(perc.core.id, 2)
@@ -158,9 +164,9 @@ const Zone = {
         html += `Coor ${lat}, ${lon}<br>`
         html += `From ${flat.toFixed(7)}, ${flon.toFixed(7)}<br>`
         html += `To &nbsp;&nbsp;${tlat.toFixed(7)}, ${tlon.toFixed(7)}<br>`
-        html += `Dist ${dlat.toFixed(7)}, ${dlon.toFixed(7)}<br>`
+        html += `Dist ${dlat.toFixed(7)}, ${dlon.toFixed(7)}<br><br>`
 
-        html += `In zone ${inzone.zone}<br>`
+        html += `Zone &nbsp${inzone.zone}<br>`
         html += `Block     ${this.align(perc.block.id, 3)} (lat(y):${perc.block.lat.toFixed(8)}, lon(x):${perc.block.lon.toFixed(8)})<br>`
         html += `Unit &nbsp${this.align(perc.unit.id , 3)} (lat(y):${ perc.unit.lat.toFixed(8)}, lon(x):${ perc.unit.lon.toFixed(8)})<br>`
         html += `Core &nbsp${this.align(perc.core.id , 3)} (lat(y):${ perc.core.lat.toFixed(8)}, lon(x):${ perc.core.lon.toFixed(8)})<br>`
