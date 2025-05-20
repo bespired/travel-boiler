@@ -10,6 +10,15 @@ const Zone = {
         return ZoneCoords
     },
 
+    pad(val, len) {
+        return ('000'+val).substr(-len)
+    },
+
+    align(val, len) {
+        return ('····' + val).substr(-len)
+    },
+
+
     mapCode(lat, lon) {
 
         // return '0 000 000*00';
@@ -25,8 +34,19 @@ const Zone = {
 
         const perc= this.percentages(flat,flon, tlat,tlon, lat, lon)
 
-        return ` ${zone} ${perc.block.id} ${perc.unit.id}*55`
+        let ret = ''
+        if (zone == 0) {
+            ret += perc.block.id + ' '
+            ret += this.pad(perc.unit.id, 3) + '*'
+            ret += this.pad(perc.core.id, 2)
+            return ret
+        }
 
+        ret += zone + ' '
+        ret += this.pad(perc.block.id, 3) + ' '
+        ret += this.pad(perc.unit.id, 3) + '*'
+        ret += this.pad(perc.core.id, 2)
+        return ret
 
     },
 
@@ -50,6 +70,8 @@ const Zone = {
     percentages(flat,flon, tlat,tlon, lat,lon) {
             let dlat= tlat-flat, dlon= tlon-flon
 
+            // Get Block
+
             let blockLonPerc = (lon-flon) / dlon
             let blockLatPerc = (lat-flat) / dlat
 
@@ -63,6 +85,7 @@ const Zone = {
             let blockstartlat = flat + yblock * blockheight
             let blockstartlon = flon + xblock * blockwidth
 
+            // Get Unit
 
             let unitLatPerc = (lat-blockstartlat) / blockheight
             let unitLonPerc = (lon-blockstartlon) / blockwidth
@@ -77,12 +100,26 @@ const Zone = {
             let unitstartlat = blockstartlat + yunit * unitheight
             let unitstartlon = blockstartlon + xunit * unitwidth
 
-            // let padblock = ('000' + block).substr(-3)
-            // let padunit  = ('000' + unit ).substr(-3)
+            // Get S-core
+
+            let coreLatPerc = (lat-unitstartlat) / unitheight
+            let coreLonPerc = (lon-unitstartlon) / unitwidth
+
+            let xcore= Math.floor(coreLonPerc * 10)
+            let ycore= Math.floor(coreLatPerc * 10)
+
+            let core = (ycore % 10) * 10 + (xcore % 10)
+
+            let coreheight = dlat / 8100.0
+            let corewidth  = dlon / 8100.0
+            let corestartlat = unitstartlat + ycore * coreheight
+            let corestartlon = unitstartlon + xcore * corewidth
+
 
             return {
                 block: { id: block, lat: blockLatPerc, lon: blockLonPerc },
                 unit:  { id: unit,  lat: unitLatPerc,  lon: unitLonPerc },
+                core:  { id: core,  lat: coreLatPerc,  lon: coreLonPerc },
                 draw: {
                     block: {
                         from:{ lat: blockstartlat, lon: blockstartlon},
@@ -91,6 +128,10 @@ const Zone = {
                     unit: {
                         from:{ lat: unitstartlat, lon: unitstartlon},
                         to:  { lat: unitstartlat + unitheight, lon: unitstartlon + unitwidth }
+                    },
+                    core: {
+                        from:{ lat: corestartlat, lon: corestartlon},
+                        to:  { lat: corestartlat + coreheight, lon: corestartlon + corewidth }
                     },
                 }
             }
@@ -120,8 +161,9 @@ const Zone = {
         html += `Dist ${dlat.toFixed(7)}, ${dlon.toFixed(7)}<br>`
 
         html += `In zone ${inzone.zone}<br>`
-        html += `Block ${perc.block.id}    &nbsp;(lat(y):${perc.block.lat.toFixed(8)}, lon(x):${perc.block.lon.toFixed(8)})<br>`
-        html += `Unit &nbsp${perc.unit.id} &nbsp;(lat(y):${ perc.unit.lat.toFixed(8)}, lon(x):${ perc.unit.lon.toFixed(8)})<br>`
+        html += `Block     ${this.align(perc.block.id, 3)} (lat(y):${perc.block.lat.toFixed(8)}, lon(x):${perc.block.lon.toFixed(8)})<br>`
+        html += `Unit &nbsp${this.align(perc.unit.id , 3)} (lat(y):${ perc.unit.lat.toFixed(8)}, lon(x):${ perc.unit.lon.toFixed(8)})<br>`
+        html += `Core &nbsp${this.align(perc.core.id , 3)} (lat(y):${ perc.core.lat.toFixed(8)}, lon(x):${ perc.core.lon.toFixed(8)})<br>`
 
 
         return { html, perc }
